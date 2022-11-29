@@ -1,0 +1,10 @@
+
+
+cd folder
+yarn create-react-app name-of-project
+cd project-folder
+code .
+yarn add tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+yarn start
+yarn add react-icons
