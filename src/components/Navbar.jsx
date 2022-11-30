@@ -30,7 +30,7 @@ const Navbar = () => {
         </li>
         <li className="relative group hover:opacity-90 px-0 mx-4">
           <Link to="about" smooth={true} duration={500}>
-            About
+            About me
             <span className="absolute -bottom-1 left-0 w-0 h-1 bg-pink-600 transition-all group-hover:w-full"></span>
           </Link>
         </li>
