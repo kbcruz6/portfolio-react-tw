@@ -19,9 +19,9 @@ const Skills = () => {
           </p>
           <p className="py-4">
             Since I directed my profile towards web development, I have been
-            studying and practicing a lot, all the technologies listed below.
-            And it's also good to mention that I have knowledge of web SEO &
-            Blockchain, and I'm an Industrial Engineer.
+            studying and practicing a lot about all the technologies listed
+            below. And it's also good to mention that I have knowledge of web
+            SEO & Blockchain, and I'm an Industrial Engineer.
           </p>
           <p>These are the technologies I've worked with:</p>
           <p>(I'm currently learning Next.js 💪🏻)</p>

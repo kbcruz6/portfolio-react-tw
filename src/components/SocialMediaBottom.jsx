@@ -8,10 +8,10 @@ import { Link } from "react-scroll";
 
 const SocialMediaBottom = () => {
   return (
-    <div className="z-2">
+    <div>
       {/*//! Social media horizontal  */}
       <div className="lg:hidden">
-        <ul className="flex fixed flex-row bottom-0 left-[35%] minsm:top-0 minsm:left-[20%]">
+        <ul className="flex fixed flex-row sm:bottom-0 left-[35%] minsm:top-0 minsm:left-[20%]">
           <li className="w-[60px] h-[50px] flex justify-between items-center duration-300 bg-blue-600 hover:scale-125">
             <a
               href="https://www.linkedin.com/in/agustin-frontend-javascript/"
