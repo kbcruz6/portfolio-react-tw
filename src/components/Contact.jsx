@@ -21,9 +21,8 @@ const Contact = () => {
             </p>
           </div>
           {/*//! Input name */}
-          <div class="outline-white relative z-10 border-2 focus-within:border-pink-600 mb-2 ">
+          <div class="outline-white relative z-10 border-2 focus-within:border-pink-600 mb-2  hover:border-pink-600 duration-300">
             <input
-              id="name"
               required
               type="text"
               name="name"
@@ -38,7 +37,7 @@ const Contact = () => {
             </label>
           </div>
           {/*//! Input email */}
-          <div class="outline-white relative z-10 border-2 focus-within:border-pink-600 mb-2 ">
+          <div class="outline-white relative z-10 border-2 focus-within:border-pink-600 mb-2  hover:border-pink-600 duration-300">
             <input
               required
               type="email"
@@ -54,7 +53,7 @@ const Contact = () => {
             </label>
           </div>
           {/*//! Textarea message */}
-          <div class="outline-white relative z-10 border-2 focus-within:border-pink-600 mb-2 ">
+          <div class="outline-white relative z-10 border-2 focus-within:border-pink-600 mb-2  hover:border-pink-600 duration-300">
             <textarea
               required
               type="text"

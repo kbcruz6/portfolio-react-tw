@@ -35,10 +35,13 @@ textarea:not(:focus-within) ~ label {
   height: 200px;
 }
 .content-div:hover{
-  
+  transition-duration: 300ms;
   background-image: linear-gradient(
     to right,
     rgba(112,157,255, 0.8),
     rgba(87, 82, 229, 0.491)
   )!important;
+}
+.content-div:not(:hover){
+  transition-duration: 300ms;
 }

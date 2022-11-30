@@ -1,6 +1,9 @@
 import React from "react";
-import workImg from "../assets/workImg.jpeg";
-import realEstate from "../assets/realestate.jpg";
+import reactApps from "../assets/reactJss.gif";
+import cvWeb from "../assets/cvWeb.gif";
+import pureJs from "../assets/pureJS.gif";
+import nextJs from "../assets/nextJs1.gif";
+import currentPortfolio from "../assets/currentPortfolio.gif";
 
 const Work = () => {
   return (
@@ -13,23 +16,29 @@ const Work = () => {
           <p className="pt-6">Check out some of my recent work</p>
         </div>
 
-        {/* Card grid container */}
-        <div className="grid sm:grid-cols-3 gap-4">
-          {/* Card grid item */}
+        {/*//! Card grid container */}
+        <div className="grid sm:grid-cols-3 gap-8">
+          {/*//! Card grid item REACT APPS*/}
           <div
-            style={{ backgroundImage: `url(${workImg})` }}
+            style={{ backgroundImage: `url(${reactApps})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
           >
-            {/* Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md">
-              <span className="text-2xl font-bold text-white tracking-wider"></span>
-              <div className="text-center">
-                <a href="/">
+            {/*//! Hover effects */}
+            <div className="opacity-0 group-hover:opacity-100 grid grid-rows-2 justify-center items-center w-full h-full p-0 content-div rounded-md">
+              <span className="text-center font-bold text-2xl opacity-100 text-white pt-5">
+                React js Apps{" "}
+              </span>
+
+              <div className="flex text-center justify-start align-top pb-8">
+                <a href="https://kbcruz6.github.io/react/" target="_blank">
                   <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a
+                  href="https://github.com/kbcruz6/kbcruz6.github.io/tree/main/react"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
                     Code
                   </button>
@@ -37,21 +46,57 @@ const Work = () => {
               </div>
             </div>
           </div>
-          {/* Card grid item */}
+          {/*//! Card grid item CV WEB */}
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${cvWeb})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
           >
-            {/* Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md">
-              <span className="text-2xl font-bold text-white tracking-wider"></span>
-              <div className="text-center">
-                <a href="/">
+            {/*//! Hover effects */}
+            <div className="opacity-0 group-hover:opacity-100 grid grid-rows-2 justify-center items-center w-full h-full p-0 content-div rounded-md">
+              <span className="text-center font-bold text-2xl opacity-100 text-white pt-5">
+                My Web CV!
+              </span>
+              <div className="flex text-center justify-start align-top pb-8">
+                <a
+                  href="https://kbcruz6.github.io/CvAgustinCruz/"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a
+                  href="https://github.com/kbcruz6/kbcruz6.github.io/tree/main/CvAgustinCruz"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>{" "}
+          {/*//! Card grid item PURE JS */}
+          <div
+            style={{ backgroundImage: `url(${pureJs})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
+          >
+            {/*//! Hover effects */}
+            <div className="opacity-0 group-hover:opacity-100 grid grid-rows-2 justify-center items-center w-full h-full p-0 content-div rounded-md">
+              <span className="text-center font-bold text-2xl opacity-100 text-white pt-5">
+                Pure JavaScript
+              </span>
+
+              <div className="flex text-center justify-start align-top pb-8">
+                <a href="https://mix-js.herokuapp.com/" target="_blank">
+                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/kbcruz6/kbcruz6.github.io/tree/main/MixJsLittleProjects/code%20here"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
                     Code
                   </button>
@@ -59,21 +104,55 @@ const Work = () => {
               </div>
             </div>
           </div>
-          {/* Card grid item */}
+          {/*//! Card grid item NEXT JS */}
           <div
-            style={{ backgroundImage: `url(${workImg})` }}
+            style={{ backgroundImage: `url(${nextJs})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
           >
-            {/* Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md">
-              <span className="text-2xl font-bold text-white tracking-wider"></span>
-              <div className="text-center">
-                <a href="/">
+            {/*//! Hover effects */}
+            <div className="opacity-0 group-hover:opacity-100 grid grid-rows-2 justify-center items-center w-full h-full p-0 content-div rounded-md">
+              <span className="text-center font-bold text-2xl opacity-100 text-white pt-5">
+                First NextJS App
+              </span>
+
+              <div className="flex text-center justify-start align-top pb-8">
+                <a href="https://xkcd-nextjs-indol.vercel.app/" target="_blank">
                   <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a
+                  href="https://github.com/kbcruz6/xkcd-next-app"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/*//! Card grid item CURRENT PORTFOLIO */}
+          <div
+            style={{ backgroundImage: `url(${currentPortfolio})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
+          >
+            {/*//! Hover effects */}
+            <div className="opacity-0 group-hover:opacity-100 grid grid-rows-2 justify-center items-center w-full h-full p-0 content-div rounded-md">
+              <span className="text-center font-bold text-2xl opacity-100 text-white pt-5">
+                Current Portfolio
+              </span>
+
+              <div className="flex text-center justify-start align-top pb-8">
+                <a href="/" target="_blank">
+                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/kbcruz6/portfolio-react-tw"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
                     Code
                   </button>
