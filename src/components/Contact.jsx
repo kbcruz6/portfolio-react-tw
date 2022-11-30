@@ -20,25 +20,60 @@ const Contact = () => {
               Submit the form below or email me → agustin.tcw@gmail.com
             </p>
           </div>
-          <input
-            type="text"
-            placeholder="Name"
-            name="name"
-            className="rounded p-1 bg-[#ccd6f6] hover:bg-[#ccd6f6c8] placeholder:hover:text-white focus:outline-none focus:bg-[#ccd6f6c8] focus:placeholder:text-white focus:text-white"
-          />
-          <input
-            type="email"
-            placeholder="Email"
-            name="email"
-            className="rounded my-2 p-1 bg-[#ccd6f6] hover:bg-[#ccd6f6c8] placeholder:hover:text-white focus:outline-none focus:bg-[#ccd6f6c8] focus:placeholder:text-white focus:text-white"
-          />
-          <textarea
-            name="message"
-            rows="5"
-            placeholder="Message"
-            className="rounded p-1 bg-[#ccd6f6] hover:bg-[#ccd6f6c8] placeholder:hover:text-white focus:outline-none focus:bg-[#ccd6f6c8] focus:placeholder:text-white focus:text-white"
-          ></textarea>
-          <button className="text-xl rounded border-2 text-white hover:bg-pink-600 hover:border-pink-600 duration-200 px-5 py-2 my-3 mx-auto flex items-center">
+          {/*//! Input name */}
+          <div class="outline-white relative z-10 border-2 focus-within:border-pink-600 mb-2 ">
+            <input
+              id="name"
+              required
+              type="text"
+              name="name"
+              placeholder=" "
+              class="flex p-4 w-full text-md z-0 appearance-none focus:outline-none bg-transparent text-white"
+            />
+            <label
+              for="name"
+              class="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0a192f] text-pink-600"
+            >
+              Name
+            </label>
+          </div>
+          {/*//! Input email */}
+          <div class="outline-white relative z-10 border-2 focus-within:border-pink-600 mb-2 ">
+            <input
+              required
+              type="email"
+              name="email"
+              placeholder=" "
+              class="flex p-4 w-full text-md z-0 appearance-none focus:outline-none bg-transparent text-white"
+            />
+            <label
+              for="email"
+              class="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0a192f] text-pink-600"
+            >
+              Email
+            </label>
+          </div>
+          {/*//! Textarea message */}
+          <div class="outline-white relative z-10 border-2 focus-within:border-pink-600 mb-2 ">
+            <textarea
+              required
+              type="text"
+              name="message"
+              placeholder=" "
+              class="flex p-4 w-full text-md z-0 appearance-none focus:outline-none bg-transparent text-white"
+            />
+            <label
+              for="message"
+              class="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0a192f] text-pink-600"
+            >
+              Message
+            </label>
+          </div>
+          {/*//! Button */}
+          <button
+            data-rel="back"
+            className="text-xl border-2 text-white hover:bg-pink-600 hover:border-pink-600 duration-200 px-5 py-2 my-3 mx-auto flex items-center"
+          >
             Send
           </button>
         </form>
