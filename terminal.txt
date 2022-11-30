@@ -8,3 +8,4 @@ yarn add tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 yarn start
 yarn add react-icons
+npm install react-scroll / yarn add react-scroll
