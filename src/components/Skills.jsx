@@ -12,12 +12,19 @@ const Skills = () => {
   return (
     <div name="skills" className="w-full h-screen bg-[#0a192f] text-gray-300">
       {/*//! Container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1000px] w-full h-full mx-auto items-center p-4 flex flex-col justify-center ">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">
-            Skills
+            Skills and knowledge
           </p>
-          <p className="py-4">These are the technologies I've worked with</p>
+          <p className="py-4">
+            Since I directed my profile towards web development, I have been
+            studying and practicing a lot, all the technologies listed below.
+            And it's also good to mention that I have knowledge of web SEO &
+            Blockchain, and I'm an Industrial Engineer.
+          </p>
+          <p>These are the technologies I've worked with:</p>
+          <p>(I'm currently learning Next.js 💪🏻)</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">

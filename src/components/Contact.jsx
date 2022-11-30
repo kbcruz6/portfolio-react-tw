@@ -14,7 +14,7 @@ const Contact = () => {
         >
           <div className="pb-1">
             <p className="text-4xl font-bold inline border-b-4 border-pink-600  text-gray-300">
-              Contact
+              Contact me!
             </p>
             <p className="pt-4 pb-2 text-gray-300">
               Submit the form below or email me → agustin.tcw@gmail.com
@@ -38,7 +38,7 @@ const Contact = () => {
             placeholder="Message"
             className="rounded p-1 bg-[#ccd6f6] hover:bg-[#ccd6f6c8] placeholder:hover:text-white focus:outline-none focus:bg-[#ccd6f6c8] focus:placeholder:text-white focus:text-white"
           ></textarea>
-          <button className="rounded border-2 text-white hover:bg-pink-600 hover:border-pink-600 duration-200 px-4 py-2 my-3 mx-auto flex items-center">
+          <button className="text-xl rounded border-2 text-white hover:bg-pink-600 hover:border-pink-600 duration-200 px-5 py-2 my-3 mx-auto flex items-center">
             Send
           </button>
         </form>

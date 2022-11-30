@@ -11,65 +11,43 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0d1e3a] text-gray-300">
-      <div>
-        <img src={Logo} alt="Logo image" style={{ width: "50px" }} />
-      </div>
+    <div className="fixed w-full h-[40px] flex justify-center items-center px-4 bg-[#0d1e3a] text-gray-300 minsm:bottom-0">
+      {/* <div>
+        <img
+          src={Logo}
+          alt="Logo image"
+          style={{ width: "50px" }}
+          className="hidden"
+        />
+      </div> */}
       {/*//! Menu */}
-      <ul className="hidden font-bold md:flex">
-        <li>
-          <Link
-            to="home"
-            smooth={true}
-            duration={500}
-            className="relative group hover:opacity-90"
-          >
+      <ul className="font-bold flex">
+        <li className="relative group hover:opacity-90 px-0 mx-4 ">
+          <Link to="home" smooth={true} duration={500} className="">
             Home
             <span className="absolute -bottom-1 left-0 w-0 h-1 bg-pink-600 transition-all group-hover:w-full"></span>
           </Link>
         </li>
-        <li>
-          <Link
-            to="about"
-            smooth={true}
-            duration={500}
-            className="relative group hover:opacity-90"
-          >
+        <li className="relative group hover:opacity-90 px-0 mx-4">
+          <Link to="about" smooth={true} duration={500}>
             About
             <span className="absolute -bottom-1 left-0 w-0 h-1 bg-pink-600 transition-all group-hover:w-full"></span>
           </Link>
         </li>
-        <li>
-          <Link
-            to="skills"
-            smooth={true}
-            duration={500}
-            className="relative group hover:opacity-90"
-          >
+        <li className="relative group hover:opacity-90 px-0 mx-4">
+          <Link to="skills" smooth={true} duration={500}>
             Skills
             <span className="absolute -bottom-1 left-0 w-0 h-1 bg-pink-600 transition-all group-hover:w-full"></span>
           </Link>
         </li>
-        <li>
-          {" "}
-          <Link
-            to="work"
-            smooth={true}
-            duration={500}
-            className="relative group hover:opacity-90"
-          >
+        <li className="relative group hover:opacity-90 px-0 mx-4">
+          <Link to="work" smooth={true} duration={500}>
             Work
             <span className="absolute -bottom-1 left-0 w-0 h-1 bg-pink-600 transition-all group-hover:w-full"></span>
           </Link>
         </li>
-        <li>
-          {" "}
-          <Link
-            to="contact"
-            smooth={true}
-            duration={500}
-            className="relative group hover:opacity-90"
-          >
+        <li className="relative group hover:opacity-90 px-0 mx-4">
+          <Link to="contact" smooth={true} duration={500}>
             Contact
             <span className="absolute -bottom-1 left-0 w-0 h-1 bg-pink-600 transition-all group-hover:w-full"></span>
           </Link>
@@ -77,55 +55,48 @@ const Navbar = () => {
       </ul>
 
       {/*//! Hamburguer */}
-      <div
+      {/* <div
         onClick={handleClick}
         className="md:hidden z-10 cursor-pointer hover:opacity-90"
       >
         {!nav ? <FaBars /> : <FaTimes />}
-      </div>
+      </div> */}
       {/*//! Mobile menu */}
-      <ul
+      {/* <ul
         className={
-          !nav
-            ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center opacity-95"
+          "absolute w-full h-[100px] bg-[#0a192f] flex flex-row justify-center items-center mx-auto"
         }
       >
-        <li className="py-6 text-4xl hover:opacity-80 relative group">
+        <li className="py-2 text-lg hover:opacity-80">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
-            <span className="absolute -bottom-0 left-0 w-0 h-2 bg-pink-600 transition-all group-hover:w-full"></span>
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:opacity-80 relative group">
+        <li className="py-2 text-lg hover:opacity-80">
           {" "}
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
-            <span className="absolute -bottom-0 left-0 w-0 h-2 bg-pink-600 transition-all group-hover:w-full"></span>
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:opacity-80 relative group">
+        <li className="py-2 text-lg hover:opacity-80">
           {" "}
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
-            <span className="absolute -bottom-0 left-0 w-0 h-2 bg-pink-600 transition-all group-hover:w-full"></span>
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:opacity-80 relative group">
+        <li className="py-2 text-lg hover:opacity-80 ">
           {" "}
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
             Work
-            <span className="absolute -bottom-0 left-0 w-0 h-2 bg-pink-600 transition-all group-hover:w-full"></span>
           </Link>
         </li>
-        <li className="py-6 text-4xl hover:opacity-80 relative group">
+        <li className="py-2 text-lg hover:opacity-80 ">
           {" "}
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
-            <span className="absolute -bottom-0 left-0 w-0 h-2 bg-pink-600 transition-all group-hover:w-full"></span>
           </Link>
         </li>
-      </ul>
+      </ul> */}
 
       {/*//! Social media vertical */}
       <div className="hidden lg:flex fixed flex-col lg:top-[35%] lg:left-0">

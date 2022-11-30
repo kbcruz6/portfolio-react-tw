@@ -1,30 +1,41 @@
 import React from "react";
+import profileImg from "../assets/33.jpeg";
 
 const About = () => {
   return (
     <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full">
-        <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
-          <div className="sm:text-right pb-8 ">
+        <div className="max-w-[1000px] w-full px-4 ">
+          <div className="sm:text-center pb-8 ">
             <p className="text-4xl font-bold inline border-b-4 border-pink-600">
-              About
+              This is me 🙋🏻‍♂️
             </p>
           </div>
-          <div></div>
         </div>
 
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right text-4xl font-bold">
-            <p>Hi I'm Agustin, nice to meet you. Please take a look around.</p>
+          <div className="flex sm:justify-end justify-center">
+            <img
+              src={profileImg}
+              className="w-[200px] h-[200px] rounded-full"
+            ></img>
           </div>
+
           <div>
             <p>
-              I am a highly motivated human being looking for new challenges in
-              IT & development areas, to continue growing professionally and
-              personally. 🙋🏻‍♂️ I am very curious and persistent, and also... an
-              Engineer, what is super useful in this environment to face the
-              daily challenges and solve problems. I have creative thinking,
-              ability to learn quickly and flexibility to continuous change.
+              I am very curious and persistent, and also... an Engineer, what is
+              super useful in this environment to face the daily challenges and
+              solve problems.{" "}
+              <p className="my-2">
+                I have creative way to think above and beyond, also a great
+                ability to learn quickly and flexibility to continuous change.
+              </p>
+              <p>
+                I enjoy a lot travelling & I would love to work remotely. Visit
+                new places, knowing new people, and practice trekking are my
+                passions, I really love nature life.
+              </p>
+              <p className="my-2">Enjoy the journey!</p>
             </p>
           </div>
         </div>
