@@ -1,9 +1,11 @@
 import React from "react";
+import { Link } from "react-scroll";
 import reactApps from "../assets/reactApps.png";
 import cvWeb from "../assets/webCv.png";
 import pureJs from "../assets/pureJs.png";
 import nextJs from "../assets/nextJsApp.png";
 import currentPortfolio from "../assets/currentPortfolio.png";
+import oldPortfolio from "../assets/oldPortfolio.png";
 
 const Work = () => {
   return (
@@ -144,13 +146,41 @@ const Work = () => {
               </span>
 
               <div className="flex text-center justify-start align-top pb-8">
-                <a href="/" target="_blank">
+                <Link to="home" smooth={true} duration={500}>
+                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    Demo
+                  </button>
+                </Link>
+                <a
+                  href="https://github.com/kbcruz6/portfolio-react-tw"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/*//! Card grid item OLD PORTFOLIO */}
+          <div
+            style={{ backgroundImage: `url(${oldPortfolio})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
+          >
+            {/*//! Hover effects */}
+            <div className="opacity-0 group-hover:opacity-100 grid grid-rows-2 justify-center items-center w-full h-full p-0 content-div rounded-md">
+              <span className="text-center font-bold text-2xl opacity-100 text-white pt-5">
+                Old Portfolio
+              </span>
+
+              <div className="flex text-center justify-start align-top pb-8">
+                <a href="https://kbcruz6.github.io/" target="_blank">
                   <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
                     Demo
                   </button>
                 </a>
                 <a
-                  href="https://github.com/kbcruz6/portfolio-react-tw"
+                  href="https://github.com/kbcruz6/kbcruz6.github.io"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
