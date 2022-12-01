@@ -19,7 +19,7 @@ const Work = () => {
         </div>
 
         {/*//! Card grid container */}
-        <div className="grid sm:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/*//! Card grid item REACT APPS*/}
           <div
             style={{ backgroundImage: `url(${reactApps})` }}
