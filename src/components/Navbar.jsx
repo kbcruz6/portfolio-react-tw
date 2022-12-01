@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { FiPaperclip } from "react-icons/fi";
-
 import Logo from "../assets/logo1.png";
 import { Link } from "react-scroll";
 
@@ -11,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[40px] flex justify-center items-center px-4 bg-[#0d1e3a] text-gray-300 minsm:bottom-0">
+    <div className="fixed w-full h-[40px] flex justify-center items-center px-4 bg-[#0d1e3a] text-gray-300 minsm:bottom-0 z-50">
       {/* <div>
         <img
           src={Logo}
@@ -30,7 +29,7 @@ const Navbar = () => {
         </li>
         <li className="relative group hover:opacity-90 px-0 mx-4">
           <Link to="about" smooth={true} duration={500}>
-            About me
+            Me
             <span className="absolute -bottom-1 left-0 w-0 h-1 bg-pink-600 transition-all group-hover:w-full"></span>
           </Link>
         </li>
