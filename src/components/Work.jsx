@@ -1,9 +1,9 @@
 import React from "react";
-import reactApps from "../assets/reactJss.gif";
-import cvWeb from "../assets/cvWeb.gif";
-import pureJs from "../assets/pureJS.gif";
-import nextJs from "../assets/nextJs1.gif";
-import currentPortfolio from "../assets/currentPortfolio.gif";
+import reactApps from "../assets/reactApps.png";
+import cvWeb from "../assets/webCv.png";
+import pureJs from "../assets/pureJs.png";
+import nextJs from "../assets/nextJsApp.png";
+import currentPortfolio from "../assets/currentPortfolio.png";
 
 const Work = () => {
   return (
