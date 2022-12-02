@@ -16,7 +16,7 @@ const SocialMediaBottom = () => {
           {/*//! LinkedIn  */}
           <li className="w-[60px] h-[50px] flex justify-between items-center duration-300 bg-blue-600 hover:scale-125">
             <a
-              href="https://www.linkedin.com/in/agustin-frontend-javascript/"
+              href="https://www.linkedin.com/in/agustin-frontend-react/"
               className="flex justify-between items-center w-full text-gray-300 "
               target="_blank"
             >
