@@ -31,9 +31,9 @@ const About = () => {
                 ability to learn quickly and flexibility to continuous change.
               </p>
               <p>
-                I enjoy a lot travelling & I would love to work remotely. Visit
-                new places, knowing new people, and practice trekking are my
-                passions, I really love nature life.
+                I enjoy a lot travelling & I would love to work remotely.
+                Visiting new places, getting to know new people, and practicing
+                trekking are my passions, I really love nature life.
               </p>
               <p className="my-2">Enjoy the journey!</p>
             </p>
