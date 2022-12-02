@@ -90,7 +90,10 @@ const Work = () => {
               </span>
 
               <div className="flex text-center justify-start align-top pb-8">
-                <a href="https://mix-js.herokuapp.com/" target="_blank">
+                <a
+                  href="https://kbcruz6.github.io/MixJsLittleProjects/"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
                     Demo
                   </button>
