@@ -104,7 +104,7 @@ const Navbar = () => {
           {/*//! LinkedIn  */}
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-blue-600">
             <a
-              href="https://www.linkedin.com/in/agustin-frontend-javascript/"
+              href="https://www.linkedin.com/in/agustin-frontend-react/"
               className="flex justify-between items-center w-full text-gray-300"
               target="_blank"
             >
