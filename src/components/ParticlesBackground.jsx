@@ -3,6 +3,7 @@ import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 
 const ParticlesBackground = () => {
+  //! Configurar options, comportamiento de las particulas
   const options = useMemo(() => {
     return {
       background: {
