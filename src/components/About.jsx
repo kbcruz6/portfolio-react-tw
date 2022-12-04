@@ -3,7 +3,7 @@ import profileImg from "../assets/33.jpeg";
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div name="about" className="w-full h-screen text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full px-4 ">
           <div className="sm:text-center pb-8 ">
