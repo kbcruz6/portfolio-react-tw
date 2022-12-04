@@ -70,7 +70,7 @@ const ParticlesBackground = () => {
         },
         move: {
           enable: true,
-          speed: { min: 1, max: 5 },
+          speed: { min: 0.1, max: 2 },
         },
         opacity: {
           value: { min: 0.1, max: 0.5 },
