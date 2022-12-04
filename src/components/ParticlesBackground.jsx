@@ -66,7 +66,7 @@ const ParticlesBackground = () => {
         links: {
           color: "#d53f8c",
           enable: true,
-          distance: 70,
+          distance: 80,
         },
         move: {
           enable: true,
