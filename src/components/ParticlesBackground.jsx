@@ -26,6 +26,7 @@ const ParticlesBackground = () => {
           onClick: {
             enable: true,
             mode: "push",
+            // push, repulse, attract, bubble, pause, remove, trail, emitter, absorber
           },
           onHover: {
             enable: true,
