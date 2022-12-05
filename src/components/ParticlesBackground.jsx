@@ -1,14 +1,24 @@
 import React, { useCallback, useMemo, useState, useEffect } from "react";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
-import MobileScreen from "./MobileScreen";
 
 const ParticlesBackground = () => {
-  const { mobileScreen } = MobileScreen();
+  const [windowWidth, setwindowWidth] = useState(window.innerWidth);
+
+  const handleResize = () => {
+    setwindowWidth(window.innerWidth);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   //! Cantidad de particulas o distancia de links, segun tamaño screen
-  let cantPart = mobileScreen > 700 ? 30 : 13;
-  let distLinks = mobileScreen > 700 ? 800 : 800;
+  let cantPart = windowWidth > 700 ? 30 : 13;
+  let distLinks = windowWidth > 700 ? 750 : 800;
 
   //! Configurar options, comportamiento de las particulas
   const options = useMemo(() => {
