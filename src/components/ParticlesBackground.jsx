@@ -6,11 +6,8 @@ import MobileScreen from "./MobileScreen";
 const ParticlesBackground = () => {
   const { mobileScreen } = MobileScreen();
 
-  let celu = mobileScreen > 700 ? 300 : 10;
-
-  // {
-  //   mobileScreen > 700 ? 500 : 50;
-  // }
+  let cantPart = mobileScreen > 700 ? 80 : 50;
+  let distLinks = mobileScreen > 700 ? 100 : 80;
 
   //! Configurar options, comportamiento de las particulas
   const options = useMemo(() => {
@@ -45,7 +42,7 @@ const ParticlesBackground = () => {
       },
       particles: {
         number: {
-          value: celu,
+          value: cantPart,
         },
         color: {
           value: "#fff",
@@ -79,7 +76,7 @@ const ParticlesBackground = () => {
         links: {
           color: "#d53f8c",
           enable: true,
-          distance: 80,
+          distance: distLinks,
         },
         move: {
           enable: true,
