@@ -181,7 +181,7 @@ const ParticlesBackground = () => {
   return (
     <Particles
       init={particlesInit}
-      options={window.innerWidth > 700 ? options1 : options2}
+      options={window.innerWidth > 700 ? options1 : options1}
     />
   );
 };
