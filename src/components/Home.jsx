@@ -6,8 +6,6 @@ import { Link } from "react-scroll";
 const Home = () => {
   return (
     <div name="home" className="w-full h-screen ">
-      {/*//! Overlay  */}
-      {/* <div className="bg-[rgb(10,25,47,.5)] w-full h-screen absolute top-0 -z-40"></div> */}
       {/*//! Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-pink-400">Hi there, welcome to my portfolio!👋</p>
@@ -32,15 +30,6 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      {/*//! VIDEO BACKGROUND */}
-
-      {/* <video
-        className="m-0 p-0 w-full h-screen object-cover absolute top-0 -z-50"
-        src={videoBg}
-        autoPlay
-        loop
-        muted
-      /> */}
     </div>
   );
 };

@@ -7,18 +7,10 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const handleClick = () => setNav(!nav);
+  // const handleClick = () => setNav(!nav);
 
   return (
     <div className="fixed w-full h-[40px] flex justify-center items-center px-4 bg-[#0d1e3a] text-gray-300 minsm:bottom-0 z-50">
-      {/* <div>
-        <img
-          src={Logo}
-          alt="Logo image"
-          style={{ width: "50px" }}
-          className="hidden"
-        />
-      </div> */}
       {/*//! Menu */}
       <ul className="font-bold flex">
         <li className="relative group hover:opacity-90 px-0 mx-4 ">
