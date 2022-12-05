@@ -7,8 +7,8 @@ const ParticlesBackground = () => {
   const { mobileScreen } = MobileScreen();
 
   //! Cantidad de particulas o distancia de links, segun tamaño screen
-  let cantPart = mobileScreen > 700 ? 80 : 50;
-  let distLinks = mobileScreen > 700 ? 100 : 80;
+  let cantPart = mobileScreen > 700 ? 30 : 13;
+  let distLinks = mobileScreen > 700 ? 800 : 800;
 
   //! Configurar options, comportamiento de las particulas
   const options = useMemo(() => {
@@ -34,7 +34,7 @@ const ParticlesBackground = () => {
         },
         modes: {
           push: {
-            quantity: 3,
+            quantity: 0,
           },
           repulse: {
             distance: 150,
@@ -78,13 +78,14 @@ const ParticlesBackground = () => {
           color: "#d53f8c",
           enable: true,
           distance: distLinks,
+          opacity: 0.2,
         },
         move: {
           enable: true,
           speed: { min: 0.1, max: 2 },
         },
         opacity: {
-          value: { min: 0.1, max: 0.5 },
+          value: { min: 0.05, max: 0.1 },
         },
         size: {
           value: { min: 1, max: 3 },
