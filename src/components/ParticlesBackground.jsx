@@ -6,6 +6,7 @@ import MobileScreen from "./MobileScreen";
 const ParticlesBackground = () => {
   const { mobileScreen } = MobileScreen();
 
+  //! Cantidad de particulas o distancia de links, segun tamaño screen
   let cantPart = mobileScreen > 700 ? 80 : 50;
   let distLinks = mobileScreen > 700 ? 100 : 80;
 
