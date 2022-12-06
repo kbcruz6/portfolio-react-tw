@@ -3,9 +3,9 @@ import React, { useEffect, useState } from "react";
 const Contact = () => {
   const [count, setCount] = useState(0);
 
-  // useEffect(() => {
-  //   if (count === 0) return;
-  // }, [count]);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   return (
     <div
@@ -34,6 +34,8 @@ const Contact = () => {
               name="name"
               placeholder=" "
               class="flex p-4 w-full text-md z-10 appearance-none focus:outline-none bg-transparent text-white"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
             />
             <label
               for="name"
@@ -50,6 +52,8 @@ const Contact = () => {
               name="email"
               placeholder=" "
               class="flex p-4 w-full text-md z-0 appearance-none focus:outline-none bg-transparent text-white"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
             />
             <label
               for="email"
@@ -66,6 +70,8 @@ const Contact = () => {
               name="message"
               placeholder=" "
               class="flex p-4 w-full text-md z-0 appearance-none focus:outline-none bg-transparent text-white"
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
             />
             <label
               for="message"
@@ -87,9 +93,12 @@ const Contact = () => {
           type="button"
           disabled
           className={
-            count === 0
-              ? "hidden fixed top-1/2 inset-x-auto z-20 w-auto cursor-pointer select-none appearance-none items-center justify-center space-x-2 rounded border border-pink-600 bg-pink-600 px-4 py-3 text-sm font-medium text-white transition hover:border-pink-800 hover:bg-pink-800 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300 disabled:pointer-events-none disabled:opacity-85"
-              : "inline-flex fixed top-1/2 inset-x-auto z-20 w-auto cursor-pointer select-none appearance-none items-center justify-center space-x-2 rounded border border-pink-600 bg-pink-600 px-4 py-3 text-sm font-medium text-white transition hover:border-pink-800 hover:bg-pink-800 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300 disabled:pointer-events-none disabled:opacity-85"
+            count !== 0 &&
+            name.length > 1 &&
+            email.includes("@") &&
+            message.length > 0
+              ? "inline-flex fixed top-1/2 inset-x-auto z-20 w-auto cursor-pointer select-none appearance-none items-center justify-center space-x-2 rounded border border-pink-600 bg-pink-600 px-4 py-3 text-sm font-medium text-white transition hover:border-pink-800 hover:bg-pink-800 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300 disabled:pointer-events-none disabled:opacity-85"
+              : "hidden fixed top-1/2 inset-x-auto z-20 w-auto cursor-pointer select-none appearance-none items-center justify-center space-x-2 rounded border border-pink-600 bg-pink-600 px-4 py-3 text-sm font-medium text-white transition hover:border-pink-800 hover:bg-pink-800 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300 disabled:pointer-events-none disabled:opacity-85"
           }
         >
           <svg className="h-4 w-4 animate-spin" viewBox="3 3 18 18">
