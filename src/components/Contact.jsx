@@ -1,11 +1,16 @@
 import React, { useEffect, useState } from "react";
 
 const Contact = () => {
-  const [count, setCount] = useState(0);
-
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+
+  const [clase, setClase] = useState("hidden");
+  const handleSubmit = () => {
+    setClase(
+      "inline-flex fixed top-1/2 inset-x-auto z-20 w-auto cursor-pointer select-none appearance-none items-center justify-center space-x-2 rounded border border-pink-600 bg-pink-600 px-4 py-3 text-sm font-medium text-white transition hover:border-pink-800 hover:bg-pink-800 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300 disabled:pointer-events-none disabled:opacity-85"
+    );
+  };
 
   return (
     <div
@@ -17,6 +22,7 @@ const Contact = () => {
           action="https://getform.io/f/503080b0-f501-49a9-b095-e98844e90b47"
           className="flex flex-col max-w-[500px] w-full"
           method="POST"
+          onSubmit={handleSubmit}
         >
           <div className="pb-1">
             <p className="text-4xl font-bold inline border-b-4 border-pink-600  text-gray-300">
@@ -81,26 +87,12 @@ const Contact = () => {
             </label>
           </div>
           {/*//! Button */}
-          <button
-            onClick={() => setCount(1)}
-            className="text-xl border-2 text-white hover:bg-pink-600 hover:border-pink-600 duration-200 px-5 py-2 my-3 mx-auto flex items-center"
-          >
+          <button className="text-xl border-2 text-white hover:bg-pink-600 hover:border-pink-600 duration-200 px-5 py-2 my-3 mx-auto flex items-center">
             Send
           </button>
         </form>
         {/*//! Loading button  */}
-        <button
-          type="button"
-          disabled
-          className={
-            count !== 0 &&
-            name.length > 1 &&
-            email.includes("@") &&
-            message.length > 0
-              ? "inline-flex fixed top-1/2 inset-x-auto z-20 w-auto cursor-pointer select-none appearance-none items-center justify-center space-x-2 rounded border border-pink-600 bg-pink-600 px-4 py-3 text-sm font-medium text-white transition hover:border-pink-800 hover:bg-pink-800 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300 disabled:pointer-events-none disabled:opacity-85"
-              : "hidden fixed top-1/2 inset-x-auto z-20 w-auto cursor-pointer select-none appearance-none items-center justify-center space-x-2 rounded border border-pink-600 bg-pink-600 px-4 py-3 text-sm font-medium text-white transition hover:border-pink-800 hover:bg-pink-800 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300 disabled:pointer-events-none disabled:opacity-85"
-          }
-        >
+        <button type="button" disabled className={clase}>
           <svg className="h-4 w-4 animate-spin" viewBox="3 3 18 18">
             <path
               className="fill-pink-800"
