@@ -76,7 +76,7 @@ const Contact = () => {
           </div>
           {/*//! Button */}
           <button
-            onClick={() => setCount(count + 1)}
+            onClick={() => setCount(1)}
             className="text-xl border-2 text-white hover:bg-pink-600 hover:border-pink-600 duration-200 px-5 py-2 my-3 mx-auto flex items-center"
           >
             Send
@@ -88,8 +88,8 @@ const Contact = () => {
           disabled
           className={
             count === 0
-              ? "hidden fixed top-1/2 inset-x-auto z-20 w-auto cursor-pointer select-none appearance-none items-center justify-center space-x-2 rounded border border-pink-600 bg-pink-600 px-3 py-2 text-sm font-medium text-white transition hover:border-pink-800 hover:bg-pink-800 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300 disabled:pointer-events-none disabled:opacity-85"
-              : "inline-flex fixed top-1/2 inset-x-auto z-20 w-auto cursor-pointer select-none appearance-none items-center justify-center space-x-2 rounded border border-pink-600 bg-pink-600 px-3 py-2 text-sm font-medium text-white transition hover:border-pink-800 hover:bg-pink-800 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300 disabled:pointer-events-none disabled:opacity-85"
+              ? "hidden fixed top-1/2 inset-x-auto z-20 w-auto cursor-pointer select-none appearance-none items-center justify-center space-x-2 rounded border border-pink-600 bg-pink-600 px-4 py-3 text-sm font-medium text-white transition hover:border-pink-800 hover:bg-pink-800 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300 disabled:pointer-events-none disabled:opacity-85"
+              : "inline-flex fixed top-1/2 inset-x-auto z-20 w-auto cursor-pointer select-none appearance-none items-center justify-center space-x-2 rounded border border-pink-600 bg-pink-600 px-4 py-3 text-sm font-medium text-white transition hover:border-pink-800 hover:bg-pink-800 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300 disabled:pointer-events-none disabled:opacity-85"
           }
         >
           <svg className="h-4 w-4 animate-spin" viewBox="3 3 18 18">
