@@ -24,7 +24,7 @@ const Work = () => {
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-delay="500"
+            data-aos-delay="300"
             style={{ backgroundImage: `url(${reactApps})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
           >

@@ -36,7 +36,7 @@ const Contact = () => {
           <div
             data-aos="fade-right"
             data-aos-duration="800"
-            data-aos-delay="500"
+            // data-aos-delay="500"
             className="outline-white relative z-10 border-2 focus-within:border-pink-600 mb-2  hover:border-pink-600 duration-300"
           >
             <input
