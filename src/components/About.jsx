@@ -15,8 +15,8 @@ const About = () => {
 
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div
-            // data-aos="fade-right"
-            // data-aos-duration="1000"
+            data-aos="fade-right"
+            data-aos-duration="1000"
             className="flex sm:justify-end justify-center"
           >
             <img
@@ -26,9 +26,9 @@ const About = () => {
           </div>
 
           <div
-          // data-aos="fade-left"
-          // data-aos-duration="1000"
-          // data-aos-delay="500"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="500"
           >
             <p>
               I am very curious and persistent, and also... an Engineer, what is

@@ -34,9 +34,9 @@ const Contact = () => {
           </div>
           {/*//! Input name */}
           <div
-            // data-aos="fade-right"
-            // data-aos-duration="800"
-            // data-aos-delay="500"
+            data-aos="fade-right"
+            data-aos-duration="800"
+            data-aos-delay="500"
             className="outline-white relative z-10 border-2 focus-within:border-pink-600 mb-2  hover:border-pink-600 duration-300"
           >
             <input
@@ -57,9 +57,9 @@ const Contact = () => {
           </div>
           {/*//! Input email */}
           <div
-            // data-aos="fade-left"
-            // data-aos-duration="800"
-            // data-aos-delay="700"
+            data-aos="fade-left"
+            data-aos-duration="800"
+            data-aos-delay="700"
             className="outline-white relative z-10 border-2 focus-within:border-pink-600 mb-2  hover:border-pink-600 duration-300"
           >
             <input
@@ -80,9 +80,9 @@ const Contact = () => {
           </div>
           {/*//! Textarea message */}
           <div
-            // data-aos="fade-right"
-            // data-aos-duration="800"
-            // data-aos-delay="900"
+            data-aos="fade-right"
+            data-aos-duration="800"
+            data-aos-delay="900"
             className="outline-white relative z-10 border-2 focus-within:border-pink-600 mb-2  hover:border-pink-600 duration-300"
           >
             <textarea
@@ -103,9 +103,9 @@ const Contact = () => {
           </div>
           {/*//! Button */}
           <button
-            // data-aos="fade-left"
-            // data-aos-duration="800"
-            // data-aos-delay="1100"
+            data-aos="fade-left"
+            data-aos-duration="800"
+            data-aos-delay="1100"
             className="text-xl border-2 text-white hover:bg-pink-600 hover:border-pink-600 duration-200 px-5 py-2 my-3 mx-auto flex items-center"
           >
             Send

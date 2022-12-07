@@ -17,33 +17,26 @@ const Skills = () => {
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">
             Skills and knowledge
           </p>
-          <p
-            //  data-aos="fade-left" data-aos-duration="1000"
-            className="py-4"
-          >
+          <p data-aos="fade-left" data-aos-duration="1000" className="py-4">
             Since I directed my profile towards web development, I have been
             studying and practicing a lot about all the technologies listed
             below. And it's also good to mention that I have knowledge of web
             SEO & Blockchain, and I'm an Industrial Engineer.
           </p>
-          <p
-          // data-aos="fade-left" data-aos-duration="1000"
-          >
+          <p data-aos="fade-left" data-aos-duration="1000">
             These are the technologies I've worked with:
           </p>
-          <p
-          // data-aos="fade-left" data-aos-duration="1000"
-          >
+          <p data-aos="fade-left" data-aos-duration="1000">
             (I'm currently learning Next.js 💪🏻)
           </p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div
-          // data-aos="flip-left"
-          // data-aos-duration="2000"
-          // data-aos-delay="500"
-          // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            data-aos="flip-left"
+            data-aos-duration="2000"
+            data-aos-delay="500"
+            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
           >
             <img
               className="w-20 mx-auto hover:scale-110 duration-500"
@@ -53,10 +46,10 @@ const Skills = () => {
             <p>HTML</p>
           </div>
           <div
-          // data-aos="flip-left"
-          // data-aos-duration="2000"
-          // data-aos-delay="500"
-          // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            data-aos="flip-left"
+            data-aos-duration="2000"
+            data-aos-delay="500"
+            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
           >
             <img
               className="w-20 mx-auto hover:scale-110 duration-500"
@@ -66,10 +59,10 @@ const Skills = () => {
             <p>CSS</p>
           </div>
           <div
-          // data-aos-duration="2000"
-          // data-aos-delay="500"
-          // data-aos="flip-left"
-          // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            data-aos-duration="2000"
+            data-aos-delay="500"
+            data-aos="flip-left"
+            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
           >
             <img
               className="w-20 mx-auto hover:scale-110 duration-500"
@@ -79,10 +72,10 @@ const Skills = () => {
             <p>JavaScript</p>
           </div>
           <div
-          // data-aos="flip-left"
-          // data-aos-duration="2000"
-          // data-aos-delay="500"
-          // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            data-aos="flip-left"
+            data-aos-duration="2000"
+            data-aos-delay="500"
+            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
           >
             <img
               className="w-20 mx-auto hover:scale-110 duration-500"
@@ -92,10 +85,10 @@ const Skills = () => {
             <p>React JS</p>
           </div>
           <div
-          // data-aos="flip-left"
-          // data-aos-duration="2000"
-          // data-aos-delay="500"
-          // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            data-aos="flip-left"
+            data-aos-duration="2000"
+            data-aos-delay="500"
+            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
           >
             <img
               className="w-20 mx-auto hover:scale-110 duration-500"
@@ -105,10 +98,10 @@ const Skills = () => {
             <p>GitHub</p>
           </div>
           <div
-          // data-aos="flip-left"
-          // data-aos-duration="2000"
-          // data-aos-delay="500"
-          // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            data-aos="flip-left"
+            data-aos-duration="2000"
+            data-aos-delay="500"
+            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
           >
             <img
               className="w-20 mx-auto hover:scale-110 duration-500"
@@ -118,10 +111,10 @@ const Skills = () => {
             <p>Node JS</p>
           </div>
           <div
-          // data-aos="flip-left"
-          // data-aos-duration="2000"
-          // data-aos-delay="500"
-          // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            data-aos="flip-left"
+            data-aos-duration="2000"
+            data-aos-delay="500"
+            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
           >
             <img
               className="w-20 mx-auto hover:scale-110 duration-500"
@@ -132,10 +125,10 @@ const Skills = () => {
           </div>
 
           <div
-          // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
-          // data-aos="flip-left"
-          // data-aos-duration="2000"
-          // data-aos-delay="500"
+            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            data-aos="flip-left"
+            data-aos-duration="2000"
+            data-aos-delay="500"
           >
             <img
               className="w-20 mx-auto hover:scale-110 duration-500"
