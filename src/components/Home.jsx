@@ -5,10 +5,8 @@ import { Link } from "react-scroll";
 const Home = () => {
   return (
     <div
-      data-aos="fade-down"
-      // data-aos-delay="600"
-      data-aos-duration="2000"
-      // data-aos-offset="200"
+      // data-aos="fade-down"
+      // data-aos-duration="2000"
       name="home"
       className="w-full h-screen"
     >
