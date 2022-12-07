@@ -15,7 +15,9 @@ const Work = () => {
           <p className="text-4xl font-bold inline border-b-4 border-pink-600">
             Work
           </p>
-          <p className="pt-6">Check out some of my recent work</p>
+          <p data-aos="fade-right" data-aos-duration="1000" className="pt-6">
+            Check out some of my recent work
+          </p>
         </div>
 
         {/*//! Card grid container */}
@@ -55,7 +57,7 @@ const Work = () => {
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-delay="700"
+            data-aos-delay="600"
             style={{ backgroundImage: `url(${cvWeb})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
           >
@@ -84,45 +86,11 @@ const Work = () => {
               </div>
             </div>
           </div>{" "}
-          {/*//! Card grid item PURE JS */}
-          <div
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="900"
-            style={{ backgroundImage: `url(${pureJs})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
-          >
-            {/*//! Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100 grid grid-rows-2 justify-center items-center w-full h-full p-0 content-div rounded-md">
-              <span className="text-center font-bold text-2xl opacity-100 text-white pt-5">
-                Pure JavaScript
-              </span>
-
-              <div className="flex text-center justify-start align-top pb-8">
-                <a
-                  href="https://kbcruz6.github.io/MixJsLittleProjects/"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/kbcruz6/kbcruz6.github.io/tree/main/MixJsLittleProjects/code%20here"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
           {/*//! Card grid item NEXT JS */}
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-delay="1100"
+            data-aos-delay="800"
             style={{ backgroundImage: `url(${nextJs})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
           >
@@ -153,7 +121,7 @@ const Work = () => {
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-delay="1300"
+            data-aos-delay="1000"
             style={{ backgroundImage: `url(${currentPortfolio})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
           >
@@ -180,11 +148,45 @@ const Work = () => {
               </div>
             </div>
           </div>
+          {/*//! Card grid item PURE JS */}
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="1200"
+            style={{ backgroundImage: `url(${pureJs})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
+          >
+            {/*//! Hover effects */}
+            <div className="opacity-0 group-hover:opacity-100 grid grid-rows-2 justify-center items-center w-full h-full p-0 content-div rounded-md">
+              <span className="text-center font-bold text-2xl opacity-100 text-white pt-5">
+                Pure JavaScript
+              </span>
+
+              <div className="flex text-center justify-start align-top pb-8">
+                <a
+                  href="https://kbcruz6.github.io/MixJsLittleProjects/"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/kbcruz6/kbcruz6.github.io/tree/main/MixJsLittleProjects/code%20here"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
           {/*//! Card grid item OLD PORTFOLIO */}
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-delay="1500"
+            data-aos-delay="1400"
             style={{ backgroundImage: `url(${oldPortfolio})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
           >
