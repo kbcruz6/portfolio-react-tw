@@ -33,7 +33,7 @@ const Skills = () => {
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div
-            data-aos="flip-left"
+            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
             data-aos-duration="2000"
             data-aos-delay="500"
             // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
@@ -46,7 +46,7 @@ const Skills = () => {
             <p>HTML</p>
           </div>
           <div
-            data-aos="flip-left"
+            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
             data-aos-duration="2000"
             data-aos-delay="500"
             // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
@@ -61,7 +61,7 @@ const Skills = () => {
           <div
             data-aos-duration="2000"
             data-aos-delay="500"
-            data-aos="flip-left"
+            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
             // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
           >
             <img
@@ -72,7 +72,7 @@ const Skills = () => {
             <p>JavaScript</p>
           </div>
           <div
-            data-aos="flip-left"
+            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
             data-aos-duration="2000"
             data-aos-delay="500"
             // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
@@ -86,6 +86,7 @@ const Skills = () => {
           </div>
           <div
             data-aos="flip-left"
+            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
             data-aos-duration="2000"
             data-aos-delay="500"
             // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
@@ -98,7 +99,7 @@ const Skills = () => {
             <p>GitHub</p>
           </div>
           <div
-            data-aos="flip-left"
+            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
             data-aos-duration="2000"
             data-aos-delay="500"
             // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
@@ -111,7 +112,7 @@ const Skills = () => {
             <p>Node JS</p>
           </div>
           <div
-            data-aos="flip-left"
+            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
             data-aos-duration="2000"
             data-aos-delay="500"
             // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
@@ -126,7 +127,7 @@ const Skills = () => {
 
           <div
             // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
-            data-aos="flip-left"
+            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
             data-aos-duration="2000"
             data-aos-delay="500"
           >
