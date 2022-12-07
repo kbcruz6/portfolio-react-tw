@@ -1,11 +1,17 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
-// import videoBg from "../assets/videoBg.mp4";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen ">
+    <div
+      data-aos="fade-down"
+      // data-aos-delay="600"
+      data-aos-duration="2000"
+      // data-aos-offset="200"
+      name="home"
+      className="w-full h-screen"
+    >
       {/*//! Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-pink-400">Hi there, welcome to my portfolio!👋</p>

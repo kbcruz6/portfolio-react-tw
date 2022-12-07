@@ -14,14 +14,24 @@ const About = () => {
         </div>
 
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="flex sm:justify-end justify-center">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            // data-aos-offset="50"
+            className="flex sm:justify-end justify-center"
+          >
             <img
               src={profileImg}
               className="w-[200px] h-[200px] rounded-full"
             ></img>
           </div>
 
-          <div>
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+            // data-aos-offset="50"
+          >
             <p>
               I am very curious and persistent, and also... an Engineer, what is
               super useful in this environment to face the daily challenges and

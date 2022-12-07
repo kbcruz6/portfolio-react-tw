@@ -11,7 +11,7 @@ const Work = () => {
   return (
     <div name="work" className="w-full md:h-screen text-gray-300 ">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div data-aos="fade-right" data-aos-duration="1000" className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-pink-600">
             Work
           </p>
@@ -22,6 +22,9 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/*//! Card grid item REACT APPS*/}
           <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="500"
             style={{ backgroundImage: `url(${reactApps})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
           >
@@ -50,6 +53,9 @@ const Work = () => {
           </div>
           {/*//! Card grid item CV WEB */}
           <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="700"
             style={{ backgroundImage: `url(${cvWeb})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
           >
@@ -80,6 +86,9 @@ const Work = () => {
           </div>{" "}
           {/*//! Card grid item PURE JS */}
           <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="900"
             style={{ backgroundImage: `url(${pureJs})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
           >
@@ -111,6 +120,9 @@ const Work = () => {
           </div>
           {/*//! Card grid item NEXT JS */}
           <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="1100"
             style={{ backgroundImage: `url(${nextJs})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
           >
@@ -139,6 +151,9 @@ const Work = () => {
           </div>
           {/*//! Card grid item CURRENT PORTFOLIO */}
           <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="1300"
             style={{ backgroundImage: `url(${currentPortfolio})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
           >
@@ -167,6 +182,9 @@ const Work = () => {
           </div>
           {/*//! Card grid item OLD PORTFOLIO */}
           <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="1500"
             style={{ backgroundImage: `url(${oldPortfolio})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
           >

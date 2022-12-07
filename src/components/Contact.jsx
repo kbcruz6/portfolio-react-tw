@@ -33,61 +33,81 @@ const Contact = () => {
             </p>
           </div>
           {/*//! Input name */}
-          <div class="outline-white relative z-10 border-2 focus-within:border-pink-600 mb-2  hover:border-pink-600 duration-300">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="800"
+            data-aos-delay="500"
+            className="outline-white relative z-10 border-2 focus-within:border-pink-600 mb-2  hover:border-pink-600 duration-300"
+          >
             <input
               required
               type="text"
               name="name"
               placeholder=" "
-              class="flex p-4 w-full text-md z-10 appearance-none focus:outline-none bg-transparent text-white"
+              className="flex p-4 w-full text-md z-10 appearance-none focus:outline-none bg-transparent text-white"
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
             <label
               for="name"
-              class="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0a192f] text-pink-600"
+              className="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0a192f] text-pink-600"
             >
               Name
             </label>
           </div>
           {/*//! Input email */}
-          <div class="outline-white relative z-10 border-2 focus-within:border-pink-600 mb-2  hover:border-pink-600 duration-300">
+          <div
+            data-aos="fade-left"
+            data-aos-duration="800"
+            data-aos-delay="700"
+            className="outline-white relative z-10 border-2 focus-within:border-pink-600 mb-2  hover:border-pink-600 duration-300"
+          >
             <input
               required
               type="email"
               name="email"
               placeholder=" "
-              class="flex p-4 w-full text-md z-0 appearance-none focus:outline-none bg-transparent text-white"
+              className="flex p-4 w-full text-md z-0 appearance-none focus:outline-none bg-transparent text-white"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
             <label
               for="email"
-              class="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0a192f] text-pink-600"
+              className="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0a192f] text-pink-600"
             >
               Email
             </label>
           </div>
           {/*//! Textarea message */}
-          <div class="outline-white relative z-10 border-2 focus-within:border-pink-600 mb-2  hover:border-pink-600 duration-300">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="800"
+            data-aos-delay="900"
+            className="outline-white relative z-10 border-2 focus-within:border-pink-600 mb-2  hover:border-pink-600 duration-300"
+          >
             <textarea
               required
               type="text"
               name="message"
               placeholder=" "
-              class="flex p-4 w-full text-md z-0 appearance-none focus:outline-none bg-transparent text-white"
+              className="flex p-4 w-full text-md z-0 appearance-none focus:outline-none bg-transparent text-white"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />
             <label
               for="message"
-              class="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0a192f] text-pink-600"
+              className="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0a192f] text-pink-600"
             >
               Message
             </label>
           </div>
           {/*//! Button */}
-          <button className="text-xl border-2 text-white hover:bg-pink-600 hover:border-pink-600 duration-200 px-5 py-2 my-3 mx-auto flex items-center">
+          <button
+            data-aos="fade-left"
+            data-aos-duration="800"
+            data-aos-delay="1100"
+            className="text-xl border-2 text-white hover:bg-pink-600 hover:border-pink-600 duration-200 px-5 py-2 my-3 mx-auto flex items-center"
+          >
             Send
           </button>
         </form>
