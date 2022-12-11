@@ -6,6 +6,7 @@ import pureJs from "../assets/pureJs.png";
 import nextJs from "../assets/nextJsApp.png";
 import currentPortfolio from "../assets/currentPortfolio.png";
 import oldPortfolio from "../assets/oldPortfolio.png";
+import weather from "../assets/weather.png";
 
 const Work = () => {
   return (
@@ -22,7 +23,42 @@ const Work = () => {
 
         {/*//! Card grid container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {/*//! Card grid item REACT APPS*/}
+          {/*//! Card grid item */}
+          {/*//! WEATHER APP*/}
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+            style={{ backgroundImage: `url(${weather})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
+          >
+            {/*//! Hover effects */}
+            <div className="opacity-0 group-hover:opacity-100 grid grid-rows-2 justify-center items-center w-full h-full p-0 content-div rounded-md">
+              <span className="text-center font-bold text-2xl opacity-100 text-white pt-5">
+                NextJS Weather App
+              </span>
+
+              <div className="flex text-center justify-start align-top pb-8">
+                <a
+                  href="https://weather-agustincruz.vercel.app/"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/kbcruz6/weather-nextjs-app"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/*//! REACT APPS*/}
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -53,7 +89,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          {/*//! Card grid item CV WEB */}
+          {/*//! WEB CV */}
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -86,7 +122,7 @@ const Work = () => {
               </div>
             </div>
           </div>{" "}
-          {/*//! Card grid item NEXT JS */}
+          {/*//! NEXT JS xkcd */}
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -117,7 +153,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          {/*//! Card grid item CURRENT PORTFOLIO */}
+          {/*//! CURRENT PORTFOLIO */}
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -148,7 +184,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          {/*//! Card grid item PURE JS */}
+          {/*//! PURE JS */}
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -182,15 +218,15 @@ const Work = () => {
               </div>
             </div>
           </div>
-          {/*//! Card grid item OLD PORTFOLIO */}
-          <div
+          {/*//! OLD PORTFOLIO 
+           <div
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="1400"
             style={{ backgroundImage: `url(${oldPortfolio})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
           >
-            {/*//! Hover effects */}
+            //! Hover effects
             <div className="opacity-0 group-hover:opacity-100 grid grid-rows-2 justify-center items-center w-full h-full p-0 content-div rounded-md">
               <span className="text-center font-bold text-2xl opacity-100 text-white pt-5">
                 Old Portfolio
@@ -212,7 +248,7 @@ const Work = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
