@@ -38,7 +38,7 @@ const Work = () => {
                 NextJS Weather App
               </span>
 
-              <div className="flex text-center justify-start align-top pb-8">
+              <div className="flex text-center justify-center align-top pb-8">
                 <a
                   href="https://weather-agustincruz.vercel.app/"
                   target="_blank"
