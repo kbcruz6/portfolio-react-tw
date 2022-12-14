@@ -45,7 +45,7 @@ function App() {
   };
 
   return (
-    <div className={isDarkTheme ? "dark" : "light"}>
+    <div className={isDarkTheme ? "dark" : ""}>
       <ParticlesBackground />
       <Navbar toggleTheme={toggleTheme} />
       <Home />

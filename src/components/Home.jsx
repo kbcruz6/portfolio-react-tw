@@ -6,12 +6,12 @@ const Home = () => {
   return (
     <div name="home" className="w-full h-screen">
       {/*//! Container */}
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-transparent dark:text-orange-200 duration-300 ">
-        <p
-          data-aos="fade-right"
-          data-aos-duration="2000"
-          className="text-white dark:hidden text-2xl text-center duration-300"
-        >
+      <div
+        data-aos="fade-right"
+        data-aos-duration="2000"
+        className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-transparent dark:text-orange-200 duration-300 "
+      >
+        <p className="text-white dark:hidden text-2xl text-center duration-300">
           Oops... the light is off! Turn it on to see the content...{" "}
         </p>
         <p className="">Here we are! Welcome to my portfolio!👋</p>

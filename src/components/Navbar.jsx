@@ -5,8 +5,6 @@ import { FiPaperclip } from "react-icons/fi";
 import { BsWhatsapp } from "react-icons/bs";
 import { Link } from "react-scroll";
 import "../index.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const Navbar = ({ toggleTheme }) => {
   const [checked, setChecked] = useState(false);
@@ -80,8 +78,8 @@ const Navbar = ({ toggleTheme }) => {
             <span
               className={
                 checked
-                  ? "switch-button bg-[#0d1e3a] w-[20px] absolute h-[20px] rounded-full duration-200 left-[2px] moon"
-                  : "switch-button w-[20px] absolute h-[20px] rounded-full duration-200 left-[2px] sun"
+                  ? "switch-button w-[20px] absolute h-[20px] rounded-full duration-200 left-[2px] moon "
+                  : "switch-button w-[20px] absolute h-[20px] rounded-full duration-200 left-[2px] sun "
               }
             />
           </label>
