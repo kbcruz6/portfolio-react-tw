@@ -71,7 +71,7 @@ const Navbar = ({ toggleTheme }) => {
             className={
               checked
                 ? "switch-label flex items-center bg-orange-500 w-[45px] h-[25px] rounded-full relative cursor-pointer"
-                : "switch-label flex items-center bg-blue-400 w-[45px] h-[25px] rounded-full relative cursor-pointer"
+                : "switch-label flex items-center bg-blue-400 w-[45px] h-[25px] rounded-full relative cursor-pointer  animate-pulse"
             }
             htmlFor="switch"
           >
@@ -79,7 +79,7 @@ const Navbar = ({ toggleTheme }) => {
               className={
                 checked
                   ? "switch-button w-[20px] relative h-[20px] rounded-full duration-200 left-[2px] moon "
-                  : "switch-button w-[20px] relative h-[20px] rounded-full duration-200 left-[2px] sun "
+                  : "switch-button w-[20px] relative h-[20px] rounded-full duration-200 left-[2px] light "
               }
             />
           </label>

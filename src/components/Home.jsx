@@ -9,15 +9,17 @@ const Home = () => {
       <div
         data-aos="fade-right"
         data-aos-duration="2000"
-        className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-transparent dark:text-orange-200 duration-300 "
+        className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-transparent dark:text-orange-200 dark:duration-300 "
       >
-        <p className="text-white dark:hidden text-2xl text-center duration-300">
-          Oops... the light is off! Turn it on to see the content...{" "}
-        </p>
         <p className="">Here we are! Welcome to my portfolio!👋</p>
         <h1 className="text-4xl sm:text-7xl font-bold dark:text-orange-300 ">
           I'm Agustin Cruz
-        </h1>
+        </h1>{" "}
+        {/*//! OOPS  */}
+        <p className="text-white dark:hidden text-2xl text-center duration-300 ">
+          Oops... the light is off! Turn it on to see the content...{" "}
+        </p>
+        {/*//! <--->  */}
         <h2 className="text-4xl sm:text-7xl font-bold dark:text-orange-500 ">
           a Frontend Developer.
         </h2>

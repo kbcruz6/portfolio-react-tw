@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaArrowCircleUp, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { FiPaperclip } from "react-icons/fi";
 import { BsWhatsapp } from "react-icons/bs";
-
 import { Link } from "react-scroll";
 
 const SocialMediaBottom = () => {
@@ -63,6 +62,12 @@ const SocialMediaBottom = () => {
           </li>
         </ul>
       </div>
+      <Link to="home" smooth={true} duration={500} className="">
+        <FaArrowCircleUp
+          className="fixed z-50 bottom-10 right-10 cursor-pointer text-orange-500 hover:text-orange-400 duration-300 hover:scale-110"
+          size={30}
+        />
+      </Link>
     </div>
   );
 };
