@@ -64,7 +64,7 @@ const SocialMediaBottom = () => {
       </div>
       <Link to="home" smooth={true} duration={500} className="">
         <FaArrowCircleUp
-          className="fixed z-50 bottom-10 right-10 cursor-pointer text-orange-500 hover:text-orange-400 duration-300 hover:scale-110"
+          className="minsm:hidden fixed  z-50 bottom-10 right-10 cursor-pointer text-orange-500 hover:text-orange-400 duration-300 hover:scale-110"
           size={30}
         />
       </Link>
