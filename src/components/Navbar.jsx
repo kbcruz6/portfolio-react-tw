@@ -78,8 +78,8 @@ const Navbar = ({ toggleTheme }) => {
             <span
               className={
                 checked
-                  ? "switch-button w-[20px] absolute h-[20px] rounded-full duration-200 left-[2px] moon "
-                  : "switch-button w-[20px] absolute h-[20px] rounded-full duration-200 left-[2px] sun "
+                  ? "switch-button w-[20px] relative h-[20px] rounded-full duration-200 left-[2px] moon "
+                  : "switch-button w-[20px] relative h-[20px] rounded-full duration-200 left-[2px] sun "
               }
             />
           </label>
