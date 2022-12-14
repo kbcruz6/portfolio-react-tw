@@ -17,7 +17,7 @@ const Home = () => {
         </h1>{" "}
         {/*//! OOPS  */}
         <p className="text-white dark:hidden text-2xl text-center duration-300">
-          Oops... the light is off! Turn it on to see the content...{" "}
+          Oops... the light is off! Please turn it on to see the content ...{" "}
         </p>
         {/*//! <--->  */}
         <h2 className="text-4xl sm:text-7xl font-bold dark:text-orange-500 ">
