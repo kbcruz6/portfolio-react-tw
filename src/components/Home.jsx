@@ -25,7 +25,8 @@ const Home = () => {
         </h2>
         <p className="py-4 max-w-[700px] ">
           As a highly motivated Engineer, I'm looking for new challenges in IT &
-          development areas, to continue growing professionally and personally.
+          development areas, to continue creating solutions and growing
+          professionally and personally.
         </p>
         <div>
           <Link to="about" smooth={true} duration={500}>
