@@ -50,8 +50,8 @@ textarea:not(:focus-within) ~ label {
   transition-duration: 300ms;
   background-image: linear-gradient(
     to right,
-    rgba(112,157,255, 0.9),
-    rgba(87, 82, 229, 0.9)
+    rgba(251, 149, 66, 0.9),
+    rgba(255, 115, 0, 0.9)
   )!important;
 }
 .content-div:not(:hover){
