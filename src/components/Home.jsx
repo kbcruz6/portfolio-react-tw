@@ -1,5 +1,5 @@
 import React from "react";
-import { HiArrowNarrowRight } from "react-icons/hi";
+import { HiArrowNarrowDown } from "react-icons/hi";
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
           I'm Agustin Cruz
         </h1>{" "}
         {/*//! OOPS  */}
-        <p className="text-white dark:hidden text-2xl text-center duration-300 ">
+        <p className="text-white dark:hidden text-2xl text-center duration-300">
           Oops... the light is off! Turn it on to see the content...{" "}
         </p>
         {/*//! <--->  */}
@@ -29,11 +29,9 @@ const Home = () => {
         </p>
         <div>
           <Link to="about" smooth={true} duration={500}>
-            <button className="group dark:border-2 dark:border-orange-300 px-4 py-3 my-2 flex items-center dark:hover:text-white dark:hover:bg-orange-600 dark:hover:border-orange-600 dark:text-orange-300">
+            <button className="group dark:border-2 dark:border-orange-300 px-4 py-3 my-2 flex items-center dark:hover:text-white dark:hover:bg-orange-600 dark:hover:border-orange-600 dark:text-orange-300 duration-300">
               Have a look!
-              <span className=" group-hover:rotate-90 duration-200">
-                <HiArrowNarrowRight className="ml-3" />
-              </span>
+              <HiArrowNarrowDown className="ml-3 animate-bounce" />
             </button>
           </Link>
         </div>
