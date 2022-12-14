@@ -5,7 +5,6 @@ import cvWeb from "../assets/webCv.png";
 import pureJs from "../assets/pureJs.png";
 import nextJs from "../assets/nextJsApp.png";
 import currentPortfolio from "../assets/currentPortfolio.png";
-import oldPortfolio from "../assets/oldPortfolio.png";
 import weather from "../assets/weather.png";
 
 const Work = () => {
