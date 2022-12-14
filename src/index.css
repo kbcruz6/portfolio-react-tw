@@ -79,6 +79,18 @@ textarea:not(:focus-within) ~ label {
 
 }
 
+@keyframes pulse {
+  50% {
+    /* opacity: 0.5; */
+    scale: 1.2;
+  }
+}
+.animate-pulse {
+  animation: pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+.animate-pulse:hover{
+  animation-play-state:paused;
+}
 
 /* sun  background-image: url("https://cdn-icons-png.flaticon.com/128/146/146199.png"); */
 
