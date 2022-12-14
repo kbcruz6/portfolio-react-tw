@@ -10,11 +10,14 @@ import HTML from "../assets/html.png";
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-screen text-gray-300">
+    <div
+      name="skills"
+      className="w-full h-screen dark:text-orange-200 text-transparent duration-300 "
+    >
       {/*//! Container */}
       <div className="max-w-[1000px] w-full h-full mx-auto items-center p-4 flex flex-col justify-center ">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">
+          <p className="text-4xl font-bold inline dark:border-b-4 dark:border-orange-600">
             Skills and knowledge
           </p>
           <p data-aos="fade-left" data-aos-duration="1000" className="py-4">
@@ -31,7 +34,7 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+        <div className="w-full hidden dark:grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <div
             data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
             data-aos-duration="2000"
@@ -85,7 +88,6 @@ const Skills = () => {
             <p>React JS</p>
           </div>
           <div
-            data-aos="flip-left"
             data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
             data-aos-duration="2000"
             data-aos-delay="500"

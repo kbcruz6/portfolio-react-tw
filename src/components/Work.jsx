@@ -10,10 +10,13 @@ import weather from "../assets/weather.png";
 
 const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 ">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+    <div
+      name="work"
+      className="w-full md:h-screen dark:text-orange-200 text-transparent duration-300"
+    >
+      <div className="max-w-[1000px] mx-auto p-4 dark:flex hidden flex-col justify-center w-full h-full duration-300">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600">
+          <p className="text-4xl font-bold inline border-b-4 border-orange-600">
             Work
           </p>
           <p data-aos="fade-right" data-aos-duration="1000" className="pt-6">
@@ -33,7 +36,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
           >
             {/*//! Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100 grid grid-rows-2 justify-center items-center w-full h-full p-0 content-div rounded-md">
+            <div className="opacity-0 group-hover:opacity-100 grid grid-rows-2 justify-center items-center w-full h-full p-0 content-div rounded-md duration-300">
               <span className="text-center font-bold text-2xl opacity-100 text-white pt-5">
                 NextJS Weather App
               </span>

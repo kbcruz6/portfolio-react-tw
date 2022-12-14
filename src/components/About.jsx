@@ -3,11 +3,14 @@ import profileImg from "../assets/33.jpeg";
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen text-gray-300">
+    <div
+      name="about"
+      className="w-full h-screen dark:text-orange-200 text-transparent duration-300"
+    >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full px-4 ">
           <div className="sm:text-center pb-8 ">
-            <p className="text-4xl font-bold inline border-b-4 border-pink-600">
+            <p className="text-4xl font-bold inline dark:border-b-4 dark:border-orange-600">
               This is me 🙋🏻‍♂️
             </p>
           </div>
@@ -21,7 +24,7 @@ const About = () => {
           >
             <img
               src={profileImg}
-              className="w-[200px] h-[200px] rounded-full"
+              className="w-[200px] h-[200px] rounded-full hidden dark:flex"
             ></img>
           </div>
 

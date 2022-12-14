@@ -1,47 +1,90 @@
-import React, { useState } from "react";
+import React, { createContext, useState, useContext } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { FiPaperclip } from "react-icons/fi";
 import { BsWhatsapp } from "react-icons/bs";
 import { Link } from "react-scroll";
+import "../index.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-const Navbar = () => {
-  const [nav, setNav] = useState(false);
-  // const handleClick = () => setNav(!nav);
+const Navbar = ({ toggleTheme }) => {
+  const [checked, setChecked] = useState(false);
+
+  const onToggle = () => {
+    toggleTheme();
+    setChecked(!checked);
+  };
 
   return (
     <div className="fixed w-full h-[40px] flex justify-center items-center px-4 bg-[#0d1e3a] text-gray-300 minsm:bottom-0 z-50">
       {/*//! Menu */}
       <ul className="font-bold flex">
-        <li className="relative group hover:opacity-90 px-0 mx-4 ">
+        {/*//! HOME  */}
+        <li className="relative group hover:opacity-90 px-0 mx-2 ">
           <Link to="home" smooth={true} duration={500} className="">
             Home
-            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-pink-600 transition-all group-hover:w-full"></span>
+            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-orange-600 transition-all group-hover:w-full"></span>
           </Link>
         </li>
-        <li className="relative group hover:opacity-90 px-0 mx-4">
+
+        {/*//! ABOUT  */}
+        <li className="relative group hover:opacity-90 px-0 mx-2">
           <Link to="about" smooth={true} duration={500}>
             Me
-            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-pink-600 transition-all group-hover:w-full"></span>
+            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-orange-600 transition-all group-hover:w-full"></span>
           </Link>
         </li>
-        <li className="relative group hover:opacity-90 px-0 mx-4">
+
+        {/*//! SKILLS  */}
+        <li className="relative group hover:opacity-90 px-0 mx-2">
           <Link to="skills" smooth={true} duration={500}>
             Skills
-            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-pink-600 transition-all group-hover:w-full"></span>
+            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-orange-600 transition-all group-hover:w-full"></span>
           </Link>
         </li>
-        <li className="relative group hover:opacity-90 px-0 mx-4">
+
+        {/*//! WORK  */}
+        <li className="relative group hover:opacity-90 px-0 mx-2">
           <Link to="work" smooth={true} duration={500}>
             Work
-            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-pink-600 transition-all group-hover:w-full"></span>
+            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-orange-600 transition-all group-hover:w-full"></span>
           </Link>
         </li>
-        <li className="relative group hover:opacity-90 px-0 mx-4">
+
+        {/*//! CONTACT  */}
+        <li className="relative group hover:opacity-90 px-0 mx-2">
           <Link to="contact" smooth={true} duration={500}>
             Contact
-            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-pink-600 transition-all group-hover:w-full"></span>
+            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-orange-600 transition-all group-hover:w-full"></span>
           </Link>
+        </li>
+
+        {/*//! TOGGLE SWITCH  */}
+        <li className="relative group hover:opacity-90 px-0 mx-2">
+          <input
+            onChange={onToggle}
+            id="switch"
+            type="checkbox"
+            className="switch-checkbox hidden"
+            checked={checked}
+          />
+          <label
+            className={
+              checked
+                ? "switch-label flex items-center bg-orange-500 w-[45px] h-[25px] rounded-full relative cursor-pointer"
+                : "switch-label flex items-center bg-blue-400 w-[45px] h-[25px] rounded-full relative cursor-pointer"
+            }
+            htmlFor="switch"
+          >
+            <span
+              className={
+                checked
+                  ? "switch-button bg-[#0d1e3a] w-[20px] absolute h-[20px] rounded-full duration-200 left-[2px] moon"
+                  : "switch-button w-[20px] absolute h-[20px] rounded-full duration-200 left-[2px] sun"
+              }
+            />
+          </label>
         </li>
       </ul>
 

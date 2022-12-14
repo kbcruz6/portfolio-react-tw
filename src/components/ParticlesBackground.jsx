@@ -20,6 +20,9 @@ const ParticlesBackground = () => {
   let cantPart = windowWidth > 700 ? 30 : 13;
   // let distLinks = windowWidth > 700 ? 700 : 800;
 
+  // color: "#0a192f",
+  // color: "#d53f8c",
+
   //! Configurar options, comportamiento de las particulas
   const options = useMemo(() => {
     return {
@@ -86,10 +89,11 @@ const ParticlesBackground = () => {
           },
         },
         links: {
-          color: "#d53f8c",
+          // color: "#d53f8c",
+          color: "#ed8936",
           enable: true,
           distance: 800,
-          opacity: 0.2,
+          opacity: 0.08,
         },
         move: {
           enable: true,
