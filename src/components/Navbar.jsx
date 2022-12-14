@@ -15,7 +15,7 @@ const Navbar = ({ toggleTheme }) => {
   };
 
   return (
-    <div className="fixed w-full h-[40px] flex justify-center items-center px-4 bg-[#0d1e3a] text-gray-300 minsm:bottom-0 z-50">
+    <div className="fixed w-full h-[40px] flex justify-center items-center px-4 bg-[#0d1e3a] text-white dark:text-orange-200 minsm:bottom-0 z-50">
       {/*//! Menu */}
       <ul className="font-bold flex">
         {/*//! HOME  */}
