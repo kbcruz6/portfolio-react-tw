@@ -4,11 +4,11 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen">
+    <div name="home" className="w-full h-screen ">
       {/*//! Container */}
       <div
-        data-aos="fade-right"
-        data-aos-duration="2000"
+        // data-aos="fade-right"
+        // data-aos-duration="2000"
         className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-transparent dark:text-orange-200 dark:duration-300 "
       >
         <p className="">Here we are! Welcome to my portfolio!👋</p>
@@ -17,10 +17,10 @@ const Home = () => {
         </h1>{" "}
         {/*//! OOPS  */}
         <p className="text-white dark:hidden text-2xl text-center duration-300">
-          Oops... the light is off! Please turn it on to see the content ...{" "}
+          Oops... the light is off! Please turn it on, to see the content ...{" "}
         </p>
         {/*//! <--->  */}
-        <h2 className="text-4xl sm:text-7xl font-bold dark:text-orange-500 ">
+        <h2 className="text-4xl sm:text-7xl font-bold dark:text-orange-600 ">
           a Frontend Developer.
         </h2>
         <p className="py-4 max-w-[700px] ">
@@ -30,7 +30,7 @@ const Home = () => {
         </p>
         <div>
           <Link to="about" smooth={true} duration={500}>
-            <button className="group dark:border-2 dark:border-orange-300 px-4 py-3 my-2 flex items-center dark:hover:text-white dark:hover:bg-orange-600 dark:hover:border-orange-600 dark:text-orange-300 duration-300">
+            <button className="group dark:border-2 dark:border-orange-300 px-4 py-3 my-2 flex items-center dark:hover:text-white dark:hover:bg-orange-600 dark:hover:border-orange-600 dark:text-orange-300">
               Have a look!
               <HiArrowNarrowDown className="ml-3 animate-bounce" />
             </button>
