@@ -9,6 +9,7 @@ import SocialMediaBottom from "./components/SocialMediaBottom.jsx";
 import ParticlesBackground from "./components/ParticlesBackground.jsx";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Swal from "sweetalert2";
 
 //! AOS CONFIG
 AOS.init({
@@ -80,9 +81,19 @@ function App() {
         const resData = await res;
         console.log(resData);
         if (resData.status === "success") {
-          alert(`Thank you for your message ${mailerState.name}!`);
+          Swal.fire({
+            title: "Succes!",
+            text: `Thanks for your message ${mailerState.name}! Have a great day 👋🏻`,
+            icon: "success",
+            confirmButtonText: "My pleasure Sr",
+          });
         } else if (resData.status === "fail") {
-          alert("Message failed to send");
+          Swal.fire({
+            title: "Error!",
+            text: `Message failed to send 🥲, please try again!`,
+            icon: "error",
+            confirmButtonText: "OK",
+          });
         }
       })
       .then(() => {
