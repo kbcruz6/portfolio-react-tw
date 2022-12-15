@@ -37,17 +37,19 @@ function App() {
     AOS.refresh();
   }, 500);
 
+  const [clase, setClase] = useState("hidden");
   const [theme, setTheme] = useState("light");
   const isDarkTheme = theme === "dark";
 
-  const toggleTheme = () => {
-    setTheme(isDarkTheme ? "light" : "dark");
-  };
   const [mailerState, setMailerState] = useState({
     name: "",
     email: "",
     message: "",
   });
+
+  const toggleTheme = () => {
+    setTheme(isDarkTheme ? "light" : "dark");
+  };
 
   function handleStateChange(e) {
     setMailerState((prevState) => ({
@@ -59,6 +61,9 @@ function App() {
     // ! Aca meter un loading
 
     e.preventDefault();
+    setClase(
+      "inline-flex fixed top-1/2 inset-x-auto z-20 w-auto cursor-pointer select-none appearance-none items-center justify-center space-x-2 rounded border border-orange-500 bg-orange-500 px-4 py-3 text-sm font-medium text-white transition hover:border-orange-800 hover:bg-orange-800 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300 disabled:pointer-events-none disabled:opacity-85"
+    );
     console.log({ mailerState });
     const response = await fetch(
       "https://server-for-portfolio.vercel.app/send",
@@ -86,7 +91,11 @@ function App() {
           name: "",
           message: "",
         });
+        setClase("hidden");
       });
+  };
+  const handleSubmit = () => {
+    setClase("");
   };
 
   return (
