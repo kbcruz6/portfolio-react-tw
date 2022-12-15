@@ -83,7 +83,7 @@ function App() {
         if (resData.status === "success") {
           Swal.fire({
             title: "Succes!",
-            text: `Thanks for your message ${mailerState.name}! Have a great day 👋🏻`,
+            text: `Thanks for your message ${mailerState.name}!👋🏻`,
             icon: "success",
             confirmButtonText: "My pleasure Sr",
           });
