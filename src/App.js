@@ -105,9 +105,6 @@ function App() {
         setClase("hidden");
       });
   };
-  const handleSubmit = () => {
-    setClase("");
-  };
 
   return (
     <div className={isDarkTheme ? "dark" : ""}>
