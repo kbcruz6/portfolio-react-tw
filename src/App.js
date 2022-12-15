@@ -63,7 +63,7 @@ function App() {
 
     e.preventDefault();
     setClase(
-      "inline-flex fixed top-1/2 inset-x-auto z-20 w-auto cursor-pointer select-none appearance-none items-center justify-center space-x-2 rounded border border-orange-500 bg-orange-500 px-4 py-3 text-sm font-medium text-white transition hover:border-orange-800 hover:bg-orange-800 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300 disabled:pointer-events-none disabled:opacity-85"
+      "inline-flex fixed top-1/2 inset-x-auto z-20 w-auto cursor-pointer select-none appearance-none items-center justify-center space-x-2 rounded border border-orange-500 bg-orange-500 px-4 py-3 text-sm font-medium text-white transition hover:border-orange-800 hover:bg-orange-800 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300 disabled:pointer-events-none disabled:opacity-85 animate-pulse"
     );
     console.log({ mailerState });
     const response = await fetch(
