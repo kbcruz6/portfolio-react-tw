@@ -37,7 +37,7 @@ const ParticlesBackground = () => {
       interactivity: {
         events: {
           onClick: {
-            enable: true,
+            enable: false,
             mode: "push",
             // push, repulse, attract, bubble, pause, remove, trail, emitter, absorber
           },
