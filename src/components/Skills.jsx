@@ -35,6 +35,7 @@ const Skills = () => {
         </div>
 
         <div className="w-full hidden dark:grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+          {/*//! HTML  */}
           <div
             data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
             data-aos-duration="2000"
@@ -48,6 +49,8 @@ const Skills = () => {
             />
             <p>HTML</p>
           </div>
+
+          {/*//! CSS  */}
           <div
             data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
             data-aos-duration="2000"
@@ -61,6 +64,8 @@ const Skills = () => {
             />
             <p>CSS</p>
           </div>
+
+          {/*//! JAVASCRIPT  */}
           <div
             data-aos-duration="2000"
             data-aos-delay="500"
@@ -74,6 +79,8 @@ const Skills = () => {
             />
             <p>JavaScript</p>
           </div>
+
+          {/*//! REACT  */}
           <div
             data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
             data-aos-duration="2000"
@@ -87,32 +94,8 @@ const Skills = () => {
             />
             <p>React JS</p>
           </div>
-          <div
-            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
-            data-aos-duration="2000"
-            data-aos-delay="500"
-            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
-          >
-            <img
-              className="w-20 mx-auto hover:scale-110 duration-500"
-              src={GitHub}
-              alt="HTML icon"
-            />
-            <p>GitHub</p>
-          </div>
-          <div
-            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
-            data-aos-duration="2000"
-            data-aos-delay="500"
-            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
-          >
-            <img
-              className="w-20 mx-auto hover:scale-110 duration-500"
-              src={Node}
-              alt="HTML icon"
-            />
-            <p>Node JS</p>
-          </div>
+
+          {/*//! TAILWIND  */}
           <div
             data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
             data-aos-duration="2000"
@@ -127,6 +110,7 @@ const Skills = () => {
             <p>Tailwind</p>
           </div>
 
+          {/*//! NEXT  */}
           <div
             // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
             data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
@@ -139,6 +123,36 @@ const Skills = () => {
               alt="HTML icon"
             />
             <p>Next JS</p>
+          </div>
+
+          {/*//! GITHUB  */}
+          <div
+            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
+            data-aos-duration="2000"
+            data-aos-delay="500"
+            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+          >
+            <img
+              className="w-20 mx-auto hover:scale-110 duration-500"
+              src={GitHub}
+              alt="HTML icon"
+            />
+            <p>GitHub</p>
+          </div>
+
+          {/*//! NODE JS  */}
+          <div
+            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
+            data-aos-duration="2000"
+            data-aos-delay="500"
+            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+          >
+            <img
+              className="w-20 mx-auto hover:scale-110 duration-500"
+              src={Node}
+              alt="HTML icon"
+            />
+            <p>Node JS</p>
           </div>
         </div>
       </div>
