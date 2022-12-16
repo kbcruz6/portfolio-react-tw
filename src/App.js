@@ -149,7 +149,7 @@ function App() {
               />
               <label
                 for="name"
-                className="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0a192f] text-orange-500"
+                className="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0d1e3a] text-orange-500"
               >
                 Name
               </label>
@@ -172,7 +172,7 @@ function App() {
               />
               <label
                 for="email"
-                className="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0a192f] text-orange-500"
+                className="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0d1e3a] text-orange-500"
               >
                 Email
               </label>
@@ -195,7 +195,7 @@ function App() {
               />
               <label
                 for="message"
-                className="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0a192f] text-orange-500"
+                className="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0d1e3a] text-orange-500"
               >
                 Message
               </label>

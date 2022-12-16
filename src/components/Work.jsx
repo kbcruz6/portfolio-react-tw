@@ -28,15 +28,64 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/*//! Card grid item */}
           {/*//! WEATHER APP*/}
+          {/*//?------------------------------------------------  */}
+          {/* <div className="max-w-sm rounded overflow-hidden shadow-lg">
+            <img className="w-full" src={weather} />
+            <div className="px-6 py-4">
+              <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+              <p className="text-gray-700 text-base">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatibus quia, nulla! Maiores et perferendis eaque,
+                exercitationem praesentium nihil.
+              </p>
+            </div>
+          </div> */}
           <div
+            // data-aos="fade-up"
+            // data-aos-duration="1000"
+            // data-aos-delay="200"
+            className="max-w-sm rounded shadow-lg shadow-[#040c16]"
+          >
+            <div
+              style={{ backgroundImage: `url(${weather})` }}
+              className=" group container rounded-md flex justify-center items-center mx-auto content-div1"
+            >
+              {/*//! Hover effects */}
+              <div className="opacity-0 group-hover:opacity-100 grid grid-rows-2 justify-center items-center w-full h-full p-0 content-div rounded-md duration-300">
+                <span className="text-center font-bold text-2xl opacity-100 text-white pt-5">
+                  NextJS Weather App
+                </span>
+                <div className="flex text-center justify-center align-top pb-8">
+                  <a
+                    href="https://weather-agustincruz.vercel.app/"
+                    target="_blank"
+                  >
+                    <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                      <FaEye size={30} />
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/kbcruz6/weather-nextjs-app"
+                    target="_blank"
+                  >
+                    <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                      <FaGithub size={30} />
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/*//?------------------------------------------------  */}
+          {/* <div
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="200"
             style={{ backgroundImage: `url(${weather})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
-          >
-            {/*//! Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100 grid grid-rows-2 justify-center items-center w-full h-full p-0 content-div rounded-md duration-300">
+          > */}
+          {/*//! Hover effects */}
+          {/* <div className="opacity-0 group-hover:opacity-100 grid grid-rows-2 justify-center items-center w-full h-full p-0 content-div rounded-md duration-300">
               <span className="text-center font-bold text-2xl opacity-100 text-white pt-5">
                 NextJS Weather App
               </span>
@@ -60,7 +109,7 @@ const Work = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
           {/*//! REACT APPS*/}
           <div
             data-aos="fade-up"

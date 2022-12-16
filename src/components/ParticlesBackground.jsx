@@ -27,7 +27,7 @@ const ParticlesBackground = () => {
   const options = useMemo(() => {
     return {
       background: {
-        color: "#0a192f",
+        color: "#0d1e3a",
       },
       fullScreen: {
         enable: true,
@@ -93,7 +93,7 @@ const ParticlesBackground = () => {
           color: "#ed8936",
           enable: true,
           distance: 800,
-          opacity: 0.08,
+          opacity: 0.15,
         },
         move: {
           enable: true,
