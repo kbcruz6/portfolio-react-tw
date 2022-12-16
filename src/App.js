@@ -85,7 +85,11 @@ function App() {
             title: "Succes!",
             text: `Thanks for your message ${mailerState.name}!👋🏻`,
             icon: "success",
-            confirmButtonText: "My pleasure Sr",
+            color: "#ed8936",
+            background: "#0d1e3a",
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true,
           });
         } else if (resData.status === "fail") {
           Swal.fire({
