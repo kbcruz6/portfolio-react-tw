@@ -29,68 +29,18 @@ const Work = () => {
           {/*//! Card grid item */}
           {/*//! WEATHER APP*/}
           {/*//?------------------------------------------------  */}
-          {/* <div className="max-w-sm rounded overflow-hidden shadow-lg">
-            <img className="w-full" src={weather} />
-            <div className="px-6 py-4">
-              <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-              <p className="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.
-              </p>
-            </div>
-          </div> */}
           <div
-            // data-aos="fade-up"
-            // data-aos-duration="1000"
-            // data-aos-delay="200"
-            className="max-w-sm rounded shadow-lg shadow-[#040c16]"
-          >
-            <div
-              style={{ backgroundImage: `url(${weather})` }}
-              className=" group container rounded-md flex justify-center items-center mx-auto content-div1"
-            >
-              {/*//! Hover effects */}
-              <div className="opacity-0 group-hover:opacity-100 grid grid-rows-2 justify-center items-center w-full h-full p-0 content-div rounded-md duration-300">
-                <span className="text-center font-bold text-2xl opacity-100 text-white pt-5">
-                  NextJS Weather App
-                </span>
-                <div className="flex text-center justify-center align-top pb-8">
-                  <a
-                    href="https://weather-agustincruz.vercel.app/"
-                    target="_blank"
-                  >
-                    <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                      <FaEye size={30} />
-                    </button>
-                  </a>
-                  <a
-                    href="https://github.com/kbcruz6/weather-nextjs-app"
-                    target="_blank"
-                  >
-                    <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                      <FaGithub size={30} />
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/*//?------------------------------------------------  */}
-          {/* <div
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="200"
-            style={{ backgroundImage: `url(${weather})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
-          > */}
-          {/*//! Hover effects */}
-          {/* <div className="opacity-0 group-hover:opacity-100 grid grid-rows-2 justify-center items-center w-full h-full p-0 content-div rounded-md duration-300">
-              <span className="text-center font-bold text-2xl opacity-100 text-white pt-5">
-                NextJS Weather App
-              </span>
-
-              <div className="flex text-center justify-center align-top pb-8">
+            className="max-w-sm rounded-md shadow-lg shadow-[#040c16] p-2 bg-[#11294e]/50 hover:bg-[#11294e]/90"
+          >
+            <div
+              style={{ backgroundImage: `url(${weather})` }}
+              className="group container rounded-md flex justify-center items-center mx-auto content-div1"
+            >
+              {/*//! Hover effects */}
+              <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md duration-300">
                 <a
                   href="https://weather-agustincruz.vercel.app/"
                   target="_blank"
@@ -109,117 +59,132 @@ const Work = () => {
                 </a>
               </div>
             </div>
-          </div> */}
+            <div className="font-bold text-xl my-2 flex justify-center items-center">
+              NextJS Weather App
+            </div>
+          </div>
+          {/*//?------------------------------------------------  */}
           {/*//! REACT APPS*/}
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="300"
-            style={{ backgroundImage: `url(${reactApps})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
+            className="max-w-sm rounded-md shadow-lg shadow-[#040c16] p-2  bg-[#11294e]/50 hover:bg-[#11294e]/90 duration-300"
           >
-            {/*//! Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100 grid grid-rows-2 justify-center items-center w-full h-full p-0 content-div rounded-md">
-              <span className="text-center font-bold text-2xl opacity-100 text-white pt-5">
-                React js Apps{" "}
-              </span>
-
-              <div className="flex text-center justify-start align-top pb-8">
-                <a href="https://kbcruz6.github.io/react/" target="_blank">
-                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    <FaEye size={30} />
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/kbcruz6/kbcruz6.github.io/tree/main/react"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    <FaGithub size={30} />
-                  </button>
-                </a>
+            <div
+              style={{ backgroundImage: `url(${reactApps})` }}
+              className="group container rounded-md flex justify-center items-center mx-auto content-div1"
+            >
+              {/*//! Hover effects */}
+              <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md">
+                <div className="flex text-center justify-start">
+                  <a href="https://kbcruz6.github.io/react/" target="_blank">
+                    <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                      <FaEye size={30} />
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/kbcruz6/kbcruz6.github.io/tree/main/react"
+                    target="_blank"
+                  >
+                    <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                      <FaGithub size={30} />
+                    </button>
+                  </a>
+                </div>
               </div>
+            </div>{" "}
+            <div className="font-bold text-xl my-2 flex justify-center items-center">
+              React Apps
             </div>
           </div>
           {/*//! WEB CV */}
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-delay="600"
-            style={{ backgroundImage: `url(${cvWeb})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
+            data-aos-delay="400"
+            className="max-w-sm rounded-md shadow-lg shadow-[#040c16] p-2  bg-[#11294e]/50 hover:bg-[#11294e]/90 duration-300"
           >
-            {/*//! Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100 grid grid-rows-2 justify-center items-center w-full h-full p-0 content-div rounded-md">
-              <span className="text-center font-bold text-2xl opacity-100 text-white pt-5">
-                My Web CV!
-              </span>
-              <div className="flex text-center justify-start align-top pb-8">
-                <a
-                  href="https://kbcruz6.github.io/CvAgustinCruz/"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    <FaEye size={30} />
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/kbcruz6/kbcruz6.github.io/tree/main/CvAgustinCruz"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    <FaGithub size={30} />
-                  </button>
-                </a>
+            <div
+              style={{ backgroundImage: `url(${cvWeb})` }}
+              className="group container rounded-md flex justify-center items-center mx-auto content-div1"
+            >
+              {/*//! Hover effects */}
+              <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md">
+                <div className="flex text-center justify-start">
+                  <a
+                    href="https://kbcruz6.github.io/CvAgustinCruz/"
+                    target="_blank"
+                  >
+                    <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                      <FaEye size={30} />
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/kbcruz6/kbcruz6.github.io/tree/main/CvAgustinCruz"
+                    target="_blank"
+                  >
+                    <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                      <FaGithub size={30} />
+                    </button>
+                  </a>
+                </div>
               </div>
+            </div>{" "}
+            <div className="font-bold text-xl my-2 flex justify-center items-center">
+              My Web CV{" "}
             </div>
-          </div>{" "}
+          </div>
           {/*//! NEXT JS xkcd */}
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-delay="800"
-            style={{ backgroundImage: `url(${nextJs})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
+            data-aos-delay="500"
+            className="max-w-sm rounded-md shadow-lg shadow-[#040c16] p-2  bg-[#11294e]/50 hover:bg-[#11294e]/90 duration-300"
           >
-            {/*//! Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100 grid grid-rows-2 justify-center items-center w-full h-full p-0 content-div rounded-md">
-              <span className="text-center font-bold text-2xl opacity-100 text-white pt-5">
-                First NextJS App
-              </span>
-
-              <div className="flex text-center justify-start align-top pb-8">
-                <a href="https://xkcd-nextjs-indol.vercel.app/" target="_blank">
-                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    <FaEye size={30} />
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/kbcruz6/xkcd-next-app"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    <FaGithub size={30} />
-                  </button>
-                </a>
+            <div
+              style={{ backgroundImage: `url(${nextJs})` }}
+              className="group container rounded-md flex justify-center items-center mx-auto content-div1"
+            >
+              {/*//! Hover effects */}
+              <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md">
+                <div className="flex text-center justify-start">
+                  <a
+                    href="https://xkcd-nextjs-indol.vercel.app/"
+                    target="_blank"
+                  >
+                    <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                      <FaEye size={30} />
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/kbcruz6/xkcd-next-app"
+                    target="_blank"
+                  >
+                    <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                      <FaGithub size={30} />
+                    </button>
+                  </a>
+                </div>
               </div>
+            </div>{" "}
+            <div className="font-bold text-xl my-2 flex justify-center items-center">
+              First NextJS App{" "}
             </div>
           </div>
           {/*//! CURRENT PORTFOLIO */}
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-delay="1000"
-            style={{ backgroundImage: `url(${currentPortfolio})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
+            data-aos-delay="600"
+            className="max-w-sm rounded-md shadow-lg shadow-[#040c16] p-2 bg-[#11294e]/50 hover:bg-[#11294e]/90"
           >
-            {/*//! Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100 grid grid-rows-2 justify-center items-center w-full h-full p-0 content-div rounded-md">
-              <span className="text-center font-bold text-2xl opacity-100 text-white pt-5">
-                Current Portfolio
-              </span>
-
-              <div className="flex text-center justify-start align-top pb-8">
+            <div
+              style={{ backgroundImage: `url(${currentPortfolio})` }}
+              className="group container rounded-md flex justify-center items-center mx-auto content-div1"
+            >
+              {/*//! Hover effects */}
+              <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md duration-300">
                 <Link to="home" smooth={true} duration={500}>
                   <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
                     <FaEye size={30} />
@@ -234,40 +199,46 @@ const Work = () => {
                   </button>
                 </a>
               </div>
+            </div>{" "}
+            <div className="font-bold text-xl my-2 flex justify-center items-center">
+              Current Portfolio{" "}
             </div>
           </div>
           {/*//! PURE JS */}
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-delay="1200"
-            style={{ backgroundImage: `url(${pureJs})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div1"
+            data-aos-delay="700"
+            className="max-w-sm rounded-md shadow-lg shadow-[#040c16] p-2  bg-[#11294e]/50 hover:bg-[#11294e]/90 duration-300"
           >
-            {/*//! Hover effects */}
-            <div className="opacity-0 group-hover:opacity-100 grid grid-rows-2 justify-center items-center w-full h-full p-0 content-div rounded-md">
-              <span className="text-center font-bold text-2xl opacity-100 text-white pt-5">
-                Pure JavaScript
-              </span>
-
-              <div className="flex text-center justify-start align-top pb-8">
-                <a
-                  href="https://kbcruz6.github.io/MixJsLittleProjects/"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    <FaEye size={30} />
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/kbcruz6/kbcruz6.github.io/tree/main/MixJsLittleProjects/<FaGithub size={30} />%20here"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    <FaGithub size={30} />
-                  </button>
-                </a>
+            <div
+              style={{ backgroundImage: `url(${pureJs})` }}
+              className="group container rounded-md flex justify-center items-center mx-auto content-div1"
+            >
+              {/*//! Hover effects */}
+              <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md">
+                <div className="flex text-center justify-start">
+                  <a
+                    href="https://kbcruz6.github.io/MixJsLittleProjects/"
+                    target="_blank"
+                  >
+                    <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                      <FaEye size={30} />
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/kbcruz6/kbcruz6.github.io/tree/main/MixJsLittleProjects/<FaGithub size={30} />%20here"
+                    target="_blank"
+                  >
+                    <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                      <FaGithub size={30} />
+                    </button>
+                  </a>
+                </div>
               </div>
+            </div>{" "}
+            <div className="font-bold text-xl my-2 flex justify-center items-center">
+              Pure JavaScript{" "}
             </div>
           </div>
           {/*//! OLD PORTFOLIO 

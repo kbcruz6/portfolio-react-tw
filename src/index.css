@@ -44,14 +44,14 @@ textarea:not(:focus-within) ~ label {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 180px;
+  height: 150px;
 }
 .content-div:hover{
   transition-duration: 300ms;
   background-image: linear-gradient(
     to right,
-    rgba(251, 149, 66, 0.9),
-    rgba(255, 115, 0, 0.9)
+    rgba(251, 149, 66, 0.4),
+    rgba(255, 115, 0, 0.8)
   )!important;
 }
 .content-div:not(:hover){

@@ -135,7 +135,7 @@ function App() {
             <div
               data-aos="fade-right"
               data-aos-duration="800"
-              // data-aos-delay="500"
+              data-aos-delay="300"
               className="outline-white relative z-10 border-2 border-orange-300 focus-within:border-orange-500 mb-2  hover:border-orange-500 duration-300"
             >
               <input
@@ -158,7 +158,7 @@ function App() {
             <div
               data-aos="fade-left"
               data-aos-duration="800"
-              data-aos-delay="700"
+              data-aos-delay="400"
               className="outline-white relative z-10 border-2 border-orange-300 focus-within:border-orange-500 mb-2  hover:border-orange-500 duration-300"
             >
               <input
@@ -181,7 +181,7 @@ function App() {
             <div
               data-aos="fade-right"
               data-aos-duration="800"
-              data-aos-delay="900"
+              data-aos-delay="500"
               className="outline-white relative z-10 border-2 border-orange-300 focus-within:border-orange-500 mb-2  hover:border-orange-500 duration-300"
             >
               <textarea
@@ -204,7 +204,7 @@ function App() {
             <button
               data-aos="fade-left"
               data-aos-duration="800"
-              data-aos-delay="1100"
+              data-aos-delay="600"
               className="text-xl border-2 border-orange-300 text-orange-300 hover:text-white hover:bg-orange-600 hover:border-orange-500 duration-200 px-5 py-2 my-3 mx-auto flex items-center"
             >
               Send
