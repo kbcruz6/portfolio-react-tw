@@ -6,6 +6,7 @@ import pureJs from "../assets/pureJs.png";
 import nextJs from "../assets/nextJsApp.png";
 import currentPortfolio from "../assets/currentPortfolio.png";
 import weather from "../assets/weather.png";
+import { FaEye, FaGithub } from "react-icons/fa";
 
 const Work = () => {
   return (
@@ -45,16 +46,16 @@ const Work = () => {
                   href="https://weather-agustincruz.vercel.app/"
                   target="_blank"
                 >
-                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    Demo
+                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    <FaEye size={30} />
                   </button>
                 </a>
                 <a
                   href="https://github.com/kbcruz6/weather-nextjs-app"
                   target="_blank"
                 >
-                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    Code
+                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    <FaGithub size={30} />
                   </button>
                 </a>
               </div>
@@ -76,16 +77,16 @@ const Work = () => {
 
               <div className="flex text-center justify-start align-top pb-8">
                 <a href="https://kbcruz6.github.io/react/" target="_blank">
-                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    Demo
+                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    <FaEye size={30} />
                   </button>
                 </a>
                 <a
                   href="https://github.com/kbcruz6/kbcruz6.github.io/tree/main/react"
                   target="_blank"
                 >
-                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    Code
+                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    <FaGithub size={30} />
                   </button>
                 </a>
               </div>
@@ -109,16 +110,16 @@ const Work = () => {
                   href="https://kbcruz6.github.io/CvAgustinCruz/"
                   target="_blank"
                 >
-                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    Demo
+                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    <FaEye size={30} />
                   </button>
                 </a>
                 <a
                   href="https://github.com/kbcruz6/kbcruz6.github.io/tree/main/CvAgustinCruz"
                   target="_blank"
                 >
-                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    Code
+                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    <FaGithub size={30} />
                   </button>
                 </a>
               </div>
@@ -140,16 +141,16 @@ const Work = () => {
 
               <div className="flex text-center justify-start align-top pb-8">
                 <a href="https://xkcd-nextjs-indol.vercel.app/" target="_blank">
-                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    Demo
+                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    <FaEye size={30} />
                   </button>
                 </a>
                 <a
                   href="https://github.com/kbcruz6/xkcd-next-app"
                   target="_blank"
                 >
-                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    Code
+                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    <FaGithub size={30} />
                   </button>
                 </a>
               </div>
@@ -171,16 +172,16 @@ const Work = () => {
 
               <div className="flex text-center justify-start align-top pb-8">
                 <Link to="home" smooth={true} duration={500}>
-                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    Demo
+                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    <FaEye size={30} />
                   </button>
                 </Link>
                 <a
                   href="https://github.com/kbcruz6/portfolio-react-tw"
                   target="_blank"
                 >
-                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    Code
+                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    <FaGithub size={30} />
                   </button>
                 </a>
               </div>
@@ -205,16 +206,16 @@ const Work = () => {
                   href="https://kbcruz6.github.io/MixJsLittleProjects/"
                   target="_blank"
                 >
-                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    Demo
+                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    <FaEye size={30} />
                   </button>
                 </a>
                 <a
-                  href="https://github.com/kbcruz6/kbcruz6.github.io/tree/main/MixJsLittleProjects/code%20here"
+                  href="https://github.com/kbcruz6/kbcruz6.github.io/tree/main/MixJsLittleProjects/<FaGithub size={30} />%20here"
                   target="_blank"
                 >
-                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    Code
+                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    <FaGithub size={30} />
                   </button>
                 </a>
               </div>
@@ -236,16 +237,16 @@ const Work = () => {
 
               <div className="flex text-center justify-start align-top pb-8">
                 <a href="https://kbcruz6.github.io/" target="_blank">
-                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    Demo
+                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    <FaEye size={30} />
                   </button>
                 </a>
                 <a
                   href="https://github.com/kbcruz6/kbcruz6.github.io"
                   target="_blank"
                 >
-                  <button className="text-center rounded-lg px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    Code
+                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                    <FaGithub size={30} />
                   </button>
                 </a>
               </div>
