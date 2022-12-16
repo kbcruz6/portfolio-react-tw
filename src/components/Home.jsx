@@ -4,7 +4,10 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen ">
+    <div
+      name="home"
+      className="w-full h-screen bg-black/80 dark:bg-transparent duration-300 fixed dark:relative"
+    >
       {/*//! Container */}
       <div
         // data-aos="fade-right"
@@ -16,8 +19,9 @@ const Home = () => {
           I'm Agustin Cruz
         </h1>{" "}
         {/*//! OOPS  */}
-        <p className="text-white dark:hidden text-2xl text-center duration-300">
-          Oops... the light is off! Please turn it on, to see the content...{" "}
+        <p className="text-white dark:hidden text-4xl text-center duration-300">
+          Oops, it's dark! <br></br>
+          <br></br> Please turn on the light to see the content...
         </p>
         {/*//! <--->  */}
         <h2 className="text-4xl sm:text-7xl font-bold dark:text-orange-600 ">
