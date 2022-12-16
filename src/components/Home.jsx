@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="w-full h-screen bg-black/80 dark:bg-transparent duration-300 fixed dark:relative"
+      className="w-full h-screen bg-black/80 dark:bg-transparent duration-300 fixed dark:relative "
     >
       {/*//! Container */}
       <div

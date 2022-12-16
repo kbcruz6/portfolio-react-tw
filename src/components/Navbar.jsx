@@ -131,59 +131,61 @@ const Navbar = ({ toggleTheme }) => {
       </ul> */}
 
       {/*//! Social media vertical */}
-      <div className="hidden lg:flex fixed flex-col lg:top-[26%] lg:left-0">
-        <ul>
-          {/*//! LinkedIn  */}
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-blue-600">
-            <a
-              href="https://www.linkedin.com/in/agustin-frontend-react/"
-              className="flex justify-between items-center w-full text-gray-300"
-              target="_blank"
-            >
-              LinkedIn <FaLinkedin size={30} />
-            </a>
-          </li>{" "}
-          {/*//! GitHub  */}
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#333333]">
-            <a
-              href="https://github.com/kbcruz6"
-              target="_blank"
-              className="flex justify-between items-center w-full text-gray-300"
-            >
-              GitHub <FaGithub size={30} />
-            </a>
-          </li>{" "}
-          {/*//! Email  */}
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#61ab9b]">
-            <a
-              href="mailto:agustin.tcw@gmail.com"
-              target="_blank"
-              className="flex justify-between items-center w-full text-gray-300"
-            >
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li>{" "}
-          {/*//! CV  */}
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#565f69]">
-            <a
-              href="https://github.com/kbcruz6/kbcruz6.github.io/raw/main/CvAgustinCruz/CV%20Agustin%20Cruz.pdf"
-              className="flex justify-between items-center w-full text-gray-300"
-            >
-              Resume <FiPaperclip size={30} />
-            </a>
-          </li>
-          {/*//! Phone  */}
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#25D366]">
-            <a
-              href="http://api.whatsapp.com/send?phone=541122552730"
-              className="flex justify-between items-center w-full text-white"
-              target="_blank"
-            >
-              WhatsApp
-              <BsWhatsapp size={30} />
-            </a>
-          </li>
-        </ul>
+      <div className="invisible dark:visible">
+        <div className="hidden lg:flex fixed flex-col lg:top-[26%] lg:left-0">
+          <ul>
+            {/*//! LinkedIn  */}
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-blue-600">
+              <a
+                href="https://www.linkedin.com/in/agustin-frontend-react/"
+                className="flex justify-between items-center w-full text-gray-300"
+                target="_blank"
+              >
+                LinkedIn <FaLinkedin size={30} />
+              </a>
+            </li>{" "}
+            {/*//! GitHub  */}
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#333333]">
+              <a
+                href="https://github.com/kbcruz6"
+                target="_blank"
+                className="flex justify-between items-center w-full text-gray-300"
+              >
+                GitHub <FaGithub size={30} />
+              </a>
+            </li>{" "}
+            {/*//! Email  */}
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#61ab9b]">
+              <a
+                href="mailto:agustin.tcw@gmail.com"
+                target="_blank"
+                className="flex justify-between items-center w-full text-gray-300"
+              >
+                Email <HiOutlineMail size={30} />
+              </a>
+            </li>{" "}
+            {/*//! CV  */}
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#565f69]">
+              <a
+                href="https://github.com/kbcruz6/kbcruz6.github.io/raw/main/CvAgustinCruz/CV%20Agustin%20Cruz.pdf"
+                className="flex justify-between items-center w-full text-gray-300"
+              >
+                Resume <FiPaperclip size={30} />
+              </a>
+            </li>
+            {/*//! Phone  */}
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#25D366]">
+              <a
+                href="http://api.whatsapp.com/send?phone=541122552730"
+                className="flex justify-between items-center w-full text-white"
+                target="_blank"
+              >
+                WhatsApp
+                <BsWhatsapp size={30} />
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );

@@ -119,7 +119,7 @@ function App() {
       {/*//! --------------------CONTACT------------------------  */}
       <div
         name="contact"
-        className="w-full h-screen flex justify-center items-center p-4"
+        className="w-full h-screen flex justify-center items-center p-4 invisible dark:visible"
       >
         <div className="flex flex-col justify-center items-center w-full h-full">
           <form onSubmit={submitEmail}>

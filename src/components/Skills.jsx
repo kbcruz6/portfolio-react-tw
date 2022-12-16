@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="w-full h-screen dark:text-orange-200 text-transparent duration-300 "
+      className="w-full h-screen text-orange-200 duration-300 invisible dark:visible"
     >
       {/*//! Container */}
       <div className="max-w-[1000px] w-full h-full mx-auto items-center p-4 flex flex-col justify-center ">

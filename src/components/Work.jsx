@@ -11,7 +11,7 @@ const Work = () => {
   return (
     <div
       name="work"
-      className="w-full md:h-screen dark:text-orange-200 text-transparent duration-300"
+      className="w-full md:h-screen text-orange-200 invisible dark:visible duration-300"
     >
       <div className="max-w-[1000px] mx-auto p-4 dark:flex hidden flex-col justify-center w-full h-full duration-300">
         <div className="pb-8">
