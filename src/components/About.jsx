@@ -34,8 +34,8 @@ const About = () => {
             data-aos-delay="500"
           >
             <p>
-              I am also very curious and persistent, what is super useful in
-              this environment to face the daily challenges and solve problems.{" "}
+              I am very curious and persistent, what is super useful in this
+              environment to face the daily challenges and solve problems.{" "}
               <p className="my-2">
                 I have a creative way to think above and beyond, also a great
                 ability to learn quickly and flexibility to continuous change.
