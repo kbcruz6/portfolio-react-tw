@@ -24,7 +24,7 @@ const Home = () => {
           <br></br> Please turn on the light to see the content...
         </p>
         {/*//! <--->  */}
-        <h2 className="text-4xl sm:text-7xl font-bold dark:text-orange-600 ">
+        <h2 className="text-4xl sm:text-7xl font-bold dark:text-orange-500 ">
           a Frontend Developer.
         </h2>
         <p className="py-4 max-w-[700px] ">
@@ -34,7 +34,7 @@ const Home = () => {
         </p>
         <div>
           <Link to="about" smooth={true} duration={500}>
-            <button className="group dark:border-2 dark:border-orange-300 px-4 py-3 my-2 flex items-center dark:hover:text-white dark:hover:bg-orange-600 dark:hover:border-orange-600 dark:text-orange-300">
+            <button className="group dark:border-2 dark:border-orange-300 px-4 py-3 my-2 flex items-center dark:hover:text-white dark:hover:bg-orange-500 dark:hover:border-orange-500 dark:text-orange-300">
               Have a look!
               <HiArrowNarrowDown className="ml-3 animate-bounce" />
             </button>

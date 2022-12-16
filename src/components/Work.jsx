@@ -16,7 +16,7 @@ const Work = () => {
     >
       <div className="max-w-[1000px] mx-auto p-4 dark:flex hidden flex-col justify-center w-full h-full duration-300">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-orange-600">
+          <p className="text-4xl font-bold inline border-b-4 border-orange-500">
             Work
           </p>
           <p data-aos="fade-right" data-aos-duration="1000" className="pt-6">

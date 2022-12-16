@@ -106,7 +106,7 @@ const Contact = () => {
             data-aos="fade-left"
             data-aos-duration="800"
             data-aos-delay="1100"
-            className="text-xl border-2 border-orange-300 text-orange-300 hover:text-white hover:bg-orange-600 hover:border-orange-500 duration-200 px-5 py-2 my-3 mx-auto flex items-center"
+            className="text-xl border-2 border-orange-300 text-orange-300 hover:text-white hover:bg-orange-500 hover:border-orange-500 duration-200 px-5 py-2 my-3 mx-auto flex items-center"
           >
             Send
           </button>

@@ -22,7 +22,7 @@ const Navbar = ({ toggleTheme }) => {
         <li className="relative group hover:opacity-90 px-0 mx-2 ">
           <Link to="home" smooth={true} duration={500} className="">
             Home
-            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-orange-600 transition-all group-hover:w-full"></span>
+            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-orange-500 transition-all group-hover:w-full"></span>
           </Link>
         </li>
 
@@ -30,7 +30,7 @@ const Navbar = ({ toggleTheme }) => {
         <li className="relative group hover:opacity-90 px-0 mx-2">
           <Link to="about" smooth={true} duration={500}>
             Me
-            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-orange-600 transition-all group-hover:w-full"></span>
+            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-orange-500 transition-all group-hover:w-full"></span>
           </Link>
         </li>
 
@@ -38,7 +38,7 @@ const Navbar = ({ toggleTheme }) => {
         <li className="relative group hover:opacity-90 px-0 mx-2">
           <Link to="skills" smooth={true} duration={500}>
             Skills
-            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-orange-600 transition-all group-hover:w-full"></span>
+            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-orange-500 transition-all group-hover:w-full"></span>
           </Link>
         </li>
 
@@ -46,7 +46,7 @@ const Navbar = ({ toggleTheme }) => {
         <li className="relative group hover:opacity-90 px-0 mx-2">
           <Link to="work" smooth={true} duration={500}>
             Work
-            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-orange-600 transition-all group-hover:w-full"></span>
+            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-orange-500 transition-all group-hover:w-full"></span>
           </Link>
         </li>
 
@@ -54,7 +54,7 @@ const Navbar = ({ toggleTheme }) => {
         <li className="relative group hover:opacity-90 px-0 mx-2">
           <Link to="contact" smooth={true} duration={500}>
             Contact
-            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-orange-600 transition-all group-hover:w-full"></span>
+            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-orange-500 transition-all group-hover:w-full"></span>
           </Link>
         </li>
 

@@ -10,7 +10,7 @@ const About = () => {
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full px-4 ">
           <div className="sm:text-center pb-8 ">
-            <p className="text-4xl font-bold inline dark:border-b-4 dark:border-orange-600">
+            <p className="text-4xl font-bold inline dark:border-b-4 dark:border-orange-500">
               This is me 🙋🏻‍♂️
             </p>
           </div>
