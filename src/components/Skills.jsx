@@ -96,50 +96,6 @@ const Skills = () => {
             <p>React JS</p>
           </div>
 
-          {/*//! TAILWIND  */}
-          <div
-            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
-            data-aos-duration="2000"
-            data-aos-delay="500"
-            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
-          >
-            <img
-              className="w-20 mx-auto hover:scale-110 duration-500"
-              src={Tailwind}
-              alt="HTML icon"
-            />
-            <p>Tailwind</p>
-          </div>
-
-          {/*//! NEXT  */}
-          {/* <div
-            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
-            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
-            data-aos-duration="2000"
-            data-aos-delay="500"
-          >
-            <img
-              className="w-20 mx-auto hover:scale-110 duration-500"
-              src={Nextjs}
-              alt="HTML icon"
-            />
-            <p>Next JS</p>
-          </div> */}
-
-          {/*//! GITHUB  */}
-          <div
-            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
-            data-aos-duration="2000"
-            data-aos-delay="500"
-            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
-          >
-            <img
-              className="w-20 mx-auto hover:scale-110 duration-500"
-              src={GitHub}
-              alt="HTML icon"
-            />
-            <p>GitHub</p>
-          </div>
           {/*//! MYSQL  */}
           <div
             data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
@@ -169,6 +125,50 @@ const Skills = () => {
             />
             <p>Node JS</p>
           </div>
+          {/*//! TAILWIND  */}
+          <div
+            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
+            data-aos-duration="2000"
+            data-aos-delay="500"
+            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+          >
+            <img
+              className="w-20 mx-auto hover:scale-110 duration-500"
+              src={Tailwind}
+              alt="HTML icon"
+            />
+            <p>Tailwind</p>
+          </div>
+
+          {/*//! GITHUB  */}
+          <div
+            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
+            data-aos-duration="2000"
+            data-aos-delay="500"
+            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+          >
+            <img
+              className="w-20 mx-auto hover:scale-110 duration-500"
+              src={GitHub}
+              alt="HTML icon"
+            />
+            <p>GitHub</p>
+          </div>
+
+          {/*//! NEXT  */}
+          {/* <div
+          // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+          data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
+          data-aos-duration="2000"
+          data-aos-delay="500"
+        >
+          <img
+            className="w-20 mx-auto hover:scale-110 duration-500"
+            src={Nextjs}
+            alt="HTML icon"
+          />
+          <p>Next JS</p>
+        </div> */}
         </div>
       </div>
     </div>
