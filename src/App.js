@@ -124,10 +124,10 @@ function App() {
         <div className="flex flex-col justify-center items-center w-full h-full">
           <form onSubmit={submitEmail}>
             <div className="pb-1">
-              <p className="text-4xl font-bold inline border-b-4 border-orange-500  text-orange-300">
+              <p className="text-4xl font-bold inline border-b-4 border-orange-500  text-orange-200">
                 Contact me!
               </p>
-              <p className="pt-4 pb-2 text-orange-300">
+              <p className="pt-4 pb-2 text-orange-200">
                 Submit the form below or email me → agustin.tcw@gmail.com
               </p>
             </div>
@@ -136,82 +136,86 @@ function App() {
               data-aos="fade-right"
               data-aos-duration="800"
               data-aos-delay="300"
-              className="outline-white relative z-10 border-2 border-orange-300 focus-within:border-orange-500 mb-2  hover:border-orange-500 duration-300"
             >
-              <input
-                onChange={handleStateChange}
-                name="name"
-                value={mailerState.name}
-                required
-                type="text"
-                placeholder=" "
-                className="flex p-4 w-full text-md z-10 appearance-none focus:outline-none bg-transparent text-white"
-              />
-              <label
-                for="name"
-                className="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0d1e3a] text-orange-500"
-              >
-                Name
-              </label>
+              <div className="outline-white relative z-10 border-2 border-orange-200 focus-within:border-orange-500 mb-2  hover:border-orange-500 duration-300">
+                <input
+                  onChange={handleStateChange}
+                  name="name"
+                  value={mailerState.name}
+                  required
+                  type="text"
+                  placeholder=" "
+                  className="flex p-4 w-full text-md z-10 appearance-none focus:outline-none bg-transparent text-white"
+                />
+                <label
+                  for="name"
+                  className="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0d1e3a] text-orange-500"
+                >
+                  Name
+                </label>
+              </div>
             </div>
             {/*//! Input email */}
             <div
               data-aos="fade-left"
               data-aos-duration="800"
               data-aos-delay="400"
-              className="outline-white relative z-10 border-2 border-orange-300 focus-within:border-orange-500 mb-2  hover:border-orange-500 duration-300"
             >
-              <input
-                required
-                onChange={handleStateChange}
-                name="email"
-                value={mailerState.email}
-                type="email"
-                placeholder=" "
-                className="flex p-4 w-full text-md z-0 appearance-none focus:outline-none bg-transparent text-white"
-              />
-              <label
-                for="email"
-                className="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0d1e3a] text-orange-500"
-              >
-                Email
-              </label>
+              <div className="outline-white relative z-10 border-2 border-orange-200 focus-within:border-orange-500 mb-2  hover:border-orange-500 duration-300">
+                <input
+                  required
+                  onChange={handleStateChange}
+                  name="email"
+                  value={mailerState.email}
+                  type="email"
+                  placeholder=" "
+                  className="flex p-4 w-full text-md z-0 appearance-none focus:outline-none bg-transparent text-white"
+                />
+                <label
+                  for="email"
+                  className="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0d1e3a] text-orange-500"
+                >
+                  Email
+                </label>
+              </div>
             </div>
             {/*//! Textarea message */}
             <div
               data-aos="fade-right"
               data-aos-duration="800"
               data-aos-delay="500"
-              className="outline-white relative z-10 border-2 border-orange-300 focus-within:border-orange-500 mb-2  hover:border-orange-500 duration-300"
             >
-              <textarea
-                onChange={handleStateChange}
-                name="message"
-                value={mailerState.message}
-                required
-                type="text"
-                placeholder=" "
-                className="flex p-4 w-full text-md z-0 appearance-none focus:outline-none bg-transparent text-white"
-              />
-              <label
-                for="message"
-                className="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0d1e3a] text-orange-500"
-              >
-                Message
-              </label>
+              <div className="outline-white relative z-10 border-2 border-orange-200 focus-within:border-orange-500 mb-2  hover:border-orange-500 duration-300">
+                <textarea
+                  onChange={handleStateChange}
+                  name="message"
+                  value={mailerState.message}
+                  required
+                  type="text"
+                  placeholder=" "
+                  className="flex p-4 w-full text-md z-0 appearance-none focus:outline-none bg-transparent text-white"
+                />
+                <label
+                  for="message"
+                  className="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0d1e3a] text-orange-500"
+                >
+                  Message
+                </label>
+              </div>
             </div>
             {/*//! Button */}
-            <button
+            <div
               data-aos="fade-left"
               data-aos-duration="800"
               data-aos-delay="600"
-              className="text-xl border-2 border-orange-300 text-orange-300 hover:text-white hover:bg-orange-500 hover:border-orange-500 duration-200 px-5 py-2 my-3 mx-auto flex items-center"
             >
-              Send
-            </button>
+              <button className="text-xl border-2 border-orange-200 text-orange-200 hover:text-white hover:bg-orange-500 hover:border-orange-500 duration-300 px-5 py-2 my-3 mx-auto flex items-center">
+                Send
+              </button>
+            </div>
           </form>
           {/*//! Loading button  */}
-          <button type="button" disabled className={clase}>
+          {/* <button type="button" disabled className={clase}>
             <svg className="h-4 w-4 animate-spin" viewBox="3 3 18 18">
               <path
                 className="fill-orange-800"
@@ -223,7 +227,7 @@ function App() {
               ></path>
             </svg>
             <span> Sending your message...</span>
-          </button>
+          </button> */}
         </div>
       </div>
       {/*//! ---------------------------------------------------  */}
