@@ -7,6 +7,7 @@ import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
 import CSS from "../assets/css.png";
 import HTML from "../assets/html.png";
+import MySQL from "../assets/mysql.png";
 
 const Skills = () => {
   return (
@@ -111,7 +112,7 @@ const Skills = () => {
           </div>
 
           {/*//! NEXT  */}
-          <div
+          {/* <div
             // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
             data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
             data-aos-duration="2000"
@@ -123,7 +124,7 @@ const Skills = () => {
               alt="HTML icon"
             />
             <p>Next JS</p>
-          </div>
+          </div> */}
 
           {/*//! GITHUB  */}
           <div
@@ -138,6 +139,20 @@ const Skills = () => {
               alt="HTML icon"
             />
             <p>GitHub</p>
+          </div>
+          {/*//! MYSQL  */}
+          <div
+            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
+            data-aos-duration="2000"
+            data-aos-delay="500"
+            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+          >
+            <img
+              className="w-[6.4rem] mx-auto hover:scale-110 duration-500"
+              src={MySQL}
+              alt="HTML icon"
+            />
+            {/* <p>MySQL</p> */}
           </div>
 
           {/*//! NODE JS  */}
