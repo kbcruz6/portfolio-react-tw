@@ -215,7 +215,7 @@ function App() {
             </div>
           </form>
           {/*//! Loading button  */}
-          {/* <button type="button" disabled className={clase}>
+          <button type="button" disabled className={clase}>
             <svg className="h-4 w-4 animate-spin" viewBox="3 3 18 18">
               <path
                 className="fill-orange-800"
@@ -227,7 +227,7 @@ function App() {
               ></path>
             </svg>
             <span> Sending your message...</span>
-          </button> */}
+          </button>
         </div>
       </div>
       {/*//! ---------------------------------------------------  */}
