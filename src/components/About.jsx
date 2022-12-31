@@ -40,6 +40,11 @@ const About = () => {
                 I have a creative way to think above and beyond, also a great
                 ability to learn quickly and flexibility to continuous change.
               </p>
+              <p className="my-2">
+                I am good at motivating people and also finding weaknesses,
+                which provides us the opportunity to improve them and allows us
+                to continue growing.
+              </p>
               <p>
                 I enjoy a lot travelling & I would love to work remotely.
                 Visiting new places, getting to know new people, and practicing
