@@ -16,7 +16,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 sm:items-center">
           <div
             data-aos="fade-right"
             data-aos-duration="1000"
@@ -24,7 +24,7 @@ const About = () => {
           >
             <img
               src={profileImg}
-              className="w-[200px] h-[200px] rounded-full hidden dark:flex"
+              className="w-[200px] sm:w-[250px] sm:h-[250px] h-[200px] rounded-full hidden dark:flex"
             ></img>
           </div>
 
@@ -50,7 +50,7 @@ const About = () => {
                 Visiting new places, getting to know new people, and practicing
                 trekking are my passions, I really love nature life.
               </p>
-              <p className="my-2">Enjoy the journey!</p>
+              <p className="mt-2">Enjoy the journey!</p>
             </p>
           </div>
         </div>
