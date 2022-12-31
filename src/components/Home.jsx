@@ -27,7 +27,7 @@ const Home = () => {
         <h2 className="text-4xl sm:text-7xl font-bold dark:text-orange-500 ">
           a Frontend Developer.
         </h2>
-        <p className="py-4 max-w-[700px] ">
+        <p className="py-4 max-w-[700px] text-justify">
           As a highly motivated Engineer, I'm looking for new challenges in IT &
           development areas, to continue creating solutions and growing
           professionally and personally.

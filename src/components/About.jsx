@@ -32,6 +32,7 @@ const About = () => {
             data-aos="fade-left"
             data-aos-duration="1000"
             data-aos-delay="500"
+            className="text-justify"
           >
             <p>
               I am very curious and persistent, what is super useful in this
