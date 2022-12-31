@@ -24,7 +24,7 @@ const About = () => {
           >
             <img
               src={profileImg}
-              className="w-[200px] sm:w-[250px] sm:h-[250px] h-[200px] rounded-full hidden dark:flex"
+              className="w-[200px] sm:w-[250px] sm:h-[250px] h-[200px] rounded-br-full sm:rounded-bl-full rounded-tl-full sm:rounded-tr-none rounded-tr-full rounded-bl-none hidden dark:flex"
             ></img>
           </div>
 
