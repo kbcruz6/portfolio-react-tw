@@ -6,7 +6,7 @@ import pureJs from "../assets/pureJs.png";
 import nextJs from "../assets/nextJsApp.png";
 import currentPortfolio from "../assets/currentPortfolio.png";
 import weather from "../assets/weather.png";
-import weatherReact from "../assets/weatherReact.png";
+import weatherReact from "../assets/weatherReactDark.png";
 import { FaEye, FaGithub } from "react-icons/fa";
 import books from "../assets/books.png";
 
