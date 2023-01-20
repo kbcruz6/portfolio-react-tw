@@ -74,16 +74,13 @@ const Work = () => {
             >
               {/*//! Hover effects */}
               <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md duration-300">
-                <a
-                  href="https://apeironweather-agustincruz.vercel.app/"
-                  target="_blank"
-                >
+                <a href="https://weather-kbcruz.vercel.app/" target="_blank">
                   <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
                     <FaEye size={30} />
                   </button>
                 </a>
                 <a
-                  href="https://github.com/kbcruz6/weather-app-challenge-apeiron"
+                  href="https://github.com/kbcruz6/weather-app"
                   target="_blank"
                 >
                   <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
