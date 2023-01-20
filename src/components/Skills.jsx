@@ -8,6 +8,7 @@ import Tailwind from "../assets/tailwind.png";
 import CSS from "../assets/css.png";
 import HTML from "../assets/html.png";
 import MySQL from "../assets/mysql.png";
+import mongoDB from "../assets/mongodb.png";
 
 const Skills = () => {
   return (
@@ -96,21 +97,6 @@ const Skills = () => {
             <p>React JS</p>
           </div>
 
-          {/*//! MYSQL  */}
-          <div
-            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
-            data-aos-duration="2000"
-            data-aos-delay="500"
-            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
-          >
-            <img
-              className="w-[6.3rem] mx-auto hover:scale-110 duration-500"
-              src={MySQL}
-              alt="HTML icon"
-            />
-            {/* <p>MySQL</p> */}
-          </div>
-
           {/*//! NODE JS  */}
           <div
             data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
@@ -125,6 +111,37 @@ const Skills = () => {
             />
             <p>Node JS</p>
           </div>
+
+          {/*//! MYSQL  */}
+          <div
+            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
+            data-aos-duration="2000"
+            data-aos-delay="500"
+            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+          >
+            <img
+              className="w-[6.3rem] mx-auto hover:scale-110 duration-500"
+              src={MySQL}
+              alt="mysql icon"
+            />
+            {/* <p>MySQL</p> */}
+          </div>
+
+          {/*//! MONGODB  */}
+          <div
+            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
+            data-aos-duration="2000"
+            data-aos-delay="500"
+            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+          >
+            <img
+              className="w-20 mx-auto hover:scale-110 duration-500"
+              src={mongoDB}
+              alt="mongodb icon"
+            />
+            <p>MongoDB</p>
+          </div>
+
           {/*//! TAILWIND  */}
           <div
             data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
@@ -139,9 +156,8 @@ const Skills = () => {
             />
             <p>Tailwind</p>
           </div>
-
           {/*//! GITHUB  */}
-          <div
+          {/* <div
             data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
             data-aos-duration="2000"
             data-aos-delay="500"
@@ -153,7 +169,7 @@ const Skills = () => {
               alt="HTML icon"
             />
             <p>GitHub</p>
-          </div>
+          </div> */}
 
           {/*//! NEXT  */}
           {/* <div
