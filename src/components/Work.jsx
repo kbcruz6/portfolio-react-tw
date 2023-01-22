@@ -81,7 +81,7 @@ const Work = () => {
             </div>
           </div>
           {/*//! BOOKS MERN APP*/}
-          {/* <div
+          <div
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="300"
@@ -90,28 +90,36 @@ const Work = () => {
             <div
               style={{ backgroundImage: `url(${books})` }}
               className="group container rounded-md flex justify-center items-center mx-auto content-div1"
-            > */}
-          {/*//! Hover effects */}
-          {/* <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md duration-300 gap-2">
-                <a href="https://books-info.vercel.app/" target="_blank">
-                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    <FaEye size={30} />
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/stars/kbcruz6/lists/books-mern-app"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    <FaGithub size={30} />
-                  </button>
-                </a>
+            >
+              {/*//! Hover effects */}
+              <div className="opacity-0 group-hover:opacity-100 hover:bg-[#0d1e3aed] flex flex-col justify-center items-center w-full h-full p-0 content-div rounded-md duration-300 gap-2">
+                <div className="flex flex-row gap-2 ">
+                  <img src={mongoDB} alt="mongodb" className="w-10"></img>{" "}
+                  <img src={ReactImg} alt="react" className="w-10"></img>{" "}
+                  <img src={Node} alt="node" className="w-10"></img>{" "}
+                  <img src={Tailwind} alt="tailwind" className="w-10"></img>{" "}
+                </div>
+                <div>
+                  <a href="https://books-info.vercel.app/" target="_blank">
+                    <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                      <FaEye size={30} />
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/stars/kbcruz6/lists/books-mern-app"
+                    target="_blank"
+                  >
+                    <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                      <FaGithub size={30} />
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
             <div className="font-bold text-xl my-2 flex justify-center items-center">
-              MERN app (w/MySQL)
+              Books MERN app
             </div>
-          </div> */}
+          </div>
           {/*//! WEATHER APP*/}
           <div
             data-aos="fade-up"
@@ -273,7 +281,7 @@ const Work = () => {
             </div>
           </div>
           {/*//! REACT APPS*/}
-          <div
+          {/* <div
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="700"
@@ -282,9 +290,9 @@ const Work = () => {
             <div
               style={{ backgroundImage: `url(${reactApps})` }}
               className="group container rounded-md flex justify-center items-center mx-auto content-div1"
-            >
-              {/*//! Hover effects */}
-              <div className="opacity-0 group-hover:opacity-100 flex flex-col hover:bg-[#0d1e3aed] justify-center items-center w-full h-full p-0 content-div rounded-md duration-300 gap-2">
+            > */}
+          {/*//! Hover effects */}
+          {/* <div className="opacity-0 group-hover:opacity-100 flex flex-col hover:bg-[#0d1e3aed] justify-center items-center w-full h-full p-0 content-div rounded-md duration-300 gap-2">
                 <div className="flex flex-row gap-2">
                   <img src={ReactImg} alt="nextjs" className="w-10"></img>{" "}
                   <img src={CSS} alt="css" className="w-10"></img>{" "}
@@ -309,7 +317,7 @@ const Work = () => {
             <div className="font-bold text-xl my-2 flex justify-center items-center">
               React Apps
             </div>
-          </div>
+          </div> */}
           {/* //! PURE JS
           <div
             data-aos="fade-up"
