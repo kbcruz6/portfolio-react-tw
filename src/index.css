@@ -45,18 +45,18 @@ textarea:not(:focus-within) ~ label {
   background-size: cover;
   background-position: center;
   height: 150px;
-}
+}/* 
 .content-div:hover{
   transition-duration: 300ms;
   background-image: linear-gradient(
     to right,
-    rgba(251, 149, 66, 0.4),
-    rgba(255, 115, 0, 0.8)
+    rgba(251, 149, 66, 0.2),
+    rgba(255, 115, 0, 0.6)
   )!important;
 }
 .content-div:not(:hover){
   transition-duration: 300ms;
-}
+} */
 
 
 .switch-checkbox:checked + .switch-label .switch-button{

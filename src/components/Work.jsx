@@ -10,6 +10,16 @@ import weatherReact from "../assets/weatherReactDark.png";
 import { FaEye, FaGithub } from "react-icons/fa";
 import books from "../assets/books.png";
 import workout from "../assets/workout.png";
+import JavaScript from "../assets/javascript.png";
+import ReactImg from "../assets/react.png";
+import Node from "../assets/node.png";
+import Nextjs from "../assets/nextjs.png";
+import GitHub from "../assets/github.png";
+import Tailwind from "../assets/tailwind.png";
+import CSS from "../assets/css.png";
+import HTML from "../assets/html.png";
+import MySQL from "../assets/mysql.png";
+import mongoDB from "../assets/mongodb.png";
 
 const Work = () => {
   return (
@@ -42,7 +52,13 @@ const Work = () => {
               className="group container rounded-md flex justify-center items-center mx-auto content-div1"
             >
               {/*//! Hover effects */}
-              <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md">
+              <div className="opacity-0 group-hover:opacity-100 hover:bg-[#0d1e3aed] flex flex-col justify-center items-center w-full h-full p-0 content-div rounded-md duration-300 gap-2">
+                <div className="flex flex-row gap-2 ">
+                  <img src={mongoDB} alt="mongodb" className="w-10"></img>{" "}
+                  <img src={ReactImg} alt="react" className="w-10"></img>{" "}
+                  <img src={Node} alt="node" className="w-10"></img>{" "}
+                  <img src={Tailwind} alt="tailwind" className="w-10"></img>{" "}
+                </div>
                 <div className="flex text-center justify-start">
                   <a href="https://workout-kbcruz.vercel.app/" target="_blank">
                     <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
@@ -61,7 +77,7 @@ const Work = () => {
               </div>
             </div>{" "}
             <div className="font-bold text-xl my-2 flex justify-center items-center">
-              MERN app (w/MongoDB){" "}
+              Workout MERN app{" "}
             </div>
           </div>
           {/*//! BOOKS MERN APP*/}
@@ -76,7 +92,7 @@ const Work = () => {
               className="group container rounded-md flex justify-center items-center mx-auto content-div1"
             > */}
           {/*//! Hover effects */}
-          {/* <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md duration-300">
+          {/* <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md duration-300 gap-2">
                 <a href="https://books-info.vercel.app/" target="_blank">
                   <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
                     <FaEye size={30} />
@@ -108,20 +124,26 @@ const Work = () => {
               className="group container rounded-md flex justify-center items-center mx-auto content-div1"
             >
               {/*//! Hover effects */}
-              <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md duration-300">
-                <a href="https://weather-kbcruz.vercel.app/" target="_blank">
-                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    <FaEye size={30} />
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/kbcruz6/weather-app"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    <FaGithub size={30} />
-                  </button>
-                </a>
+              <div className="opacity-0 group-hover:opacity-100 hover:bg-[#0d1e3aed] flex flex-col justify-center items-center w-full h-full p-0 content-div rounded-md duration-300 gap-2">
+                <div className="flex flex-row gap-2 ">
+                  <img src={ReactImg} alt="react" className="w-10"></img>{" "}
+                  <img src={Tailwind} alt="tailwind" className="w-10"></img>{" "}
+                </div>
+                <div>
+                  <a href="https://weather-kbcruz.vercel.app/" target="_blank">
+                    <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                      <FaEye size={30} />
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/kbcruz6/weather-app"
+                    target="_blank"
+                  >
+                    <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                      <FaGithub size={30} />
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
             <div className="font-bold text-xl my-2 flex justify-center items-center">
@@ -140,7 +162,12 @@ const Work = () => {
               className="group container rounded-md flex justify-center items-center mx-auto content-div1"
             >
               {/*//! Hover effects */}
-              <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md">
+              <div className="opacity-0 group-hover:opacity-100 hover:bg-[#0d1e3aed] flex flex-col justify-center items-center w-full h-full p-0 content-div rounded-md duration-300 gap-2">
+                <div className="flex flex-row gap-2 ">
+                  <img src={HTML} alt="html" className="w-10"></img>{" "}
+                  <img src={CSS} alt="css" className="w-10"></img>{" "}
+                  <img src={JavaScript} alt="javascript" className="w-10"></img>{" "}
+                </div>
                 <div className="flex text-center justify-start">
                   <a
                     href="https://kbcruz6.github.io/CvAgustinCruz/"
@@ -177,7 +204,11 @@ const Work = () => {
               className="group container rounded-md flex justify-center items-center mx-auto content-div1"
             >
               {/*//! Hover effects */}
-              <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md">
+              <div className="opacity-0 group-hover:opacity-100 hover:bg-[#0d1e3af8] flex flex-col justify-center items-center w-full h-full p-0 content-div rounded-md duration-300 gap-2">
+                <div className="flex flex-row gap-2 ">
+                  <img src={Nextjs} alt="nextjs" className="w-10"></img>{" "}
+                  <img src={Tailwind} alt="tailwind" className="w-10"></img>{" "}
+                </div>
                 <div className="flex text-center justify-start">
                   <a
                     href="https://xkcd-nextjs-indol.vercel.app/"
@@ -214,20 +245,27 @@ const Work = () => {
               className="group container rounded-md flex justify-center items-center mx-auto content-div1"
             >
               {/*//! Hover effects */}
-              <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md duration-300">
-                <Link to="home" smooth={true} duration={500}>
-                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    <FaEye size={30} />
-                  </button>
-                </Link>
-                <a
-                  href="https://github.com/kbcruz6/portfolio-react-tw"
-                  target="_blank"
-                >
-                  <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
-                    <FaGithub size={30} />
-                  </button>
-                </a>
+              <div className="opacity-0 group-hover:opacity-100 hover:bg-[#0d1e3aed] flex flex-col justify-center items-center w-full h-full p-0 content-div rounded-md duration-300 gap-2">
+                <div className="flex flex-row gap-2">
+                  <img src={ReactImg} alt="nextjs" className="w-10"></img>{" "}
+                  <img src={Node} alt="node" className="w-10"></img>{" "}
+                  <img src={Tailwind} alt="tailwind" className="w-10"></img>{" "}
+                </div>
+                <div>
+                  <Link to="home" smooth={true} duration={500}>
+                    <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                      <FaEye size={30} />
+                    </button>
+                  </Link>
+                  <a
+                    href="https://github.com/kbcruz6/portfolio-react-tw"
+                    target="_blank"
+                  >
+                    <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
+                      <FaGithub size={30} />
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>{" "}
             <div className="font-bold text-xl my-2 flex justify-center items-center">
@@ -246,7 +284,11 @@ const Work = () => {
               className="group container rounded-md flex justify-center items-center mx-auto content-div1"
             >
               {/*//! Hover effects */}
-              <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md">
+              <div className="opacity-0 group-hover:opacity-100 flex flex-col hover:bg-[#0d1e3aed] justify-center items-center w-full h-full p-0 content-div rounded-md duration-300 gap-2">
+                <div className="flex flex-row gap-2">
+                  <img src={ReactImg} alt="nextjs" className="w-10"></img>{" "}
+                  <img src={CSS} alt="css" className="w-10"></img>{" "}
+                </div>
                 <div className="flex text-center justify-start">
                   <a href="https://kbcruz6.github.io/react/" target="_blank">
                     <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
