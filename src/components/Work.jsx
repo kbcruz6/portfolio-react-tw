@@ -65,7 +65,7 @@ const Work = () => {
             </div>
           </div>
           {/*//! BOOKS MERN APP*/}
-          <div
+          {/* <div
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="300"
@@ -74,9 +74,9 @@ const Work = () => {
             <div
               style={{ backgroundImage: `url(${books})` }}
               className="group container rounded-md flex justify-center items-center mx-auto content-div1"
-            >
-              {/*//! Hover effects */}
-              <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md duration-300">
+            > */}
+          {/*//! Hover effects */}
+          {/* <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md duration-300">
                 <a href="https://books-info.vercel.app/" target="_blank">
                   <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
                     <FaEye size={30} />
@@ -95,7 +95,7 @@ const Work = () => {
             <div className="font-bold text-xl my-2 flex justify-center items-center">
               MERN app (w/MySQL)
             </div>
-          </div>
+          </div> */}
           {/*//! WEATHER APP*/}
           <div
             data-aos="fade-up"
@@ -235,18 +235,18 @@ const Work = () => {
             </div>
           </div>
           {/*//! REACT APPS*/}
-          {/* <div
+          <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            data-aos-delay="1000"
+            data-aos-delay="700"
             className="max-w-sm rounded-md shadow-lg shadow-[#040c16] p-2  bg-[#11294e]/50 hover:bg-[#11294e]/90 duration-300"
           >
             <div
               style={{ backgroundImage: `url(${reactApps})` }}
               className="group container rounded-md flex justify-center items-center mx-auto content-div1"
-            > */}
-          {/*//! Hover effects */}
-          {/* <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md">
+            >
+              {/*//! Hover effects */}
+              <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md">
                 <div className="flex text-center justify-start">
                   <a href="https://kbcruz6.github.io/react/" target="_blank">
                     <button className="text-center rounded-full px-5 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_3px_0px_rgb(0,0,0)] ease-out hover:translate-y-1  transition-all">
@@ -263,11 +263,11 @@ const Work = () => {
                   </a>
                 </div>
               </div>
-            </div>{" "} 
+            </div>{" "}
             <div className="font-bold text-xl my-2 flex justify-center items-center">
               React Apps
             </div>
-          </div>*/}
+          </div>
           {/* //! PURE JS
           <div
             data-aos="fade-up"
