@@ -28,12 +28,9 @@ const Work = () => {
       className="w-full md:h-screen text-slate-600 dark:text-orange-200 duration-300"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full duration-300">
-        <div className="pb-8">
+        <div className="pb-6">
           <p className="text-4xl font-bold inline border-b-4 border-slate-300 text-blue-400 dark:text-orange-200 dark:border-orange-500">
-            Work
-          </p>
-          <p data-aos="fade-right" data-aos-duration="1000" className="pt-6">
-            Check out some of my recent work
+            Recent Projects
           </p>
         </div>
 
