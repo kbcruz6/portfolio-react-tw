@@ -12,7 +12,7 @@ const SocialMediaBottom = () => {
       <div className="lg:hidden">
         <ul className="flex fixed flex-row sm:bottom-0 left-[30%] minsm:top-0 minsm:left-[13%]">
           {/*//! LinkedIn  */}
-          <li className="w-[60px] h-[50px] flex justify-between items-center duration-300 bg-blue-600 hover:scale-125 rounded-3xl">
+          <li className="w-[60px] h-[50px] flex justify-between items-center duration-300 bg-blue-600 hover:scale-125 rounded-3xl shadow-lg shadow-slate-400 dark:shadow-black">
             <a
               href="https://www.linkedin.com/in/agustin-frontend-react/"
               className="flex justify-between  items-center w-full text-gray-300 "
@@ -22,7 +22,7 @@ const SocialMediaBottom = () => {
             </a>
           </li>{" "}
           {/*//! GitHub  */}
-          <li className="w-[60px] h-[50px] flex justify-between items-center duration-300 bg-[#333333] hover:scale-125 rounded-3xl">
+          <li className="w-[60px] h-[50px] flex justify-between items-center duration-300 bg-[#333333] hover:scale-125 rounded-3xl shadow-lg shadow-slate-400 dark:shadow-black">
             <a
               href="https://github.com/kbcruz6"
               target="_blank"
@@ -32,7 +32,7 @@ const SocialMediaBottom = () => {
             </a>
           </li>{" "}
           {/*//! Email  */}
-          <li className="w-[60px] h-[50px] flex justify-between items-center duration-300 bg-[#61ab9b] hover:scale-125 rounded-3xl">
+          <li className="w-[60px] h-[50px] flex justify-between items-center duration-300 bg-[#61ab9b] hover:scale-125 rounded-3xl shadow-lg shadow-slate-400 dark:shadow-black">
             <a
               href="mailto:agustin.tcw@gmail.com"
               target="_blank"
@@ -42,7 +42,7 @@ const SocialMediaBottom = () => {
             </a>
           </li>{" "}
           {/*//! CV  */}
-          <li className="w-[60px] h-[50px] flex justify-between items-center duration-300 bg-[#565f69] hover:scale-125 rounded-3xl">
+          <li className="w-[60px] h-[50px] flex justify-between items-center duration-300 bg-[#565f69] hover:scale-125 rounded-3xl shadow-lg shadow-slate-400 dark:shadow-black">
             <a
               href="https://github.com/kbcruz6/kbcruz6.github.io/raw/main/CvAgustinCruz/CV%20Agustin%20Cruz.pdf"
               className="flex justify-between items-center w-full text-gray-300"
@@ -51,7 +51,7 @@ const SocialMediaBottom = () => {
             </a>
           </li>
           {/*//! Phone  */}
-          <li className="w-[60px] h-[50px] flex justify-between items-center duration-300 bg-[#25D366] hover:scale-125 rounded-3xl">
+          <li className="w-[60px] h-[50px] flex justify-between items-center duration-300 bg-[#25D366] hover:scale-125 rounded-3xl shadow-lg shadow-slate-400 dark:shadow-black">
             <a
               href="http://api.whatsapp.com/send?phone=541122552730"
               className="flex justify-between items-center w-full text-white"

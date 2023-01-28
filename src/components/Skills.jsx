@@ -12,179 +12,172 @@ import mongoDB from "../assets/mongodb.png";
 
 const Skills = () => {
   return (
-    <div
-      name="skills"
-      className="w-full h-screen text-slate-600 dark:text-orange-200 duration-300"
-    >
-      {/*//! Container */}
-      <div className="max-w-[1000px] w-full h-full mx-auto items-center p-4 flex flex-col justify-center ">
-        <div className="text-justify">
-          <p className="text-4xl font-bold inline border-b-4 border-slate-300 text-blue-400 dark:text-orange-200 dark:border-orange-500">
-            Skills and knowledge
-          </p>
-          <p data-aos="fade-left" data-aos-duration="1000" className="py-4">
-            Since I directed my profile towards web development, I have been
-            studying and practicing a lot about all the technologies listed
-            below. And it's also good to mention that I have knowledge of web
-            SEO & Blockchain, and I'm an Industrial Engineer.
-          </p>
-          <p data-aos="fade-left" data-aos-duration="1000">
-            These are the technologies I've worked with:
-          </p>
-          <p data-aos="fade-left" data-aos-duration="1000">
-            (I'm currently learning Next.js 💪🏻)
-          </p>
-        </div>
-
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-          {/*//! HTML  */}
-          <div
+    <div className="bg-slate-100 dark:bg-transparent">
+      <div
+        name="skills"
+        className="w-full h-screen text-slate-600 dark:text-orange-200 duration-300 bg-white sm:rounded-tr-[400px] shadow-lg shadow-slate-400 dark:shadow-none dark:bg-transparent"
+      >
+        {/*//! Container */}
+        <div className="max-w-[1000px] w-full h-full mx-auto items-center p-4 flex flex-col justify-center ">
+          <div className="text-justify">
+            <p className="text-4xl font-bold inline border-b-4 border-slate-300 text-blue-400 dark:text-orange-200 dark:border-orange-500">
+              Skills and knowledge
+            </p>
+            <p data-aos="fade-left" data-aos-duration="1000" className="py-4">
+              Since I directed my profile towards web development, I have been
+              studying and practicing a lot about all the technologies listed
+              below. And it's also good to mention that I have knowledge of web
+              SEO & Blockchain, and I'm an Industrial Engineer.
+            </p>
+            <p data-aos="fade-left" data-aos-duration="1000">
+              These are the main technologies I've worked with:
+            </p>
+            {/* <p data-aos="fade-left" data-aos-duration="1000">
+              (I'm currently learning Next.js 💪🏻)
+            </p> */}
+          </div>
+          <div className="mt-3 w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 shadow-lg shadow-slate-400 bg-slate-50 rounded-[80px] dark:shadow-none dark:bg-transparent">
+            {/*//! HTML  */}
+            <div
+              data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
+              data-aos-duration="2000"
+              data-aos-delay="500"
+              // className="shadow-md shadow-slate-600 hover:scale-110 duration-500 rounded-full"
+            >
+              <img
+                className="w-20 mx-auto hover:scale-110 duration-500"
+                src={HTML}
+                alt="HTML icon"
+              />
+              <p>HTML</p>
+            </div>
+            {/*//! CSS  */}
+            <div
+              data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
+              data-aos-duration="2000"
+              data-aos-delay="500"
+              // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            >
+              <img
+                className="w-20 mx-auto hover:scale-110 duration-500"
+                src={CSS}
+                alt="HTML icon"
+              />
+              <p>CSS</p>
+            </div>
+            {/*//! JAVASCRIPT  */}
+            <div
+              data-aos-duration="2000"
+              data-aos-delay="500"
+              data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
+              // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            >
+              <img
+                className="w-20 mx-auto hover:scale-110 duration-500"
+                src={JavaScript}
+                alt="HTML icon"
+              />
+              <p>JavaScript</p>
+            </div>
+            {/*//! REACT  */}
+            <div
+              data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
+              data-aos-duration="2000"
+              data-aos-delay="500"
+              // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            >
+              <img
+                className="w-20 mx-auto hover:scale-110 duration-500"
+                src={ReactImg}
+                alt="HTML icon"
+              />
+              <p>React JS</p>
+            </div>
+            {/*//! NODE JS  */}
+            <div
+              data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
+              data-aos-duration="2000"
+              data-aos-delay="500"
+              // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            >
+              <img
+                className="w-20 mx-auto hover:scale-110 duration-500"
+                src={Node}
+                alt="HTML icon"
+              />
+              <p>Node JS</p>
+            </div>
+            {/*//! MYSQL  */}
+            <div
+              data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
+              data-aos-duration="2000"
+              data-aos-delay="500"
+              // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            >
+              <img
+                className="w-[6.3rem] mx-auto hover:scale-110 duration-500"
+                src={MySQL}
+                alt="mysql icon"
+              />
+              {/* <p>MySQL</p> */}
+            </div>
+            {/*//! MONGODB  */}
+            <div
+              data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
+              data-aos-duration="2000"
+              data-aos-delay="500"
+              // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            >
+              <img
+                className="w-20 mx-auto hover:scale-110 duration-500"
+                src={mongoDB}
+                alt="mongodb icon"
+              />
+              <p>MongoDB</p>
+            </div>
+            {/*//! TAILWIND  */}
+            <div
+              data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
+              data-aos-duration="2000"
+              data-aos-delay="500"
+              // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            >
+              <img
+                className="w-20 mx-auto hover:scale-110 duration-500"
+                src={Tailwind}
+                alt="HTML icon"
+              />
+              <p>Tailwind</p>
+            </div>
+            {/*//! GITHUB  */}
+            {/* <div
+              data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
+              data-aos-duration="2000"
+              data-aos-delay="500"
+              // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
+            >
+              <img
+                className="w-20 mx-auto hover:scale-110 duration-500"
+                src={GitHub}
+                alt="HTML icon"
+              />
+              <p>GitHub</p>
+            </div> */}
+            {/*//! NEXT  */}
+            {/* <div
+            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
             data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
             data-aos-duration="2000"
             data-aos-delay="500"
-            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
           >
             <img
               className="w-20 mx-auto hover:scale-110 duration-500"
-              src={HTML}
+              src={Nextjs}
               alt="HTML icon"
             />
-            <p>HTML</p>
-          </div>
-
-          {/*//! CSS  */}
-          <div
-            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
-            data-aos-duration="2000"
-            data-aos-delay="500"
-            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
-          >
-            <img
-              className="w-20 mx-auto hover:scale-110 duration-500"
-              src={CSS}
-              alt="HTML icon"
-            />
-            <p>CSS</p>
-          </div>
-
-          {/*//! JAVASCRIPT  */}
-          <div
-            data-aos-duration="2000"
-            data-aos-delay="500"
-            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
-            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
-          >
-            <img
-              className="w-20 mx-auto hover:scale-110 duration-500"
-              src={JavaScript}
-              alt="HTML icon"
-            />
-            <p>JavaScript</p>
-          </div>
-
-          {/*//! REACT  */}
-          <div
-            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
-            data-aos-duration="2000"
-            data-aos-delay="500"
-            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
-          >
-            <img
-              className="w-20 mx-auto hover:scale-110 duration-500"
-              src={ReactImg}
-              alt="HTML icon"
-            />
-            <p>React JS</p>
-          </div>
-
-          {/*//! NODE JS  */}
-          <div
-            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
-            data-aos-duration="2000"
-            data-aos-delay="500"
-            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
-          >
-            <img
-              className="w-20 mx-auto hover:scale-110 duration-500"
-              src={Node}
-              alt="HTML icon"
-            />
-            <p>Node JS</p>
-          </div>
-
-          {/*//! MYSQL  */}
-          <div
-            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
-            data-aos-duration="2000"
-            data-aos-delay="500"
-            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
-          >
-            <img
-              className="w-[6.3rem] mx-auto hover:scale-110 duration-500"
-              src={MySQL}
-              alt="mysql icon"
-            />
-            {/* <p>MySQL</p> */}
-          </div>
-
-          {/*//! MONGODB  */}
-          <div
-            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
-            data-aos-duration="2000"
-            data-aos-delay="500"
-            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
-          >
-            <img
-              className="w-20 mx-auto hover:scale-110 duration-500"
-              src={mongoDB}
-              alt="mongodb icon"
-            />
-            <p>MongoDB</p>
-          </div>
-
-          {/*//! TAILWIND  */}
-          <div
-            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
-            data-aos-duration="2000"
-            data-aos-delay="500"
-            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
-          >
-            <img
-              className="w-20 mx-auto hover:scale-110 duration-500"
-              src={Tailwind}
-              alt="HTML icon"
-            />
-            <p>Tailwind</p>
-          </div>
-          {/*//! GITHUB  */}
-          {/* <div
-            data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
-            data-aos-duration="2000"
-            data-aos-delay="500"
-            // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
-          >
-            <img
-              className="w-20 mx-auto hover:scale-110 duration-500"
-              src={GitHub}
-              alt="HTML icon"
-            />
-            <p>GitHub</p>
+            <p>Next JS</p>
           </div> */}
-
-          {/*//! NEXT  */}
-          {/* <div
-          // className="shadow-md shadow-[#040c16] hover:scale-110 duration-500"
-          data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}
-          data-aos-duration="2000"
-          data-aos-delay="500"
-        >
-          <img
-            className="w-20 mx-auto hover:scale-110 duration-500"
-            src={Nextjs}
-            alt="HTML icon"
-          />
-          <p>Next JS</p>
-        </div> */}
+          </div>
         </div>
       </div>
     </div>

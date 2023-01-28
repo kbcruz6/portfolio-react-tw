@@ -131,7 +131,7 @@ const Navbar = () => {
         <div className="hidden lg:flex fixed flex-col lg:top-[26%] lg:left-0">
           <ul>
             {/*//! LinkedIn  */}
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-15px] pl-[25px] duration-300 bg-blue-600 rounded-3xl ">
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-15px] pl-[25px] duration-300 bg-blue-600 rounded-3xl shadow-lg shadow-slate-600 dark:shadow-black">
               <a
                 href="https://www.linkedin.com/in/agustin-frontend-react/"
                 className="flex justify-between items-center w-full text-gray-300"
@@ -141,7 +141,7 @@ const Navbar = () => {
               </a>
             </li>{" "}
             {/*//! GitHub  */}
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-15px] pl-[25px] duration-300 bg-[#333333] rounded-3xl ">
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-15px] pl-[25px] duration-300 bg-[#333333] rounded-3xl shadow-lg shadow-slate-600 dark:shadow-black">
               <a
                 href="https://github.com/kbcruz6"
                 target="_blank"
@@ -151,7 +151,7 @@ const Navbar = () => {
               </a>
             </li>{" "}
             {/*//! Email  */}
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-15px] pl-[25px] rounded-3xl duration-300 bg-[#61ab9b]  ">
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-15px] pl-[25px] rounded-3xl duration-300 bg-[#61ab9b]  shadow-lg shadow-slate-600 dark:shadow-black">
               <a
                 href="mailto:agustin.tcw@gmail.com"
                 target="_blank"
@@ -161,7 +161,7 @@ const Navbar = () => {
               </a>
             </li>{" "}
             {/*//! CV  */}
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-15px] pl-[25px] duration-300 bg-[#565f69] rounded-3xl ">
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-15px] pl-[25px] duration-300 bg-[#565f69] rounded-3xl shadow-lg shadow-slate-600 dark:shadow-black">
               <a
                 href="https://github.com/kbcruz6/kbcruz6.github.io/raw/main/CvAgustinCruz/CV%20Agustin%20Cruz.pdf"
                 className="flex justify-between items-center w-full text-gray-300"
@@ -170,7 +170,7 @@ const Navbar = () => {
               </a>
             </li>
             {/*//! Phone  */}
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-15px] pl-[25px] duration-300 bg-[#25D366] rounded-3xl ">
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-15px] pl-[25px] duration-300 bg-[#25D366] rounded-3xl shadow-lg shadow-slate-600 dark:shadow-black">
               <a
                 href="http://api.whatsapp.com/send?phone=541122552730"
                 className="flex justify-between items-center w-full text-white"
