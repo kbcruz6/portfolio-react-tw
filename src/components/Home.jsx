@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen duration-300">
+    <div name="home" className="w-full h-screen duration-300 ">
       {/*//! Container */}
       <div
         data-aos="fade-right"
