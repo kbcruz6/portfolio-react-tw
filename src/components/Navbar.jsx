@@ -5,24 +5,20 @@ import { FiPaperclip } from "react-icons/fi";
 import { BsWhatsapp } from "react-icons/bs";
 import { Link } from "react-scroll";
 import "../index.css";
+import { ThemeContext } from "../context/ThemeContext";
 
-const Navbar = ({ toggleTheme }) => {
-  const [checked, setChecked] = useState(false);
-
-  const onToggle = () => {
-    toggleTheme();
-    setChecked(!checked);
-  };
+const Navbar = () => {
+  const { checked, onToggle } = useContext(ThemeContext);
 
   return (
-    <div className="fixed w-full h-[40px] flex justify-center items-center px-4 bg-[#11294e]  text-white dark:text-orange-200 minsm:bottom-0 z-50">
+    <div className="fixed w-full h-[40px] flex justify-center items-center px-4 text-blue-500 bg-slate-100 shadow-md dark:bg-[#11294e] dark:text-orange-200 minsm:bottom-0 z-50">
       {/*//! Menu */}
       <ul className="font-bold flex">
         {/*//! HOME  */}
         <li className="relative group hover:opacity-90 px-0 mx-2 ">
           <Link to="home" smooth={true} duration={500} className="">
             Home
-            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-orange-500 transition-all group-hover:w-full"></span>
+            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-slate-300 dark:bg-orange-500 transition-all group-hover:w-full"></span>
           </Link>
         </li>
 
@@ -30,7 +26,7 @@ const Navbar = ({ toggleTheme }) => {
         <li className="relative group hover:opacity-90 px-0 mx-2">
           <Link to="about" smooth={true} duration={500}>
             Me
-            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-orange-500 transition-all group-hover:w-full"></span>
+            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-slate-300 dark:bg-orange-500 transition-all group-hover:w-full"></span>
           </Link>
         </li>
 
@@ -38,7 +34,7 @@ const Navbar = ({ toggleTheme }) => {
         <li className="relative group hover:opacity-90 px-0 mx-2">
           <Link to="skills" smooth={true} duration={500}>
             Skills
-            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-orange-500 transition-all group-hover:w-full"></span>
+            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-slate-300 dark:bg-orange-500 transition-all group-hover:w-full"></span>
           </Link>
         </li>
 
@@ -46,7 +42,7 @@ const Navbar = ({ toggleTheme }) => {
         <li className="relative group hover:opacity-90 px-0 mx-2">
           <Link to="work" smooth={true} duration={500}>
             Work
-            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-orange-500 transition-all group-hover:w-full"></span>
+            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-slate-300 dark:bg-orange-500 transition-all group-hover:w-full"></span>
           </Link>
         </li>
 
@@ -54,7 +50,7 @@ const Navbar = ({ toggleTheme }) => {
         <li className="relative group hover:opacity-90 px-0 mx-2">
           <Link to="contact" smooth={true} duration={500}>
             Contact
-            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-orange-500 transition-all group-hover:w-full"></span>
+            <span className="absolute -bottom-1 left-0 w-0 h-1 bg-slate-300 dark:bg-orange-500 transition-all group-hover:w-full"></span>
           </Link>
         </li>
 
@@ -70,16 +66,16 @@ const Navbar = ({ toggleTheme }) => {
           <label
             className={
               checked
-                ? "switch-label flex items-center bg-orange-500 w-[45px] h-[25px] rounded-full relative cursor-pointer"
-                : "switch-label flex items-center bg-blue-400 w-[45px] h-[25px] rounded-full relative cursor-pointer  animate-pulse"
+                ? "switch-label flex items-center bg-blue-400 w-[45px] h-[25px] rounded-full relative cursor-pointer "
+                : "switch-label flex items-center bg-slate-300 dark:bg-orange-500 w-[45px] h-[25px] rounded-full relative cursor-pointer"
             }
             htmlFor="switch"
           >
             <span
               className={
                 checked
-                  ? "switch-button w-[20px] relative h-[20px] rounded-full duration-200 left-[2px] moon "
-                  : "switch-button w-[20px] relative h-[20px] rounded-full duration-200 left-[2px] light "
+                  ? "switch-button w-[20px] relative h-[20px] rounded-full duration-200 left-[2px] light "
+                  : "switch-button w-[20px] relative h-[20px] rounded-full duration-200 left-[2px] moon "
               }
             />
           </label>
@@ -131,11 +127,11 @@ const Navbar = ({ toggleTheme }) => {
       </ul> */}
 
       {/*//! Social media vertical */}
-      <div className="invisible dark:visible">
+      <div className="">
         <div className="hidden lg:flex fixed flex-col lg:top-[26%] lg:left-0">
           <ul>
             {/*//! LinkedIn  */}
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-blue-600">
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-15px] pl-[25px] duration-300 bg-blue-600 rounded-3xl ">
               <a
                 href="https://www.linkedin.com/in/agustin-frontend-react/"
                 className="flex justify-between items-center w-full text-gray-300"
@@ -145,7 +141,7 @@ const Navbar = ({ toggleTheme }) => {
               </a>
             </li>{" "}
             {/*//! GitHub  */}
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#333333]">
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-15px] pl-[25px] duration-300 bg-[#333333] rounded-3xl ">
               <a
                 href="https://github.com/kbcruz6"
                 target="_blank"
@@ -155,7 +151,7 @@ const Navbar = ({ toggleTheme }) => {
               </a>
             </li>{" "}
             {/*//! Email  */}
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#61ab9b]">
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-15px] pl-[25px] rounded-3xl duration-300 bg-[#61ab9b]  ">
               <a
                 href="mailto:agustin.tcw@gmail.com"
                 target="_blank"
@@ -165,7 +161,7 @@ const Navbar = ({ toggleTheme }) => {
               </a>
             </li>{" "}
             {/*//! CV  */}
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#565f69]">
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-15px] pl-[25px] duration-300 bg-[#565f69] rounded-3xl ">
               <a
                 href="https://github.com/kbcruz6/kbcruz6.github.io/raw/main/CvAgustinCruz/CV%20Agustin%20Cruz.pdf"
                 className="flex justify-between items-center w-full text-gray-300"
@@ -174,7 +170,7 @@ const Navbar = ({ toggleTheme }) => {
               </a>
             </li>
             {/*//! Phone  */}
-            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#25D366]">
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-15px] pl-[25px] duration-300 bg-[#25D366] rounded-3xl ">
               <a
                 href="http://api.whatsapp.com/send?phone=541122552730"
                 className="flex justify-between items-center w-full text-white"

@@ -1,4 +1,10 @@
-import React, { useCallback, useMemo, useState, useEffect } from "react";
+import React, {
+  useCallback,
+  useMemo,
+  useState,
+  useEffect,
+  useContext,
+} from "react";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 
@@ -20,7 +26,12 @@ const ParticlesBackground = () => {
   let cantPart = windowWidth > 700 ? 30 : 13;
   // let distLinks = windowWidth > 700 ? 700 : 800;
 
-  // color: "#0a192f",
+  // const [bgColor, setBgColor] = useState("#0d1e3a");
+  // setBgColor("#d53f8c");
+
+  // bgcolordark: "#0a192f",
+  // colordark: "#d53f8c",
+  // bgcolor: "#0a192f",
   // color: "#d53f8c",
 
   //! Configurar options, comportamiento de las particulas

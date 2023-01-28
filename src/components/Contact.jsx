@@ -1,34 +1,83 @@
 import React, { useEffect, useState } from "react";
+import Swal from "sweetalert2";
 
 const Contact = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-
+  //! MAIL
+  const [mailerState, setMailerState] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
   const [clase, setClase] = useState("hidden");
-  const handleSubmit = () => {
+
+  function handleStateChange(e) {
+    setMailerState((prevState) => ({
+      ...prevState,
+      [e.target.name]: e.target.value,
+    }));
+  }
+  const submitEmail = async (e) => {
+    e.preventDefault();
     setClase(
-      "inline-flex fixed top-1/2 inset-x-auto z-20 w-auto cursor-pointer select-none appearance-none items-center justify-center space-x-2 rounded border border-orange-500 bg-orange-500 px-4 py-3 text-sm font-medium text-white transition hover:border-orange-800 hover:bg-orange-800 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300 disabled:pointer-events-none disabled:opacity-85"
+      "inline-flex fixed top-1/2 inset-x-auto z-20 w-auto cursor-pointer select-none appearance-none items-center justify-center space-x-2 rounded border border-orange-500 bg-orange-500 px-4 py-3 text-sm font-medium dark:text-white transition hover:border-orange-800 hover:bg-orange-800 focus:border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-300 disabled:pointer-events-none disabled:opacity-85 animate-pulse"
     );
+    console.log({ mailerState });
+    const response = await fetch(
+      "https://server-for-portfolio.vercel.app/send",
+      {
+        method: "POST",
+        headers: {
+          "Content-type": "application/json",
+        },
+        body: JSON.stringify({ mailerState }),
+      }
+    )
+      .then((res) => res.json())
+      .then(async (res) => {
+        const resData = await res;
+        console.log(resData);
+        if (resData.status === "success") {
+          Swal.fire({
+            title: "Succes!",
+            text: `Thanks for your message ${mailerState.name}!👋🏻`,
+            icon: "success",
+            color: "#ed8936",
+            background: "#0d1e3a",
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true,
+          });
+        } else if (resData.status === "fail") {
+          Swal.fire({
+            title: "Error!",
+            text: `Message failed to send 🥲, please try again!`,
+            icon: "error",
+            confirmButtonText: "OK",
+          });
+        }
+      })
+      .then(() => {
+        setMailerState({
+          email: "",
+          name: "",
+          message: "",
+        });
+        setClase("hidden");
+      });
   };
 
   return (
     <div
       name="contact"
-      className="w-full h-screen flex justify-center items-center p-4"
+      className="w-full h-screen flex justify-center items-center p-4 text-slate-600"
     >
-      <div className="flex flex-col justify-center items-center w-full h-full ">
-        <form
-          action="https://getform.io/f/503080b0-f501-49a9-b095-e98844e90b47"
-          className="flex flex-col max-w-[500px] w-full"
-          method="POST"
-          onSubmit={handleSubmit}
-        >
+      <div className="flex flex-col justify-center items-center w-full h-full">
+        <form onSubmit={submitEmail}>
           <div className="pb-1">
-            <p className="text-4xl font-bold inline border-b-4 border-orange-500  text-orange-300">
+            <p className="text-4xl font-bold inline border-b-4 border-slate-300 text-blue-400 dark:border-orange-500  dark:text-orange-200">
               Contact me!
             </p>
-            <p className="pt-4 pb-2 text-orange-300">
+            <p className="pt-4 pb-2  dark:text-orange-200">
               Submit the form below or email me → agustin.tcw@gmail.com
             </p>
           </div>
@@ -36,80 +85,84 @@ const Contact = () => {
           <div
             data-aos="fade-right"
             data-aos-duration="800"
-            // data-aos-delay="500"
-            className="outline-white relative z-10 border-2 border-orange-300 focus-within:border-orange-500 mb-2  hover:border-orange-500 duration-300"
+            data-aos-delay="300"
           >
-            <input
-              required
-              type="text"
-              name="name"
-              placeholder=" "
-              className="flex p-4 w-full text-md z-10 appearance-none focus:outline-none bg-transparent text-white"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-            />
-            <label
-              for="name"
-              className="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0a192f] text-orange-500"
-            >
-              Name
-            </label>
+            <div className="outline-white rounded-3xl relative shadow-lg shadow-slate-300 dark:shadow-black mb-5 z-10 border-2 border-blue-300 focus-within:border-blue-500 dark:border-orange-200 dark:focus-within:border-orange-500 hover:border-blue-500 dark:hover:border-orange-500 duration-300">
+              <input
+                onChange={handleStateChange}
+                name="name"
+                value={mailerState.name}
+                required
+                type="text"
+                placeholder=" "
+                className="flex p-4 w-full text-md z-10 appearance-none focus:outline-none bg-transparent dark:text-white"
+              />
+              <label
+                for="name"
+                className="absolute top-0 rounded-3xl text-md p-4 -z-10 duration-300 origin-0 bg-white text-blue-400 dark:bg-[#0d1e3a] dark:text-orange-500"
+              >
+                Name
+              </label>
+            </div>
           </div>
           {/*//! Input email */}
           <div
             data-aos="fade-left"
             data-aos-duration="800"
-            data-aos-delay="700"
-            className="outline-white relative z-10 border-2 border-orange-300 focus-within:border-orange-500 mb-2  hover:border-orange-500 duration-300"
+            data-aos-delay="400"
           >
-            <input
-              required
-              type="email"
-              name="email"
-              placeholder=" "
-              className="flex p-4 w-full text-md z-0 appearance-none focus:outline-none bg-transparent text-white"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-            />
-            <label
-              for="email"
-              className="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0a192f] text-orange-500"
-            >
-              Email
-            </label>
+            <div className="outline-white rounded-3xl relative shadow-lg shadow-slate-300 dark:shadow-black mb-5 z-10 border-2 border-blue-300 focus-within:border-blue-500 dark:border-orange-200 dark:focus-within:border-orange-500 hover:border-blue-500 dark:hover:border-orange-500 duration-300">
+              <input
+                required
+                onChange={handleStateChange}
+                name="email"
+                value={mailerState.email}
+                type="email"
+                placeholder=" "
+                className="flex p-4 w-full text-md z-0 appearance-none focus:outline-none bg-transparent dark:text-white"
+              />
+              <label
+                for="email"
+                className="absolute top-0 rounded-3xl text-md p-4 -z-10 duration-300 origin-0 bg-white text-blue-400 dark:bg-[#0d1e3a] dark:text-orange-500"
+              >
+                Email
+              </label>
+            </div>
           </div>
           {/*//! Textarea message */}
           <div
             data-aos="fade-right"
             data-aos-duration="800"
-            data-aos-delay="900"
-            className="outline-white relative z-10 border-2 border-orange-300 focus-within:border-orange-500 mb-2  hover:border-orange-500 duration-300"
+            data-aos-delay="500"
           >
-            <textarea
-              required
-              type="text"
-              name="message"
-              placeholder=" "
-              className="flex p-4 w-full text-md z-0 appearance-none focus:outline-none bg-transparent text-white"
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-            />
-            <label
-              for="message"
-              className="absolute top-0 text-md p-4 -z-10 duration-300 origin-0 bg-[#0a192f] text-orange-500"
-            >
-              Message
-            </label>
+            <div className="outline-white rounded-3xl relative shadow-lg shadow-slate-300 dark:shadow-black mb-5 z-10 border-2 border-blue-300 focus-within:border-blue-500 dark:border-orange-200 dark:focus-within:border-orange-500 hover:border-blue-500 dark:hover:border-orange-500 duration-300">
+              <textarea
+                onChange={handleStateChange}
+                name="message"
+                value={mailerState.message}
+                required
+                type="text"
+                placeholder=" "
+                className="flex p-4 w-full text-md z-0 appearance-none focus:outline-none bg-transparent dark:text-white"
+              />
+              <label
+                for="message"
+                className="absolute top-0 rounded-3xl text-md p-4 -z-10 duration-300 origin-0 bg-white text-blue-400 dark:bg-[#0d1e3a] dark:text-orange-500"
+              >
+                Message
+              </label>
+            </div>
           </div>
           {/*//! Button */}
-          <button
+          <div
             data-aos="fade-left"
             data-aos-duration="800"
-            data-aos-delay="1100"
-            className="text-xl border-2 border-orange-300 text-orange-300 hover:text-white hover:bg-orange-500 hover:border-orange-500 duration-200 px-5 py-2 my-3 mx-auto flex items-center"
+            data-aos-delay="600"
           >
-            Send
-          </button>
+            <button className="rounded-3xl text-xl shadow-lg shadow-slate-300 dark:shadow-black border-2 border-blue-400  text-slate-600 hover:text-white hover:bg-blue-400 dark:border-orange-200 dark:text-orange-200  dark:hover:bg-orange-500  dark:hover:border-orange-500 duration-300 px-5 py-2 my-3 mx-auto flex items-center">
+              Send
+            </button>
+          </div>
         </form>
         {/*//! Loading button  */}
         <button type="button" disabled className={clase}>

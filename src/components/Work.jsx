@@ -25,11 +25,11 @@ const Work = () => {
   return (
     <div
       name="work"
-      className="w-full md:h-screen text-orange-200 invisible dark:visible duration-300"
+      className="w-full md:h-screen text-slate-600 dark:text-orange-200 duration-300"
     >
-      <div className="max-w-[1000px] mx-auto p-4 dark:flex hidden flex-col justify-center w-full h-full duration-300">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full duration-300">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-orange-500">
+          <p className="text-4xl font-bold inline border-b-4 border-slate-300 text-blue-400 dark:text-orange-200 dark:border-orange-500">
             Work
           </p>
           <p data-aos="fade-right" data-aos-duration="1000" className="pt-6">
@@ -45,14 +45,14 @@ const Work = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="100"
-            className="max-w-sm rounded-md shadow-lg shadow-[#040c16] p-2  bg-[#11294e]/50 hover:bg-[#11294e]/90 duration-300"
+            className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-orange-200 dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"
           >
             <div
               style={{ backgroundImage: `url(${workout})` }}
-              className="group container rounded-md flex justify-center items-center mx-auto content-div1"
+              className="group container rounded-3xl flex justify-center items-center mx-auto content-div1"
             >
               {/*//! Hover effects */}
-              <div className="opacity-0 group-hover:opacity-100 hover:bg-[#0d1e3aed] flex flex-col justify-center items-center w-full h-full p-0 content-div rounded-md duration-300 gap-2">
+              <div className="opacity-0 group-hover:opacity-100 hover:bg-[#0d1e3aed] flex flex-col justify-center items-center w-full h-full p-0 content-div rounded-3xl duration-300 gap-2">
                 <div className="flex flex-row gap-2 ">
                   <img src={mongoDB} alt="mongodb" className="w-10"></img>{" "}
                   <img src={ReactImg} alt="react" className="w-10"></img>{" "}
@@ -85,14 +85,14 @@ const Work = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="300"
-            className="max-w-sm rounded-md shadow-lg shadow-[#040c16] p-2 bg-[#11294e]/50 hover:bg-[#11294e]/90"
+            className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-orange-200 dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"
           >
             <div
               style={{ backgroundImage: `url(${books})` }}
-              className="group container rounded-md flex justify-center items-center mx-auto content-div1"
+              className="group container rounded-3xl flex justify-center items-center mx-auto content-div1"
             >
               {/*//! Hover effects */}
-              <div className="opacity-0 group-hover:opacity-100 hover:bg-[#0d1e3aed] flex flex-col justify-center items-center w-full h-full p-0 content-div rounded-md duration-300 gap-2">
+              <div className="opacity-0 group-hover:opacity-100 hover:bg-[#0d1e3aed] flex flex-col justify-center items-center w-full h-full p-0 content-div rounded-3xl duration-300 gap-2">
                 <div className="flex flex-row gap-2 ">
                   <img src={mongoDB} alt="mongodb" className="w-10"></img>{" "}
                   <img src={ReactImg} alt="react" className="w-10"></img>{" "}
@@ -125,14 +125,14 @@ const Work = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="300"
-            className="max-w-sm rounded-md shadow-lg shadow-[#040c16] p-2 bg-[#11294e]/50 hover:bg-[#11294e]/90"
+            className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-orange-200 dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"
           >
             <div
               style={{ backgroundImage: `url(${weatherReact})` }}
-              className="group container rounded-md flex justify-center items-center mx-auto content-div1"
+              className="group container rounded-3xl flex justify-center items-center mx-auto content-div1"
             >
               {/*//! Hover effects */}
-              <div className="opacity-0 group-hover:opacity-100 hover:bg-[#0d1e3aed] flex flex-col justify-center items-center w-full h-full p-0 content-div rounded-md duration-300 gap-2">
+              <div className="opacity-0 group-hover:opacity-100 hover:bg-[#0d1e3aed] flex flex-col justify-center items-center w-full h-full p-0 content-div rounded-3xl duration-300 gap-2">
                 <div className="flex flex-row gap-2 ">
                   <img src={ReactImg} alt="react" className="w-10"></img>{" "}
                   <img src={Tailwind} alt="tailwind" className="w-10"></img>{" "}
@@ -163,14 +163,14 @@ const Work = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="400"
-            className="max-w-sm rounded-md shadow-lg shadow-[#040c16] p-2  bg-[#11294e]/50 hover:bg-[#11294e]/90 duration-300"
+            className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-orange-200 dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"
           >
             <div
               style={{ backgroundImage: `url(${cvWeb})` }}
-              className="group container rounded-md flex justify-center items-center mx-auto content-div1"
+              className="group container rounded-3xl flex justify-center items-center mx-auto content-div1"
             >
               {/*//! Hover effects */}
-              <div className="opacity-0 group-hover:opacity-100 hover:bg-[#0d1e3aed] flex flex-col justify-center items-center w-full h-full p-0 content-div rounded-md duration-300 gap-2">
+              <div className="opacity-0 group-hover:opacity-100 hover:bg-[#0d1e3aed] flex flex-col justify-center items-center w-full h-full p-0 content-div rounded-3xl duration-300 gap-2">
                 <div className="flex flex-row gap-2 ">
                   <img src={HTML} alt="html" className="w-10"></img>{" "}
                   <img src={CSS} alt="css" className="w-10"></img>{" "}
@@ -205,14 +205,14 @@ const Work = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="500"
-            className="max-w-sm rounded-md shadow-lg shadow-[#040c16] p-2  bg-[#11294e]/50 hover:bg-[#11294e]/90 duration-300"
+            className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-orange-200 dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"
           >
             <div
               style={{ backgroundImage: `url(${nextJs})` }}
-              className="group container rounded-md flex justify-center items-center mx-auto content-div1"
+              className="group container rounded-3xl flex justify-center items-center mx-auto content-div1"
             >
               {/*//! Hover effects */}
-              <div className="opacity-0 group-hover:opacity-100 hover:bg-[#0d1e3af8] flex flex-col justify-center items-center w-full h-full p-0 content-div rounded-md duration-300 gap-2">
+              <div className="opacity-0 group-hover:opacity-100 hover:bg-[#0d1e3af8] flex flex-col justify-center items-center w-full h-full p-0 content-div rounded-3xl duration-300 gap-2">
                 <div className="flex flex-row gap-2 ">
                   <img src={Nextjs} alt="nextjs" className="w-10"></img>{" "}
                   <img src={Tailwind} alt="tailwind" className="w-10"></img>{" "}
@@ -246,14 +246,14 @@ const Work = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="600"
-            className="max-w-sm rounded-md shadow-lg shadow-[#040c16] p-2 bg-[#11294e]/50 hover:bg-[#11294e]/90"
+            className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-orange-200 dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"
           >
             <div
               style={{ backgroundImage: `url(${currentPortfolio})` }}
-              className="group container rounded-md flex justify-center items-center mx-auto content-div1"
+              className="group container rounded-3xl flex justify-center items-center mx-auto content-div1"
             >
               {/*//! Hover effects */}
-              <div className="opacity-0 group-hover:opacity-100 hover:bg-[#0d1e3aed] flex flex-col justify-center items-center w-full h-full p-0 content-div rounded-md duration-300 gap-2">
+              <div className="opacity-0 group-hover:opacity-100 hover:bg-[#0d1e3aed] flex flex-col justify-center items-center w-full h-full p-0 content-div rounded-3xl duration-300 gap-2">
                 <div className="flex flex-row gap-2">
                   <img src={ReactImg} alt="nextjs" className="w-10"></img>{" "}
                   <img src={Node} alt="node" className="w-10"></img>{" "}
@@ -285,14 +285,13 @@ const Work = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="700"
-            className="max-w-sm rounded-md shadow-lg shadow-[#040c16] p-2  bg-[#11294e]/50 hover:bg-[#11294e]/90 duration-300"
-          >
+className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-orange-200 dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"          >
             <div
               style={{ backgroundImage: `url(${reactApps})` }}
-              className="group container rounded-md flex justify-center items-center mx-auto content-div1"
+              className="group container rounded-3xl flex justify-center items-center mx-auto content-div1"
             > */}
           {/*//! Hover effects */}
-          {/* <div className="opacity-0 group-hover:opacity-100 flex flex-col hover:bg-[#0d1e3aed] justify-center items-center w-full h-full p-0 content-div rounded-md duration-300 gap-2">
+          {/* <div className="opacity-0 group-hover:opacity-100 flex flex-col hover:bg-[#0d1e3aed] justify-center items-center w-full h-full p-0 content-div rounded-3xl duration-300 gap-2">
                 <div className="flex flex-row gap-2">
                   <img src={ReactImg} alt="nextjs" className="w-10"></img>{" "}
                   <img src={CSS} alt="css" className="w-10"></img>{" "}
@@ -323,14 +322,13 @@ const Work = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="700"
-            className="max-w-sm rounded-md shadow-lg shadow-[#040c16] p-2  bg-[#11294e]/50 hover:bg-[#11294e]/90 duration-300"
-          >
+className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-orange-200 dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"          >
             <div
               style={{ backgroundImage: `url(${pureJs})` }}
-              className="group container rounded-md flex justify-center items-center mx-auto content-div1"
+              className="group container rounded-3xl flex justify-center items-center mx-auto content-div1"
             >
               //! Hover effects 
-              <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md">
+              <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-3xl">
                 <div className="flex text-center justify-start">
                   <a
                     href="https://kbcruz6.github.io/MixJsLittleProjects/"
@@ -361,14 +359,13 @@ const Work = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="200"
-            className="max-w-sm rounded-md shadow-lg shadow-[#040c16] p-2 bg-[#11294e]/50 hover:bg-[#11294e]/90"
-          >
+className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-orange-200 dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"          >
             <div
               style={{ backgroundImage: `url(${weather})` }}
-              className="group container rounded-md flex justify-center items-center mx-auto content-div1"
+              className="group container rounded-3xl flex justify-center items-center mx-auto content-div1"
             >
               //! Hover effects 
-              <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-md duration-300">
+              <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center w-full h-full p-0 content-div rounded-3xl duration-300">
                 <a
                   href="https://weather-agustincruz.vercel.app/"
                   target="_blank"

@@ -14,12 +14,12 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="w-full h-screen text-orange-200 duration-300 invisible dark:visible"
+      className="w-full h-screen text-slate-600 dark:text-orange-200 duration-300"
     >
       {/*//! Container */}
       <div className="max-w-[1000px] w-full h-full mx-auto items-center p-4 flex flex-col justify-center ">
         <div className="text-justify">
-          <p className="text-4xl font-bold inline dark:border-b-4 dark:border-orange-500">
+          <p className="text-4xl font-bold inline border-b-4 border-slate-300 text-blue-400 dark:text-orange-200 dark:border-orange-500">
             Skills and knowledge
           </p>
           <p data-aos="fade-left" data-aos-duration="1000" className="py-4">
@@ -36,7 +36,7 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className="w-full hidden dark:grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           {/*//! HTML  */}
           <div
             data-aos={window.innerWidth < 700 ? "zoom-in" : "flip-left"}

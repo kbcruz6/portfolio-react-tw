@@ -5,12 +5,12 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen text-orange-200 duration-300 invisible dark:visible"
+      className="w-full h-screen text-slate-600 dark:text-orange-200 duration-300 "
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full px-4 ">
           <div className="sm:text-center pb-8 ">
-            <p className="text-4xl font-bold inline dark:border-b-4 dark:border-orange-500">
+            <p className="text-4xl font-bold inline text-blue-400 border-b-4 border-slate-300 dark:text-orange-200 dark:border-orange-500">
               This is me 🙋🏻‍♂️
             </p>
           </div>
@@ -24,7 +24,7 @@ const About = () => {
           >
             <img
               src={profileImg}
-              className="w-[200px] sm:w-[250px] sm:h-[250px] h-[200px] rounded-br-full sm:rounded-bl-full rounded-tl-full sm:rounded-tr-none rounded-tr-full rounded-bl-none hidden dark:flex"
+              className="w-[200px] sm:w-[250px] sm:h-[250px] h-[200px] rounded-br-full sm:rounded-bl-full rounded-tl-full sm:rounded-tr-none rounded-tr-full rounded-bl-none flex"
             ></img>
           </div>
 
