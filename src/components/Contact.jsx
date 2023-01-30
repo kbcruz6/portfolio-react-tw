@@ -70,7 +70,7 @@ const Contact = () => {
     <div className="bg-slate-100 dark:bg-transparent">
       <div
         name="contact"
-        className="w-full h-screen flex justify-center items-center p-4 text-slate-600 bg-white dark:bg-transparent sm:rounded-b-full rounded-br-full shadow-lg shadow-slate-400 dark:shadow-none"
+        className="w-full h-screen flex justify-center items-center p-4 text-slate-600 bg-white dark:bg-transparent sm:rounded-b-full rounded-br-[300px] shadow-lg shadow-slate-400 dark:shadow-none"
       >
         <div className="flex flex-col justify-center items-center w-full h-full">
           <form onSubmit={submitEmail}>
