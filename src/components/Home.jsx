@@ -23,9 +23,9 @@ const Home = () => {
             a Frontend Developer.
           </h2>
           <p className="py-4 max-w-[700px] text-justify">
-            As a highly motivated Engineer, I'm looking for new challenges in IT
-            & development areas, to continue creating solutions and growing
-            professionally and personally.
+            As a driven Engineer and Frontend Developer, I am always seeking new
+            opportunities to challenge myself, create innovative solutions, and
+            grow both professionally and personally.
           </p>
           <div>
             <Link to="about" smooth={true} duration={500}>

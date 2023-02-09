@@ -24,7 +24,7 @@ const About = () => {
             >
               <img
                 src={profileImg}
-                className="w-[200px] shadow-lg dark:shadow-none shadow-slate-600 sm:w-[250px] sm:h-[250px] h-[200px] rounded-br-full sm:rounded-bl-full rounded-tl-full sm:rounded-tr-none rounded-tr-full rounded-bl-none flex"
+                className="w-[200px] shadow-lg dark:shadow-none shadow-slate-600 sm:w-[300px] sm:h-[300px] h-[200px] rounded-br-full sm:rounded-bl-full rounded-tl-full sm:rounded-tr-none rounded-tr-full rounded-bl-none flex"
               ></img>
             </div>
             <div
@@ -34,24 +34,24 @@ const About = () => {
               className="text-justify"
             >
               <p>
-                I am very curious and persistent, what is super useful in this
-                environment to face the daily challenges and solve problems.{" "}
+                With a curious and determined mindset, I am able to tackle daily
+                obstacles and find effective solutions. My unique approach to
+                problem-solving, combined with my quick learning ability and
+                adaptability to change, allows me to bring fresh perspectives
+                and drive progress.{" "}
                 <p className="my-2">
-                  I have a creative way to think above and beyond, also a great
-                  ability to learn quickly and flexibility to continuous change.
+                  In addition to my technical skills, I am a strong communicator
+                  and motivator, and I enjoy working with others to identify
+                  areas for growth and improvement.
                 </p>
                 <p className="my-2">
-                  I am good at motivating people and also finding weaknesses,
-                  which provides us the opportunity to improve them and allows
-                  us to continue growing.
+                  When I'm not coding, I love to travel and explore new cultures
+                  and environments. I am also a nature lover and enjoy trekking,
+                  which I find to be a great way to stay active and connected to
+                  the world around me. I am always ready for the next adventure
+                  and eager to make the most of every experience.
                 </p>
-                <p>
-                  I enjoy a lot travelling & I would love to work remotely.
-                  Visiting new places, getting to know new people, and
-                  practicing trekking are my passions, I really love nature
-                  life.
-                </p>
-                <p className="mt-2">Enjoy the journey!</p>
+                <p>Enjoy the journey!</p>
               </p>
             </div>
           </div>
