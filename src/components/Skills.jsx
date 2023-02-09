@@ -26,8 +26,10 @@ const Skills = () => {
             <p data-aos="fade-left" data-aos-duration="1000" className="py-4">
               Since I directed my profile towards web development, I have been
               studying and practicing a lot about all the technologies listed
-              below. And it's also good to mention that I have knowledge of web
-              SEO & Blockchain, and I'm an Industrial Engineer.
+              below. In addition to web development, I have a solid
+              understanding of web SEO and blockchain. My background in
+              Industrial Engineering adds a unique perspective to my work. I am
+              passionate about learning and growing in the tech industry.
             </p>
             <p data-aos="fade-left" data-aos-duration="1000">
               These are the main technologies I've worked with:
