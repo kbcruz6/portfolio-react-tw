@@ -24,7 +24,7 @@ const About = () => {
             >
               <img
                 src={profileImg}
-                className="w-[200px] shadow-lg dark:shadow-none shadow-slate-600 sm:w-[300px] sm:h-[300px] h-[200px] rounded-br-full sm:rounded-bl-full rounded-tl-full sm:rounded-tr-none rounded-tr-full rounded-bl-none flex"
+                className="w-[200px] shadow-lg dark:shadow-none shadow-slate-600 sm:w-[250px] sm:h-[250px] h-[200px] rounded-br-full sm:rounded-bl-full rounded-tl-full sm:rounded-tr-none rounded-tr-full rounded-bl-none flex"
               ></img>
             </div>
             <div
@@ -34,11 +34,8 @@ const About = () => {
               className="text-justify"
             >
               <p>
-                With a curious and determined mindset, I am able to tackle daily
-                obstacles and find effective solutions. My unique approach to
-                problem-solving, combined with my quick learning ability and
-                adaptability to change, allows me to bring fresh perspectives
-                and drive progress.{" "}
+                With a curious, persistent and determined mindset, I am able to
+                tackle daily obstacles and find effective solutions.{" "}
                 <p className="my-2">
                   In addition to my technical skills, I am a strong communicator
                   and motivator, and I enjoy working with others to identify
@@ -46,10 +43,9 @@ const About = () => {
                 </p>
                 <p className="my-2">
                   When I'm not coding, I love to travel and explore new cultures
-                  and environments. I am also a nature lover and enjoy trekking,
-                  which I find to be a great way to stay active and connected to
-                  the world around me. I am always ready for the next adventure
-                  and eager to make the most of every experience.
+                  and environments, I am a nature lover. I am always ready for
+                  the next adventure and eager to make the most of every
+                  experience.
                 </p>
                 <p>Enjoy the journey!</p>
               </p>
