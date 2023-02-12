@@ -21,7 +21,7 @@ const Skills = () => {
         <div className="max-w-[1000px] w-full h-full mx-auto items-center p-4 flex flex-col justify-center ">
           <div className="text-justify">
             <p className="text-4xl font-bold inline border-b-4 border-slate-300 text-blue-400 dark:text-orange-200 dark:border-orange-500">
-              Technical skills and knowledge
+              Skills and knowledge
             </p>
             <p data-aos="fade-left" data-aos-duration="1000" className="py-4">
               Since I directed my profile towards web development, I have been
