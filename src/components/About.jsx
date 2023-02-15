@@ -11,8 +11,8 @@ const About = () => {
         <div className="flex flex-col justify-center items-center w-full h-full">
           <div className="max-w-[1000px] w-full px-4 ">
             <div className="sm:text-center pb-8 ">
-              <p className="text-4xl font-bold inline text-blue-400 border-b-4 border-slate-300 dark:text-white dark:border-orange-500">
-                This is me 🙋🏻‍♂️
+              <p className=" text-4xl font-bold inline text-blue-400 border-b-4 border-slate-300 dark:text-white dark:border-orange-500">
+                This is me
               </p>
             </div>
           </div>

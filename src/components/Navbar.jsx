@@ -13,9 +13,9 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[40px] flex justify-center items-center px-4 text-blue-500 bg-slate-100 shadow-md dark:bg-[#11294e] dark:text-white minsm:bottom-0 z-50">
       {/*//! Menu */}
-      <ul className="font-bold flex">
+      <ul className="flex font-bold">
         {/*//! HOME  */}
-        <li className="relative group hover:opacity-90 px-0 mx-2 ">
+        <li className="relative group hover:opacity-90 px-0 mx-2 uppercase ">
           <Link to="home" smooth={true} duration={500} className="">
             Home
             <span className="absolute -bottom-1 left-0 w-0 h-1 bg-slate-300 dark:bg-orange-500 transition-all group-hover:w-full"></span>
@@ -23,7 +23,7 @@ const Navbar = () => {
         </li>
 
         {/*//! ABOUT  */}
-        <li className="relative group hover:opacity-90 px-0 mx-2">
+        <li className="relative group hover:opacity-90 px-0 mx-2 uppercase">
           <Link to="about" smooth={true} duration={500}>
             Me
             <span className="absolute -bottom-1 left-0 w-0 h-1 bg-slate-300 dark:bg-orange-500 transition-all group-hover:w-full"></span>
@@ -31,7 +31,7 @@ const Navbar = () => {
         </li>
 
         {/*//! SKILLS  */}
-        <li className="relative group hover:opacity-90 px-0 mx-2">
+        <li className="relative group hover:opacity-90 px-0 mx-2 uppercase">
           <Link to="skills" smooth={true} duration={500}>
             Skills
             <span className="absolute -bottom-1 left-0 w-0 h-1 bg-slate-300 dark:bg-orange-500 transition-all group-hover:w-full"></span>
@@ -39,7 +39,7 @@ const Navbar = () => {
         </li>
 
         {/*//! WORK  */}
-        <li className="relative group hover:opacity-90 px-0 mx-2">
+        <li className="relative group hover:opacity-90 px-0 mx-2 uppercase">
           <Link to="work" smooth={true} duration={500}>
             Work
             <span className="absolute -bottom-1 left-0 w-0 h-1 bg-slate-300 dark:bg-orange-500 transition-all group-hover:w-full"></span>
@@ -47,7 +47,7 @@ const Navbar = () => {
         </li>
 
         {/*//! CONTACT  */}
-        <li className="relative group hover:opacity-90 px-0 mx-2">
+        <li className="relative group hover:opacity-90 px-0 mx-2 uppercase">
           <Link to="contact" smooth={true} duration={500}>
             Contact
             <span className="absolute -bottom-1 left-0 w-0 h-1 bg-slate-300 dark:bg-orange-500 transition-all group-hover:w-full"></span>
@@ -55,7 +55,7 @@ const Navbar = () => {
         </li>
 
         {/*//! TOGGLE SWITCH  */}
-        <li className="relative group hover:opacity-90 px-0 mx-2">
+        <li className="relative group hover:opacity-90 px-0 mx-2 uppercase">
           <input
             onChange={onToggle}
             id="switch"
