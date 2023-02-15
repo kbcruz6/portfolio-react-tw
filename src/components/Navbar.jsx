@@ -11,7 +11,7 @@ const Navbar = () => {
   const { checked, onToggle } = useContext(ThemeContext);
 
   return (
-    <div className="fixed w-full h-[40px] flex justify-center items-center px-4 text-blue-500 bg-slate-100 shadow-md dark:bg-[#11294e] dark:text-orange-200 minsm:bottom-0 z-50">
+    <div className="fixed w-full h-[40px] flex justify-center items-center px-4 text-blue-500 bg-slate-100 shadow-md dark:bg-[#11294e] dark:text-white minsm:bottom-0 z-50">
       {/*//! Menu */}
       <ul className="font-bold flex">
         {/*//! HOME  */}

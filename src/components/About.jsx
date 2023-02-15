@@ -6,12 +6,12 @@ const About = () => {
     <div className="bg-slate-100 dark:bg-transparent">
       <div
         name="about"
-        className="w-full h-screen text-slate-600 dark:text-orange-200 duration-300 sm:rounded-bl-full rounded-tr-[8000px] shadow-lg shadow-slate-400 dark:shadow-none bg-white dark:bg-transparent"
+        className="w-full h-screen text-slate-600 dark:text-white duration-300 sm:rounded-bl-full rounded-tr-[8000px] shadow-lg shadow-slate-400 dark:shadow-none bg-white dark:bg-transparent"
       >
         <div className="flex flex-col justify-center items-center w-full h-full">
           <div className="max-w-[1000px] w-full px-4 ">
             <div className="sm:text-center pb-8 ">
-              <p className="text-4xl font-bold inline text-blue-400 border-b-4 border-slate-300 dark:text-orange-200 dark:border-orange-500">
+              <p className="text-4xl font-bold inline text-blue-400 border-b-4 border-slate-300 dark:text-white dark:border-orange-500">
                 This is me 🙋🏻‍♂️
               </p>
             </div>

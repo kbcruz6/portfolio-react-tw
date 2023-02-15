@@ -13,7 +13,7 @@ const Home = () => {
         <div
           data-aos="fade-right"
           data-aos-duration="1000"
-          className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full  text-slate-600 dark:text-orange-200 dark:duration-300 "
+          className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full  text-slate-600 dark:text-white dark:duration-300 "
         >
           <p className="">Here we are! Welcome to my portfolio!👋</p>
           <h1 className="text-4xl sm:text-7xl font-bold dark:text-orange-300 ">
@@ -29,7 +29,7 @@ const Home = () => {
           </p>
           <div>
             <Link to="about" smooth={true} duration={500}>
-              <button className="rounded-3xl shadow-md shadow-slate-400 group px-4 py-3 my-2 flex items-center border-2 border-blue-400 hover:text-white hover:bg-blue-400 hover:border-blue-400 dark:shadow-black dark:border-orange-300 dark:hover:text-white dark:hover:bg-orange-500 dark:hover:border-orange-500 dark:text-orange-300 duration-300">
+              <button className="rounded-3xl shadow-md shadow-slate-400 group px-4 py-3 my-2 flex items-center border-2 border-blue-400 hover:text-white hover:bg-blue-400 hover:border-blue-400 dark:shadow-black dark:border-orange-300 dark:hover:text-white dark:hover:bg-orange-500 dark:hover:border-orange-500 dark:text-white duration-300">
                 Have a look!
                 <HiArrowNarrowDown className="ml-3 animate-bounce" />
               </button>

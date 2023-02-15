@@ -27,11 +27,11 @@ const Work = () => {
     <div className="bg-slate-100 dark:bg-transparent">
       <div
         name="work"
-        className="w-full md:h-screen text-slate-600 duration-300 bg-white  shadow-lg shadow-slate-400 dark:shadow-none dark:text-orange-200 dark:bg-transparent "
+        className="w-full md:h-screen text-slate-600 duration-300 bg-white  shadow-lg shadow-slate-400 dark:shadow-none dark:text-white dark:bg-transparent "
       >
         <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full duration-300">
           <div className="pb-6">
-            <p className="text-4xl font-bold inline border-b-4 border-slate-300 text-blue-400 dark:text-orange-200 dark:border-orange-500">
+            <p className="text-4xl font-bold inline border-b-4 border-slate-300 text-blue-400 dark:text-white dark:border-orange-500">
               Most recent projects
             </p>
           </div>
@@ -43,7 +43,7 @@ const Work = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="100"
-              className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-orange-200 dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"
+              className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-white dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"
             >
               <div
                 style={{ backgroundImage: `url(${portfolioFer})` }}
@@ -81,7 +81,7 @@ const Work = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="200"
-              className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-orange-200 dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"
+              className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-white dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"
             >
               <div
                 style={{ backgroundImage: `url(${workout})` }}
@@ -124,7 +124,7 @@ const Work = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="300"
-              className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-orange-200 dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"
+              className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-white dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"
             >
               <div
                 style={{ backgroundImage: `url(${books})` }}
@@ -164,7 +164,7 @@ const Work = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="300"
-              className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-orange-200 dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"
+              className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-white dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"
             >
               <div
                 style={{ backgroundImage: `url(${weatherReact})` }}
@@ -205,7 +205,7 @@ const Work = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="400"
-              className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-orange-200 dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"
+              className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-white dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"
             >
               <div
                 style={{ backgroundImage: `url(${cvWeb})` }}
@@ -251,7 +251,7 @@ const Work = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="600"
-              className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-orange-200 dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"
+              className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-white dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"
             >
               <div
                 style={{ backgroundImage: `url(${currentPortfolio})` }}
@@ -290,7 +290,7 @@ const Work = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="500"
-              className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-orange-200 dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"
+              className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-white dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"
             >
               <div
                 style={{ backgroundImage: `url(${nextJs})` }}
@@ -331,7 +331,7 @@ const Work = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="700"
-      className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-orange-200 dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"          >
+      className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-white dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"          >
               <div
                 style={{ backgroundImage: `url(${reactApps})` }}
                 className="group container rounded-3xl flex justify-center items-center mx-auto content-div1"
@@ -368,7 +368,7 @@ const Work = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="700"
-      className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-orange-200 dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"          >
+      className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-white dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"          >
               <div
                 style={{ backgroundImage: `url(${pureJs})` }}
                 className="group container rounded-3xl flex justify-center items-center mx-auto content-div1"
@@ -404,7 +404,7 @@ const Work = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="200"
-      className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-orange-200 dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"          >
+      className="max-w-sm rounded-3xl shadow-lg shadow-slate-500 dark:shadow-[#040c16] p-2 bg-slate-200 text-blue-500 hover:bg-slate-300/90 dark:text-white dark:bg-[#11294e]/50 dark:hover:bg-[#11294e]/90 duration-300"          >
               <div
                 style={{ backgroundImage: `url(${weather})` }}
                 className="group container rounded-3xl flex justify-center items-center mx-auto content-div1"

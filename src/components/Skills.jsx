@@ -15,12 +15,12 @@ const Skills = () => {
     <div className="bg-slate-100 dark:bg-transparent">
       <div
         name="skills"
-        className="w-full h-screen text-slate-600 dark:text-orange-200 duration-300 bg-white sm:rounded-tr-[400px] shadow-lg shadow-slate-400 dark:shadow-none dark:bg-transparent"
+        className="w-full h-screen text-slate-600 dark:text-white duration-300 bg-white sm:rounded-tr-[400px] shadow-lg shadow-slate-400 dark:shadow-none dark:bg-transparent"
       >
         {/*//! Container */}
         <div className="max-w-[1000px] w-full h-full mx-auto items-center p-4 flex flex-col justify-center ">
           <div className="text-justify">
-            <p className="text-4xl font-bold inline border-b-4 border-slate-300 text-blue-400 dark:text-orange-200 dark:border-orange-500">
+            <p className="text-4xl font-bold inline border-b-4 border-slate-300 text-blue-400 dark:text-white dark:border-orange-500">
               Skills and knowledge
             </p>
             <p data-aos="fade-left" data-aos-duration="1000" className="py-4">

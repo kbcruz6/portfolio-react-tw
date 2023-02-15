@@ -75,10 +75,10 @@ const Contact = () => {
         <div className="flex flex-col justify-center items-center w-full h-full">
           <form onSubmit={submitEmail}>
             <div className="pb-1">
-              <p className="text-4xl font-bold inline border-b-4 border-slate-300 text-blue-400 dark:border-orange-500  dark:text-orange-200">
+              <p className="text-4xl font-bold inline border-b-4 border-slate-300 text-blue-400 dark:border-orange-500  dark:text-white">
                 Contact me!
               </p>
-              <p className="pt-4 pb-2  dark:text-orange-200">
+              <p className="pt-4 pb-2  dark:text-white">
                 Submit the form below or email me → agustin.tcw@gmail.com
               </p>
             </div>
@@ -160,7 +160,7 @@ const Contact = () => {
               data-aos-duration="800"
               data-aos-delay="600"
             >
-              <button className="rounded-3xl text-xl shadow-lg shadow-slate-300 dark:shadow-black border-2 border-blue-400  text-slate-600 hover:text-white hover:bg-blue-400 dark:border-orange-200 dark:text-orange-200  dark:hover:bg-orange-500  dark:hover:border-orange-500 duration-300 px-5 py-2 my-3 mx-auto flex items-center">
+              <button className="rounded-3xl text-xl shadow-lg shadow-slate-300 dark:shadow-black border-2 border-blue-400  text-slate-600 hover:text-white hover:bg-blue-400 dark:border-orange-200 dark:text-white  dark:hover:bg-orange-500  dark:hover:border-orange-500 duration-300 px-5 py-2 my-3 mx-auto flex items-center">
                 Send
               </button>
             </div>
