@@ -1,70 +1,45 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portfolio-React-TW
 
-## Available Scripts
+This is a portfolio React application created with the help of TailwindCSS, react-icons, react-scroll and other libraries. 
 
-In the project directory, you can run:
 
-### `yarn start`
+## Step 1: Install the necessary packages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Install the following packages using npm or yarn: 
+- TailwindCSS 
+- React Icons 
+- React Scripts 
+- React Scroll 
+- React Switch 
+- React-tsparticles 
+- Sweatalert2 
+- Tsparticles 
+- Nodemon.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Step 2: Create a new react app 
+Create a new react app using the command line tool create-react-app. This will generate a basic react application with all the necessary files and folders.  
 
-### `yarn test`
+##  Step 3: Install dependencies  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ Install all the necessary dependencies for your react application using npm or yarn. This includes TailwindCSS, React Icons, React Scripts, React Scroll, React Switch, React TsParticles, SweatAlert2, TsParticles and Nodemon.  
 
-### `yarn build`
+##  Step 4: Configure TailwindCSS  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ Configure TailwindCSS in your project by creating a tailwind.config.js file in your project root directory and adding the necessary configuration settings for TailwindCSS.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##  Step 5: Add icons to your project  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ Add icons to your project by importing them from the ‘React Icons’ package and then adding them to your components as needed. You can also use the ‘React Scripts’ package to add additional scripts to your components if needed.  
 
-### `yarn eject`
+##  Step 6: Implement scrolling functionality  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ Implement scrolling functionality in your project by importing ‘React Scroll’ and then adding it to your components as needed. You can also use ‘React Switch’ to add additional switch functionality if needed.  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+##  Step 7: Add Particle Effects  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+ Add particle effects to your project by importing ‘React TsParticles’ and then adding it to your components as needed. You can also use ‘SweatAlert2’ to add additional alert functionality if needed. Finally, you can use ‘TsParticles’ to add additional particle effects if needed.  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+##  Step 8: Start development server with Nodemon   
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ Start development server with Nodemon by running the command `npm run dev` or `yarn dev` in the terminal window of your project root directory. This will start up a development server with Nodemon which will watch for any changes made in your codebase and automatically restart the server when any
