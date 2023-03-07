@@ -54,7 +54,7 @@ const SocialMediaBottom = () => {
           {/*//! Phone  */}
           <li className="w-[60px] h-[50px] flex justify-between items-center duration-300 bg-[#25D366] hover:scale-125 rounded-3xl shadow-lg shadow-slate-400 dark:shadow-black">
             <a
-              href="http://api.whatsapp.com/send?phone=541122552730"
+              href="https://wa.me/541122552730"
               className="flex justify-between items-center w-full text-white"
               target="_blank"
             >
