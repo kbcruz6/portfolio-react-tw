@@ -133,7 +133,7 @@ const Navbar = () => {
             {/*//! LinkedIn  */}
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-15px] pl-[25px] duration-300 bg-blue-600 rounded-3xl shadow-lg shadow-slate-600 dark:shadow-black">
               <a
-                href="https://www.linkedin.com/in/agustin-frontend-react/"
+                href="https://www.linkedin.com/in/agustin-cruz-fullstack-developer/"
                 className="flex justify-between items-center w-full text-gray-300"
                 target="_blank"
               >
@@ -172,7 +172,7 @@ const Navbar = () => {
             {/*//! Phone  */}
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-15px] pl-[25px] duration-300 bg-[#25D366] rounded-3xl shadow-lg shadow-slate-600 dark:shadow-black">
               <a
-                href="http://api.whatsapp.com/send?phone=541122552730"
+                href="https://wa.me/541122552730"
                 className="flex justify-between items-center w-full text-white"
                 target="_blank"
               >
