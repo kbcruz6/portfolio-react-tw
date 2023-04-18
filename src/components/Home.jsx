@@ -20,12 +20,12 @@ const Home = () => {
             I'm Agustin Cruz
           </h1>{" "}
           <h2 className="text-4xl sm:text-7xl font-bold text-blue-400 dark:text-orange-500 ">
-            a Frontend Developer.
+            a Full Stack Developer.
           </h2>
           <p className="py-4 max-w-[700px] text-justify">
-            As a driven Engineer and Frontend Developer, I am always seeking new
-            opportunities to challenge myself, create innovative solutions, and
-            grow both professionally and personally.
+            As a driven Engineer and Full Stack Developer, I am always seeking
+            new opportunities to challenge myself, create innovative solutions,
+            and grow both professionally and personally.
           </p>
           <div>
             <Link to="about" smooth={true} duration={500}>
